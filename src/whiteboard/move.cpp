@@ -144,6 +144,11 @@ move::move(config const& cfg, bool hidden)
 
 void move::init()
 {
+	// If a unit is invalid, return immediately.
+	// At the very least, this will stop crashes when trying to plan moves on planned recruits.
+	if (get_unit() == NULL)
+		return;
+
 	assert(get_unit());
 	unit_id_ = get_unit()->id();
 
