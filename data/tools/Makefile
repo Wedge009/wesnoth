@@ -91,7 +91,7 @@ bindings:
 
 # Look at the difficulty-rank order of the campaigns
 rank:
-	@awk -F= '$$1 ~ "^[[:blank:]]*rank$$" { n=split(FILENAME, f, "/"); print $$2, "\t", f[n-1] }' $(DATA)/campaigns/*/_main.cfg | sort -n
+	@awk -F '=| *#' '$$1 ~ "^[[:blank:]]*rank$$" { n=split(FILENAME, f, "/"); print $$2 "\t" f[n-1] }' $(DATA)/campaigns/*/_main.cfg | sort -n
 
 # For performing test lifts of mainline
 lift:
