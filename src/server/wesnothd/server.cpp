@@ -1853,9 +1853,12 @@ void server::handle_player_in_game(player_iterator p, simple_wml::document& data
 			std::size_t joined_count = 1;
 			for(const std::string& name : info.players_in_queue) {
 				auto player_ptr = player_connections_.get<name_t>().find(name);
+				if(player_ptr == player_connections_.get<name_t>().end()) {
+					continue;
+				}
 
 				// player is still connected and not in a game, tell them to join
-				if(player_ptr != player_connections_.get<name_t>().end() && !player_ptr->get_game()) {
+				if(!player_ptr->get_game()) {
 					simple_wml::document join_game_doc;
 					simple_wml::node& join_game_node = join_game_doc.root().add_child("join_game");
 					join_game_node.set_attr_int("id", game_id);
