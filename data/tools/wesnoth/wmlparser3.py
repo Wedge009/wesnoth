@@ -734,6 +734,7 @@ if __name__ == "__main__":
             p.keep_temp_dir = args.keep_temp
         if args.verbose: p.verbose = True
 
+        EXIT_STATUS = 0
 
         def test2(input, expected, note, function):
             input = input.strip()
@@ -741,6 +742,8 @@ if __name__ == "__main__":
             p.parse_text(input)
             output = function(p).strip()
             if output != expected:
+                global EXIT_STATUS
+                EXIT_STATUS = 1
                 print("__________")
                 print(("FAILED " + note))
                 print("INPUT:")
@@ -999,7 +1002,7 @@ foo='bar' .. 'baz'
         p.get_all(tag = "test")[0].get_text_val("a") + ", " +
         p.get_all(tag = "test")[0].get_text_val("b"))
 
-        sys.exit(0)
+        sys.exit(EXIT_STATUS)
 
     p = Parser(args.wesnoth, args.config_dir, args.data_dir)
     if args.keep_temp:
