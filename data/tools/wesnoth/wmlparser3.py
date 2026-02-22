@@ -17,7 +17,7 @@ For example:
         [abilities]
             [damage]
                 id=Ensnare
-            [/dama  ge]
+            [/damage]
         [/abilities]
     [/unit]
     ""
