@@ -1643,10 +1643,15 @@ void server::handle_join_game(player_iterator player, simple_wml::node& join)
 	}
 
 	// remove from any queues they may have joined
-	for(int q : player->info().get_queues()) {
-		queue_info& queue = queue_info_.at(q);
-		if(!queue.players_in_queue.empty()) {
-			queue.players_in_queue.erase(std::remove(queue.players_in_queue.begin(), queue.players_in_queue.end(), player->info().name()));
+	for(int q_index : player->info().get_queues()) {
+		queue_info& queue = queue_info_.at(q_index);
+		std::vector<std::string>& p_queue = queue.players_in_queue;
+		if(p_queue.empty()) {
+			continue;
+		}
+		std::vector<std::string>::iterator i = std::remove(p_queue.begin(), p_queue.end(), player->name());
+		if(i != p_queue.end()) {
+			p_queue.erase(i, p_queue.end());
 			send_queue_update(queue);
 		}
 	}
