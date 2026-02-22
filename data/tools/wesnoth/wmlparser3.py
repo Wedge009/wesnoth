@@ -734,11 +734,8 @@ if __name__ == "__main__":
             p.keep_temp_dir = args.keep_temp
         if args.verbose: p.verbose = True
 
-        only = None
-
 
         def test2(input, expected, note, function):
-            if only and note != only: return
             input = input.strip()
             expected = expected.strip()
             p.parse_text(input)
