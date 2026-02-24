@@ -526,7 +526,7 @@ std::vector<topic> generate_era_topics(const std::string& era_id, const bool sor
 		topics = generate_faction_topics(*era, sort_generated);
 
 		std::vector<std::string> faction_links;
-		for(const topic & t : topics) {
+		for(const topic& t : topics) {
 			faction_links.push_back(markup::make_link(t.title, t.id));
 		}
 
@@ -569,7 +569,7 @@ std::vector<topic> generate_faction_topics(const config& era, const bool sort_ge
 		std::set<std::string> races;
 		std::set<std::string> alignments;
 
-		for(const std::string & u_id : recruit_ids) {
+		for(const std::string& u_id : recruit_ids) {
 			if(const unit_type* t = unit_types.find(u_id, unit_type::HELP_INDEXED)) {
 				assert(t);
 				const unit_type& type = *t;
@@ -632,14 +632,13 @@ std::vector<topic> generate_trait_topics(const bool sort_generated)
 	std::map<std::string, const config> trait_list;
 
 	// The global traits that are direct children of a [units] tag
-	for(const config & trait : unit_types.traits()) {
+	for(const config& trait : unit_types.traits()) {
 		trait_list.emplace(trait["id"], trait);
 	}
 
 	// Search for discovered unit types
 	std::set<std::string> races;
-	for(const auto& i : unit_types.types()) {
-		const unit_type& type = i.second;
+	for(const auto& [_, type] : unit_types.types()) {
 		UNIT_DESCRIPTION_TYPE desc_type = description_type(type);
 
 		// Remember which races have been discovered.
@@ -671,16 +670,15 @@ std::vector<topic> generate_trait_topics(const bool sort_generated)
 	// discovered units then their own race will already include it.
 	for(const auto& race_id : races) {
 		if(const unit_race* r = unit_types.find_race(race_id)) {
-			for(const config & trait : r->additional_traits()) {
+			for(const config& trait : r->additional_traits()) {
 				trait_list.emplace(trait["id"], trait);
 			}
 		}
 	}
 
 	std::vector<topic> topics;
-	for(auto& a : trait_list) {
-		std::string id = "traits_" + a.first;
-		const config& trait = a.second;
+	for(auto& [trait_id, trait] : trait_list) {
+		std::string id = "traits_" + trait_id;
 
 		std::string name = trait["male_name"].str();
 		if(name.empty()) name = trait["female_name"].str();
@@ -843,7 +841,7 @@ void generate_races_sections(const config& help_cfg, section& sec, int level)
 	}
 }
 
-void generate_era_sections(const config& help_cfg, section & sec, int level)
+void generate_era_sections(const config& help_cfg, section& sec, int level)
 {
 	for(const config& era : game_config_manager::get()->game_config().child_range("era")) {
 		if(era["hide_help"].to_bool()) {
