@@ -467,7 +467,7 @@ std::vector<topic> generate_ability_topics(const bool sort_generated)
 
 	const auto parse = [&](const unit_type& type, const unit_type::ability_metadata& ability) {
 
-		ability_topic_data.emplace(ability.help_topic_id,& ability);
+		ability_topic_data.emplace(ability.help_topic_id, &ability);
 
 		if(!type.hide_help()) {
 			// Add a link in the list of units with this ability
@@ -624,6 +624,55 @@ std::vector<topic> generate_faction_topics(const config& era, const bool sort_ge
 	return topics;
 }
 
+namespace {
+const unsigned PAGE_LIMIT = 20;
+
+// Page 1 is already done by caller, this function generates
+// the rest of pages, starting with Page 2.
+void add_remaining_pages(
+	std::vector<topic>& topics,
+	const std::string& topic_name,
+	const std::string& topic_id,
+	const std::string& suffix,
+	const std::set<std::string, string_less>& list)
+{
+	const size_t rem = list.size() % PAGE_LIMIT;
+	const size_t page_count = list.size() / PAGE_LIMIT + (rem != 0 ? 1 : 0);
+	auto it = std::next(list.begin(), PAGE_LIMIT);
+
+	for(size_t page_num = 2; page_num <= page_count; page_num++) {
+		std::stringstream text;
+
+		// Page 1 is visible in Help Browser sidebar, but continuation pages are hidden
+		std::string prev_id = topic_id;
+		if(page_num > 2) {
+			prev_id = "." + topic_id + suffix + "_" + std::to_string(page_num - 1);
+		}
+
+		text << markup::make_link("&lt;&lt; " + _("Previous"),  prev_id)
+			 << "\n\n";
+
+		for(size_t row = 0; row < PAGE_LIMIT; row++) {
+			if(it != list.end()) {
+				text << font::unicode_bullet << " " << *it << "\n";
+				std::advance(it, 1);
+			}
+		}
+
+		// Pages other than the last page have "Next Page" link
+		if(page_num != page_count) {
+			text << "\n"
+				 << markup::make_link(_("Next") + " &gt;&gt;", "." + topic_id + suffix + "_" + std::to_string(page_num + 1))
+				 << "\n";
+		}
+
+		std::string new_topic_name = formatter() << topic_name << " (" << page_num << "/" << page_count << ")";
+		add_topic(topics, new_topic_name, "." + topic_id + suffix + "_" + std::to_string(page_num), text.str());
+	}
+}
+
+} // end anon namespace
+
 std::vector<topic> generate_trait_topics(const bool sort_generated)
 {
 	// All traits that could be assigned to at least one discovered or HIDDEN_BUT_SHOW_MACROS unit.
@@ -631,39 +680,30 @@ std::vector<topic> generate_trait_topics(const bool sort_generated)
 	// there are duplicates with the same id, it takes the first one encountered.
 	std::map<std::string, const config> trait_list;
 
+	std::set<std::string, string_less> global_traits;
+
+	// A map that stores which unit types have a particular trait
+	std::map<std::string, std::set<std::string, string_less>> trait_units;
+
+	// A map that stores which race have a particular trait
+	std::map<std::string, std::set<std::string, string_less>> trait_races;
+
 	// The global traits that are direct children of a [units] tag
 	for(const config& trait : unit_types.traits()) {
 		trait_list.emplace(trait["id"], trait);
+		global_traits.insert(trait["id"]);
 	}
 
-	// Search for discovered unit types
+	// Search for discovered races
 	std::set<std::string> races;
 	for(const auto& [_, type] : unit_types.types()) {
 		UNIT_DESCRIPTION_TYPE desc_type = description_type(type);
-
-		// Remember which races have been discovered.
-		//
-		// For unit types, unit_type::possible_traits() usually includes racial traits; however it's
-		// possible that all discovered units of a race have ignore_race_traits=yes, and so we still
-		// need to loop over the [race] tags looking for more traits.
 		if(desc_type == FULL_DESCRIPTION) {
 			races.insert(type.race_id());
 		}
-
-		// Handle [unit_type][trait]s.
-		//
-		// It would be better if we only looked at the traits that are specific to the unit_type,
-		// but that unmerged unit_type_data.traits() isn't available. We're forced to use
-		// possible_traits() instead which returns all of the traits, including the ones that units
-		// with ignore_race_traits=no have inherited from their [race] tag.
-		if(desc_type == FULL_DESCRIPTION || desc_type == HIDDEN_BUT_SHOW_MACROS) {
-			for(const config& trait : type.possible_traits()) {
-				trait_list.emplace(trait["id"], trait);
-			}
-		}
 	}
 
-	// Race traits, even those that duplicate a global trait (which will be dropped by emplace()).
+	// Race traits
 	//
 	// For traits, assume we don't discover additional races via the [race]help_taxonomy= links. The
 	// traits themselves don't propagate down those links, so if the trait is interesting w.r.t. the
@@ -671,7 +711,35 @@ std::vector<topic> generate_trait_topics(const bool sort_generated)
 	for(const auto& race_id : races) {
 		if(const unit_race* r = unit_types.find_race(race_id)) {
 			for(const config& trait : r->additional_traits()) {
+				if(!utils::contains(global_traits, trait["id"])) {
+					trait_list.emplace(trait["id"], trait);
+					trait_races[trait["id"]].insert(race_id);
+				}
+			}
+		}
+	}
+
+	// Search for discovered unit types
+	for(const auto& [_, type] : unit_types.types()) {
+		UNIT_DESCRIPTION_TYPE desc_type = description_type(type);
+
+		// Handle [unit_type][trait]s.
+		//
+		// but the unmerged unit_type_data.traits() isn't easily available currently.
+		// As a workaround we use possible_traits() instead which returns all traits.
+		if(desc_type == FULL_DESCRIPTION || desc_type == HIDDEN_BUT_SHOW_MACROS) {
+			for(const config& trait : type.possible_traits()) {
 				trait_list.emplace(trait["id"], trait);
+				auto it = trait_races.find(trait["id"]);
+				const bool is_not_racial_trait = it == trait_races.end() || it->second.find(type.race_id()) == it->second.end();
+
+				if(!utils::contains(global_traits, trait["id"])
+					&& is_not_racial_trait
+					&& desc_type != HIDDEN_BUT_SHOW_MACROS)
+				{
+					const std::string link_unittype = markup::make_link(type.type_name(), unit_prefix + type.id());
+					trait_units[trait["id"]].insert(link_unittype);
+				}
 			}
 		}
 	}
@@ -693,6 +761,53 @@ std::vector<topic> generate_trait_topics(const bool sort_generated)
 		} else {
 			text << _("No description available.");
 		}
+
+		if(utils::contains(global_traits, trait_id)) {
+			text << "\n\n" << markup::italic( _("This is a global trait."));
+			add_topic(topics, name, id, text.str());
+			continue;
+		}
+
+		text << "\n";
+
+		if(!trait_races[trait_id].empty()) {
+			text << "\n" << markup::tag("header", _("Races with this trait")) << "\n";
+		}
+
+		unsigned i = 0;
+		for(const auto& race_id : trait_races[trait_id]) {
+			// Too many units can horribly slow down the page or crash it, so we paginate.
+			if (i < PAGE_LIMIT) {
+				const unit_race* r = unit_types.find_race(race_id);
+				const std::string link_race = markup::make_link(r->plural_name(), ".." + race_prefix + race_id);
+				text << font::unicode_bullet << " " << link_race << "\n";
+				i++;
+			} else {
+				// continuation pages, accessible only via the links
+				text << markup::make_link(_("Next") + " &gt;&gt;",  "." + id + "_races_2") << "\n";
+				add_remaining_pages(topics, name, id, "_races", trait_races[trait_id]);
+				break;
+			}
+		}
+
+		if(!trait_units[trait_id].empty()) {
+			text << "\n" << markup::tag("header", _("Units with this trait")) << "\n";
+		}
+
+		i = 0;
+		for(const auto& link : trait_units[trait_id]) {
+			// Too many units can horribly slow down the page or crash it, so we paginate.
+			if (i < PAGE_LIMIT) {
+				text << font::unicode_bullet << " " << link << "\n";
+				i++;
+			} else {
+				// continuation pages, accessible only via the links
+				text << markup::make_link(_("Next") + " &gt;&gt;", "." + id + "_units_2") << "\n";
+				add_remaining_pages(topics, name, id, "_units", trait_units[trait_id]);
+				break;
+			}
+		}
+
 		text << "\n\n";
 
 		add_topic(topics, name, id, text.str());
