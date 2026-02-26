@@ -1,6 +1,4 @@
-## Version 1.19.20+dev
-### Add-ons client
-### Add-ons server
+## Version 1.19.21
 ### Campaigns
    * A Tale of Two Brothers
      * Add achievements and relevant code.
@@ -64,11 +62,6 @@
      * S08 "Overlook": more consistent enemy spawn recognition
      * S09 "Ancestor": add wind ambience by Alexandr Zhelanov
      * S11 "Crosswind": fix issues with non-clasher units attempting to read their secrets
-### Editor
-### Multiplayer
-### Lua API
-### Packaging
-### Terrain
 ### Translations
    * Updated translations: Bengali, British English, Chinese (Simplified), Czech, French, Greek, Hungarian, Italian, Spanish
 ### Units
@@ -86,8 +79,6 @@
    * The campaign menu now has a landing page instead of defaulting to the first campaign (PR #10825)
    * Abbreviated “vision” and “jamming” in the sidebar, so that the number fits on-screen
    * Fixed the in-game help not showing a list of units with a particular weapon special.
-### WML Engine
-### Miscellaneous and Bug Fixes
 
 ## Version 1.19.20
 ### Campaigns
