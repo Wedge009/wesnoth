@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2025-03-17 04:21 UTC\n"
+"POT-Creation-Date: 2026-02-26 01:03 UTC\n"
 "PO-Revision-Date: 2018-09-15 00:12+0200\n"
 "Last-Translator: Széll András <szell.andris@gmail.com>\n"
 "Language-Team: Hungarian <>\n"
@@ -356,8 +356,8 @@ msgstr ""
 #. [message]: speaker=Cylanna
 #: data/campaigns/Dead_Water/scenarios/01_Invasion.cfg:355
 msgid ""
-"Gwabbo speaks wisely. You must fight; I will protect you as much as I "
-"can...but when war looms, a kai must lead. It is our way."
+"Gwabbo speaks wisely. You must fight; I will protect you as much as I can..."
+"but when war looms, a kai must lead. It is our way."
 msgstr ""
 "Gwabbónak igaza van. Harcolnod kell; mögötted állok, s védelek, ahogy csak "
 "tudlak… de ha háború közeleg, a királynak kell a seregek élére állnia. Ez a "
@@ -732,7 +732,7 @@ msgstr "Hát, ha nem ellenséges, ne öld meg. Nézzük csak, hátha utánunk j�
 #: data/campaigns/Dead_Water/scenarios/02_Flight.cfg:744
 #: data/campaigns/Dead_Water/scenarios/02_Flight.cfg:801
 #: data/campaigns/Dead_Water/scenarios/03_Wolf_Coast.cfg:248
-#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:710
+#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:650
 #: data/campaigns/Dead_Water/scenarios/12_Revenge.cfg:843
 msgid "Neep, neep!"
 msgstr "Níííp, níííp!"
@@ -1501,27 +1501,27 @@ msgid "Also kill Marg-Tonz"
 msgstr "Végzel Marg-Tonzzal is"
 
 #. [side]: id=Marg-Tonz, type=Orcish Sovereign
-#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:110
+#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:94
 msgid "Orcs"
 msgstr "Orkok"
 
 #. [side]: id=Marg-Tonz, type=Orcish Sovereign
-#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:114
+#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:98
 msgid "Marg-Tonz"
 msgstr "Marg-Tonz"
 
 #. [side]
-#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:142
+#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:126
 msgid "Undead"
 msgstr "Élőholtak"
 
 #. [message]: speaker=ghost scout
-#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:240
+#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:229
 msgid "Found. Them."
 msgstr "Megtaláltuk őket."
 
 #. [message]: speaker=Kai Krellis
-#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:357
+#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:346
 msgid ""
 "I feared this might happen. We tarried too long fighting the saurians, and "
 "the undead have caught up with us. The spirits may have trapped us here for "
@@ -1532,7 +1532,7 @@ msgstr ""
 "beszorultunk ebbe az erődbe, de reggel…"
 
 #. [message]: speaker=Marg-Tonz
-#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:362
+#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:351
 msgid ""
 "What’s going on? What are you fish-men doing here? Are we constantly to be "
 "pestered by you creatures?"
@@ -1541,22 +1541,22 @@ msgstr ""
 "tőletek, nyamvadtak?"
 
 #. [message]: speaker=Cylanna
-#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:367
+#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:356
 msgid "He’s one to complain about <i>that</i>..."
 msgstr "Nos, úgy látom, van kinek panaszkodjunk a <i>helyzetünkről</i>…"
 
 #. [message]: speaker=Kai Krellis
-#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:372
+#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:361
 msgid "We were just passing through."
 msgstr "Mi csak át akarunk haladni."
 
 #. [message]: speaker=Marg-Tonz
-#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:377
+#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:366
 msgid "Well, finish passing."
 msgstr "Nos, vége az átjárásnak."
 
 #. [message]: speaker=Kai Krellis
-#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:382
+#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:371
 msgid ""
 "Actually, we have some ghosts after us now, and we would like to shelter "
 "here for a while."
@@ -1564,7 +1564,7 @@ msgstr ""
 "Néhány szellem van a nyomunkban, s szeretnénk itt meghúzódni egy időre."
 
 #. [message]: speaker=Marg-Tonz
-#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:387
+#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:376
 msgid ""
 "Forget about it! We don’t want no trouble, but get off our land! Ghosts who "
 "don’t like fish are your problem."
@@ -1573,7 +1573,7 @@ msgstr ""
 "szellemek ki nem állhatják a halakat, az a ti bajotok!"
 
 #. [message]: speaker=Kai Krellis
-#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:392
+#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:381
 msgid ""
 "If you give us a few hours to regroup and prepare our soldiers, we will go "
 "without causing you trouble."
@@ -1582,7 +1582,7 @@ msgstr ""
 "felkészüljünk a harcra, akkor utána el is megyünk innen, nem lesz baj."
 
 #. [message]: speaker=Marg-Tonz
-#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:397
+#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:386
 msgid ""
 "You have one hour. After that, we are tearing down that old encampment. You "
 "stay in the water if you know what’s good for you. If you set foot...or "
@@ -1595,12 +1595,12 @@ msgstr ""
 "kerüljétek el a mólóinkat és a hajóinkat is!"
 
 #. [message]: speaker=Cylanna
-#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:402
+#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:391
 msgid "I wonder how he gets customers with manners like that."
 msgstr "Hm, érdekelne, ilyen stílussal hogy szerez vásárlókat…"
 
 #. [message]: speaker=Kai Krellis
-#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:407
+#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:396
 msgid ""
 "One hour will work for us. It will not take all of us to defeat the undead. "
 msgstr ""
@@ -1608,36 +1608,29 @@ msgstr ""
 "élőholtakkal."
 
 #. [message]: speaker=Kai Krellis
-#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:407
+#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:396
 msgid "We can decide what to do about the orc after that."
 msgstr "Aztán még mindig visszatérhetünk az orkokra…"
 
 #. [message]: speaker=narrator
-#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:412
+#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:401
 msgid "You will only be able to use your keep for one turn."
 msgstr "Csak egyetlen kör erejéig használhatod a váradat."
 
 #. [message]: speaker=Marg-Tonz
-#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:480
+#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:453
 msgid "You’re still squatting on our land! I warned you."
 msgstr "Még mindig a mi földünkön csúszkáltok! Én figyelmeztettelek titeket…"
 
 #. [message]: speaker=Marg-Tonz
-#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:514
+#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:487
 msgid "I told you to stay off our land! Now you’re in for it."
 msgstr ""
 "Mondtam nektek, hogy maradjatok távol a földünktől! Most számoljatok a "
 "következményekkel!"
 
 #. [message]: speaker=Marg-Tonz
-#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:548
-#, fuzzy
-#| msgid "I told not to bother the ships! Now you’re in for it."
-msgid "I told you not to bother the ships! Now you’re in for it."
-msgstr "Mondtam, hogy ne háborgassátok a hajóinkat! Ezért meglakoltok!"
-
-#. [message]: speaker=Marg-Tonz
-#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:581
+#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:521
 msgid ""
 "You crazy fish men are attacking us? After we tried to be nice? That’s it. "
 "We’re going to end you once and for all."
@@ -1647,18 +1640,18 @@ msgstr ""
 
 #. [message]: speaker=Kai Krellis
 #. [option]
-#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:649
-#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:662
+#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:589
+#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:602
 msgid "Now maybe we can head west undisturbed."
 msgstr "Most már talán zavartalanul mehetünk nyugatra."
 
 #. [message]: speaker=Kai Krellis
-#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:660
+#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:600
 msgid "We have destroyed the undead."
 msgstr "Megsemmisítettük az élőholtakat."
 
 #. [option]
-#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:671
+#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:611
 msgid ""
 "This orc leader has not learned that threatening merfolk is a bad idea. We "
 "shall defeat him before we go."
@@ -1668,21 +1661,21 @@ msgstr ""
 
 #. [message]: speaker=Kai Krellis
 #. [message]: speaker=second_unit
-#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:715
-#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:721
+#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:655
+#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:661
 msgid ""
 "It seems that orc was rich! He has a chest here with over 100 pieces of gold!"
 msgstr ""
 "Úgy látszik, az orkunk elég gazdag volt. A ládájában 100 aranyat találtam!"
 
 #. [message]: speaker=Kai Krellis
-#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:729
+#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:669
 msgid "Now we must defeat the undead."
 msgstr "Most le kell győznünk az élőholtakat."
 
 #. [message]: speaker=Marg-Tonz
 #. orc's boss' last breath, deliberately gendered instead of changing to "merfolk"
-#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:770
+#: data/campaigns/Dead_Water/scenarios/05_Tirigaz.cfg:710
 msgid "I hate mermen!"
 msgstr "Gyűlölöm a sellőket!"
 
@@ -3630,6 +3623,11 @@ msgid ""
 msgstr ""
 "A varázsló kezén volt egy gyűrű! Lehet, hogy varázsereje van? Valaki "
 "kipróbálhatná, hogy lássuk, van-e valami hatása."
+
+#, fuzzy
+#~| msgid "I told not to bother the ships! Now you’re in for it."
+#~ msgid "I told you not to bother the ships! Now you’re in for it."
+#~ msgstr "Mondtam, hogy ne háborgassátok a hajóinkat! Ezért meglakoltok!"
 
 #~ msgid ""
 #~ "stunned: This unit is stunned. It cannot enforce its Zone of Control."
