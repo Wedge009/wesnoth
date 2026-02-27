@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: en_GB\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2026-02-26 01:03 UTC\n"
-"PO-Revision-Date: 2025-10-22 09:27+1100\n"
+"PO-Revision-Date: 2026-02-27 21:03+1100\n"
 "Last-Translator: Wedge009 <wedge009@wedge009.net>\n"
 "Language-Team: English (British) <http://wiki.wesnoth.org/"
 "EnglishGBTranslation>\n"
@@ -112,27 +112,27 @@ msgstr "And special thanks to everyone else who I forgot to mention."
 #. [achievement]: id=heroes_of_maghre
 #: data/campaigns/Two_Brothers/achievements.cfg:8
 msgid "Heroes of Maghre"
-msgstr ""
+msgstr "Heroes of Maghre"
 
 #. [achievement]: id=heroes_of_maghre
 #: data/campaigns/Two_Brothers/achievements.cfg:9
 msgid "Complete <i>Rooting Out a Mage</i> without recruiting."
-msgstr ""
+msgstr "Complete <i>Rooting Out a Mage</i> without recruiting."
 
 #. [achievement]: id=treasure
 #: data/campaigns/Two_Brothers/achievements.cfg:15
 msgid "Treasure"
-msgstr ""
+msgstr "Treasure"
 
 #. [achievement]: id=treasure
 #: data/campaigns/Two_Brothers/achievements.cfg:16
 msgid "Find the chest of gold in <i>Guarded Castle</i>."
-msgstr ""
+msgstr "Find the chest of gold in <i>Guarded Castle</i>."
 
 #. [achievement]: id=baran_returns
 #: data/campaigns/Two_Brothers/achievements.cfg:22
 msgid "Baran Returns"
-msgstr ""
+msgstr "Baran Returns"
 
 #. [achievement]: id=baran_returns
 #: data/campaigns/Two_Brothers/achievements.cfg:23
@@ -140,17 +140,20 @@ msgid ""
 "Complete <i>Return to the Village</i> by defeating the enemy leader with "
 "Baran."
 msgstr ""
+"Complete <i>Return to the Village</i> by defeating the enemy leader with "
+"Baran."
 
 #. [achievement]: id=arvith_the_great_knight
 #: data/campaigns/Two_Brothers/achievements.cfg:29
 msgid "Arvith the Great Knight"
-msgstr ""
+msgstr "Arvith the Great Knight"
 
 #. [achievement]: id=arvith_the_great_knight
 #: data/campaigns/Two_Brothers/achievements.cfg:30
 msgid ""
 "Advance Arvith into a Grand Knight or a Paladin before the campaign ends."
 msgstr ""
+"Advance Arvith into a Grand Knight or a Paladin before the campaign ends."
 
 #. [scenario]: id=01_Rooting_Out_a_Mage
 #: data/campaigns/Two_Brothers/scenarios/01_Rooting_Out_a_Mage.cfg:5

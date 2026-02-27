@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2026-02-26 01:03 UTC\n"
-"PO-Revision-Date: 2025-11-21 16:56+1100\n"
+"PO-Revision-Date: 2026-02-27 21:24+1100\n"
 "Last-Translator: Wedge009 <wedge009@wedge009.net>\n"
 "Language-Team: none\n"
 "Language: en_GB\n"
@@ -109,7 +109,7 @@ msgstr "Graphics"
 #. [about]
 #: data/campaigns/Winds_of_Fate/about.cfg:38
 msgid "Sound"
-msgstr ""
+msgstr "Sound"
 
 #. [about]
 #: data/campaigns/Winds_of_Fate/about.cfg:46
@@ -130,10 +130,8 @@ msgstr "The Hunt"
 #. In this campaign, the drake narrator and other drake characters speak with the Morogor dialect, which has some unique syntax and terms.
 #. The file data/campaigns/Winds_of_Fate/story/Morogor_Dialect.txt has details about how these drakes speak in English, as well as a glossary for the campaign.
 #: data/campaigns/Winds_of_Fate/scenarios/01_The_Hunt.cfg:20
-#, fuzzy
-#| msgid "From the skies above, the glider caste felt the Winds of Fate."
 msgid "From the skies above, the glider caste felt the Winds."
-msgstr "From the skies above, the glider caste felt the Winds of Fate."
+msgstr "From the skies above, the glider caste felt the Winds."
 
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/01_The_Hunt.cfg:23
@@ -1528,14 +1526,6 @@ msgstr ""
 
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/02x_Victory_Feast.cfg:72
-#, fuzzy
-#| msgid ""
-#| "Perilous that way is.\n"
-#| "A wide stretch of sea unexceptional flyers might cross with fortune from "
-#| "the Winds of Fate.\n"
-#| "\n"
-#| "Then only a cluster of shoals to rest them, which might be slid past "
-#| "unnoticed with perilous ease."
 msgid ""
 "Perilous that way is.\n"
 "A wide stretch of sea unexceptional flyers might cross with fortune from the "
@@ -1546,7 +1536,7 @@ msgid ""
 msgstr ""
 "Perilous that way is.\n"
 "A wide stretch of sea unexceptional flyers might cross with fortune from the "
-"Winds of Fate.\n"
+"Winds.\n"
 "\n"
 "Then only a cluster of shoals to rest them, which might be slid past "
 "unnoticed with perilous ease."
@@ -4240,14 +4230,6 @@ msgstr ""
 
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/06x_Winds_of_Fate.cfg:169
-#, fuzzy
-#| msgid ""
-#| "Speak no more of your fears!\n"
-#| "\n"
-#| "So many challenges have we overcome.\n"
-#| "So many foes vanquished.\n"
-#| "Yet still you feel not how we shift the Winds of Fate by the force of our "
-#| "Will."
 msgid ""
 "Speak no more of your fears!\n"
 "\n"
@@ -4259,8 +4241,7 @@ msgstr ""
 "\n"
 "So many challenges have we overcome.\n"
 "So many foes vanquished.\n"
-"Yet still you feel not how we shift the Winds of Fate by the force of our "
-"Will."
+"Yet still you feel not how we shift the Winds by the force of our Will."
 
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/06x_Winds_of_Fate.cfg:178
@@ -4275,19 +4256,6 @@ msgstr ""
 
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/06x_Winds_of_Fate.cfg:185
-#, fuzzy
-#| msgid ""
-#| "Nay!\n"
-#| "\n"
-#| "We are not merely tossed about by the Winds of Fate.\n"
-#| "We <b>shape</b> them.\n"
-#| "\n"
-#| "We fumble not for a Windpath.\n"
-#| "We make it.\n"
-#| "\n"
-#| "Feel the world as it should be with all the fire of your heart.\n"
-#| "With no room left for <i>fear</i>.\n"
-#| "With all your Willful heart, make that world be!"
 msgid ""
 "Nay!\n"
 "\n"
@@ -4303,7 +4271,7 @@ msgid ""
 msgstr ""
 "Nay!\n"
 "\n"
-"We are not merely tossed about by the Winds of Fate.\n"
+"We are not merely tossed about by the Winds.\n"
 "We <b>shape</b> them.\n"
 "\n"
 "We fumble not for a Windpath.\n"
@@ -4599,15 +4567,6 @@ msgstr ""
 
 #. [message]: speaker=Salennea
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:377
-#, fuzzy
-#| msgid ""
-#| "This is my castle Saethrania — the Castle of Sharing.\n"
-#| "\n"
-#| "You may make an abode of castle Gliinoler — the Castle of Caring.\n"
-#| "\n"
-#| "My attendants will bestow whatever form of floral nourishment you most "
-#| "desire. Mayhap Bread of the Locust Fruit softened with Milk of the Hazel "
-#| "and sweetened with Sap of the Birch?"
 msgid ""
 "This is my castle Saethrania — the Castle of Virtue.\n"
 "\n"
@@ -4617,9 +4576,9 @@ msgid ""
 "desire. Mayhap Bread of the Locust Fruit softened with Milk of the Hazel and "
 "sweetened with Sap of the Birch?"
 msgstr ""
-"This is my castle Saethrania — the Castle of Sharing.\n"
+"This is my castle Saethrania — the Castle of Virtue.\n"
 "\n"
-"You may make an abode of castle Gliinoler — the Castle of Caring.\n"
+"You may make an abode of castle Gliinoler — the Castle of Sacrifice.\n"
 "\n"
 "My attendants will bestow whatever form of floral nourishment you most "
 "desire. Mayhap Bread of the Locust Fruit softened with Milk of the Hazel and "
@@ -4742,17 +4701,6 @@ msgstr ""
 
 #. [message]: speaker=narrator
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:469
-#, fuzzy
-#| msgid ""
-#| "28th day of Greenleaf\n"
-#| "\n"
-#| "...now that I have found a powerful ally in Lord Vanar of the far side, "
-#| "the days of Lady Dionli are nigh over. I need only complete a single "
-#| "small ritual for him, the details of which he shall provide to me after I "
-#| "gather the necessary elements. I list them here so as not to forget:\n"
-#| "— A slab of cold black granite.\n"
-#| "— One of my fair young handmaidens.\n"
-#| "— A twisted metal dagger that menaces with spikes of..."
 msgid ""
 "28th day of Greenleaf\n"
 "\n"
@@ -4766,8 +4714,8 @@ msgid ""
 msgstr ""
 "28th day of Greenleaf\n"
 "\n"
-"...now that I have found a powerful ally in Lord Vanar of the far side, the "
-"days of Lady Dionli are nigh over. I need only complete a single small "
+"...now that I have found a powerful ally in Lord Zhangor of the far side, "
+"the days of Lady Dionli are nigh over. I need only complete a single small "
 "ritual for him, the details of which he shall provide to me after I gather "
 "the necessary elements. I list them here so as not to forget:\n"
 "— A slab of cold black granite.\n"
@@ -4776,14 +4724,6 @@ msgstr ""
 
 #. [message]: speaker=narrator
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:478
-#, fuzzy
-#| msgid ""
-#| "29th day of Greenleaf\n"
-#| "\n"
-#| "...how was I to know Vanar’s ritual would involve blood sacrifice?! Oh, "
-#| "if only the wicked “Lady” Dionli had not put me in this unenviable "
-#| "position. Now I shall need another unsalaried novice handmaiden willing "
-#| "to work for “experience”..."
 msgid ""
 "29th day of Greenleaf\n"
 "\n"
@@ -4794,21 +4734,13 @@ msgid ""
 msgstr ""
 "29th day of Greenleaf\n"
 "\n"
-"...how was I to know Vanar’s ritual would involve blood sacrifice?! Oh, if "
-"only the wicked “Lady” Dionli had not put me in this unenviable position. "
-"Now I shall need another unsalaried novice handmaiden willing to work for "
-"“experience”..."
+"...how was I to know Zhangor’s ritual would involve blood sacrifice?! Oh, if "
+"only the wicked ‘Lady’ Dionli had not put me in this unenviable position. "
+"Now I shall need another un-salaried novice handmaiden willing to work for "
+"‘experience’..."
 
 #. [message]: speaker=narrator
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:484
-#, fuzzy
-#| msgid ""
-#| "1st day of Leaffall\n"
-#| "\n"
-#| "...still more of these dreadful rituals must be completed before Vanar "
-#| "can place a curse upon my usurper. Yet if I stop now, everything I have "
-#| "sacrificed— <i>everyone</i> I have sacrificed —shall have been in vain! I "
-#| "owe it to them to continue..."
 msgid ""
 "1st day of Leaffall\n"
 "\n"
@@ -4819,7 +4751,7 @@ msgid ""
 msgstr ""
 "1st day of Leaffall\n"
 "\n"
-"...still more of these dreadful rituals must be completed before Vanar can "
+"...still more of these dreadful rituals must be completed before Zhangor can "
 "place a curse upon my usurper. Yet if I stop now, everything I have "
 "sacrificed— <i>everyone</i> I have sacrificed —shall have been in vain! I "
 "owe it to them to continue..."
@@ -4843,16 +4775,6 @@ msgstr ""
 
 #. [message]: speaker=narrator
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:497
-#, fuzzy
-#| msgid ""
-#| "31st day of Leaffall\n"
-#| "\n"
-#| "...those saurians may smell of the swamp they crawl from, but they shall "
-#| "make a worthy sacrifice to Vanar! I have extended a formal invitation to "
-#| "Arinexis, a saurian ambassador, or what passes for one amongst their "
-#| "primitive and malodorous kind. I shall show this saurian and its "
-#| "entourage every courtesy and tempt them with all the delights of elvish "
-#| "cuisine— seasoned with Shavings of the Yew..."
 msgid ""
 "31st day of Leaffall\n"
 "\n"
@@ -4866,7 +4788,7 @@ msgstr ""
 "31st day of Leaffall\n"
 "\n"
 "...those saurians may smell of the swamp they crawl from, but they shall "
-"make a worthy sacrifice to Vanar! I have extended a formal invitation to "
+"make a worthy sacrifice to Zhangor! I have extended a formal invitation to "
 "Arinexis, a saurian ambassador, or what passes for one amongst their "
 "primitive and malodorous kind. I shall show this saurian and its entourage "
 "every courtesy and tempt them with all the delights of elvish cuisine— "
@@ -5052,7 +4974,7 @@ msgstr "Strange Creatures"
 #. [leader]: id=Lich-Lord Selmar, type=Ancient Lich
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:74
 msgid "Lich-Lord Selmar"
-msgstr ""
+msgstr "Lich-Lord Selmar"
 
 #. [side]
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:107
@@ -5299,31 +5221,6 @@ msgstr ""
 #. "Still, our woodcutters cannot harvest any more mushroom fodder out of the forest without elves chipping away at them and the lodestone mines are nearly to the end of their (ore) veins.
 #. "Maybe I should trade this cave to that strange "lich" creature after all. Whatever it be I do not care; if the elves ever come back then they can deal with it."
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:529
-#, fuzzy
-#| msgid ""
-#| "Lodestane Mines of Gyldanwolf Clan\n"
-#| "\n"
-#| "Year of Wirk 368, 7th Month\n"
-#| "\n"
-#| "They elves wur back in the mushroom croft again, making dolly threats tae "
-#| "the laddies in that fancy tongue of thairs. Said thay wid attack if we "
-#| "gather ony mair wood tae feed oor mushrooms, it does nae even maiter if "
-#| "it be juist the pine!\n"
-#| "\n"
-#| "Hud the laddies pat up gates tae keep they elves oot fur now.\n"
-#| "\n"
-#| "If thay dae come back with an airmie we cannae handle, we hae flashpowder "
-#| "kegs aroond the load bearing walls. They elves ur sae impressed with that "
-#| "cute “magic” of thairs— think of the looks oan thair faces whin thay see "
-#| "dwarven kencraft at wirk!\n"
-#| "\n"
-#| "Still, oor woodcutters cannae harvest ony mair mushroom fodder oot of the "
-#| "forest withoot elves chipping away at thaim and the lodestane mines ur "
-#| "nearly tae the end of thair veins.\n"
-#| "\n"
-#| "Mibbie ah shuid trade this cave tae that streenge “Nova” cratur efter "
-#| "all. Whit ever it be ah dae nae care; if the elves ever come back then "
-#| "thay kin deal with it."
 msgid ""
 "Lodestane Mines of Gyldanwolf Clan\n"
 "\n"
@@ -5362,23 +5259,21 @@ msgstr ""
 "\n"
 "If thay dae come back with an airmie we cannae handle, we hae flash-powder "
 "kegs aroond the load bearing walls. They elves ur sae impressed with that "
-"cute “magic” of thairs— think of the looks oan thair faces whin thay see "
+"cute ‘magic’ of thairs— think of the looks oan thair faces whin thay see "
 "dwarven kencraft at wirk!\n"
 "\n"
 "Still, oor woodcutters cannae harvest ony mair mushroom fodder oot of the "
 "forest withoot elves chipping away at thaim and the lodestane mines ur "
 "nearly tae the end of thair veins.\n"
 "\n"
-"Mibbie ah shuid trade this cave tae that streenge “Nova” cratur efter all. "
+"Mibbie ah shuid trade this cave tae that streenge ‘lich’ cratur efter all. "
 "Whit ever it be ah dae nae care; if the elves ever come back then thay kin "
 "deal with it."
 
 #. [message]: speaker=Lich-Lord Selmar
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:579
-#, fuzzy
-#| msgid "Is that you again, Khrakrahs?"
 msgid "Come to test your luck again, Khrakrahs?"
-msgstr "Is that you again, Khrakrahs?"
+msgstr "Come to test your luck again, Khrakrahs?"
 
 #. [message]: speaker=Zedrix
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:583
@@ -5392,6 +5287,9 @@ msgid ""
 "shall all make fine additions to my new legion. The only question is — will "
 "you serve willingly?"
 msgstr ""
+"So much the better then. Ah, and he has brought many friends, I see. You "
+"shall all make fine additions to my new legion. The only question is — will "
+"you serve willingly?"
 
 #. [message]: speaker=Arinexis
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:593
@@ -5399,6 +5297,8 @@ msgid ""
 "We sssaurians will never ssserve the likesss of a human monssster or your "
 "elf massstersss!"
 msgstr ""
+"We sssaurians will never ssserve the likesss of a human monssster or your "
+"elf massstersss!"
 
 #. [message]: speaker=Lich-Lord Selmar
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:599
@@ -5410,6 +5310,12 @@ msgid ""
 "Wesmere. No living thing will remain standing between me and the Ruby of "
 "Fire."
 msgstr ""
+"Elf masters? Foolish little toad, I have not crossed half this world at the "
+"summons of mere tree-lords. They have something that should be mine and I am "
+"here to claim it. With the coming of the new moon, my portal to the land of "
+"the giants will open and its outpouring deluge shall sweep the elves from "
+"Wesmere. No living thing will remain standing between me and the Ruby of "
+"Fire."
 
 #. [message]: speaker=Arinexis
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:603
@@ -5417,6 +5323,8 @@ msgid ""
 "You hatched your plan too late, human. We already sssacked Wesssmere, the "
 "elves are dealt with."
 msgstr ""
+"You hatched your plan too late, human. We already sssacked Wesssmere, the "
+"elves are dealt with."
 
 #. [message]: speaker=Lich-Lord Selmar
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:609
@@ -5424,6 +5332,8 @@ msgid ""
 "You could never have done such a feat with even tenfold your motley warband. "
 "Wait... what is all that clamour behind you...?"
 msgstr ""
+"You could never have done such a feat with even tenfold your motley war-"
+"band. Wait... what is all that clamour behind you...?"
 
 #. [message]: speaker=Lich-Lord Selmar
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:615
@@ -5432,6 +5342,9 @@ msgid ""
 "plan will become clear to them if they so much as glimpse my unfinished "
 "portal with their faerie sight."
 msgstr ""
+"Fools, you have led the entire host of Wesmere to this secluded place! My "
+"plan will become clear to them if they so much as glimpse my unfinished "
+"portal with their faerie sight."
 
 #. [message]: speaker=Resha
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:619
@@ -5456,33 +5369,26 @@ msgid ""
 "attention, so begone! Leave the way you came and they may yet follow you "
 "away from my lair!"
 msgstr ""
+"It is a thing far beyond your crude comprehension; a world of powerful "
+"magics with minds all their own. And right now, you have their full "
+"attention, so begone! Leave the way you came and they may yet follow you "
+"away from my lair!"
 
 #. [message]: speaker=Resha
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:633
-#, fuzzy
-#| msgid ""
-#| "Gorlack, it is an ancient terror that hunts us.\n"
-#| "You must get our flight through this mountain at any cost."
 msgid ""
 "Gorlack, it is an ancient foe that hunts us.\n"
 "You must get our flight through this mountain at any cost."
 msgstr ""
-"Gorlack, it is an ancient terror that hunts us.\n"
+"Gorlack, it is an ancient foe that hunts us.\n"
 "You must get our flight through this mountain at any cost."
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:638
-#, fuzzy
-#| msgid ""
-#| "I shall have passage through this mountain.\n"
-#| "\n"
-#| "You are advised to move aside."
 msgid ""
 "I shall have passage through this mountain. You are advised to move aside."
 msgstr ""
-"I shall have passage through this mountain.\n"
-"\n"
-"You are advised to move aside."
+"I shall have passage through this mountain. You are advised to move aside."
 
 #. [message]: speaker=Lich-Lord Selmar
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:644
@@ -5490,6 +5396,8 @@ msgid ""
 "Proceed any further and you shall pass only to the land of the dead, where I "
 "am lord and master."
 msgstr ""
+"Proceed any further and you shall pass only to the land of the dead, where I "
+"am lord and master."
 
 #. [message]: speaker=Arinexis
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:648
@@ -5511,6 +5419,9 @@ msgid ""
 "all, may your worst plans reach fruition so your descendants remember you "
 "with shame!"
 msgstr ""
+"You fire breathing meddlers are a nuisance in any century. A curse upon you "
+"all, may your worst plans reach fruition so your descendants remember you "
+"with shame!"
 
 #. [message]: speaker=Resha
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:705
@@ -5572,10 +5483,8 @@ msgstr "Resha..."
 
 #. [message]: speaker=Resha
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:819
-#, fuzzy
-#| msgid "My wings catch the Winds of Fate..."
 msgid "My wings catch the Winds..."
-msgstr "My wings catch the Winds of Fate..."
+msgstr "My wings catch the Winds..."
 
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:23
@@ -5742,14 +5651,6 @@ msgstr ""
 
 #. [message]: speaker=Khrakrahs
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:357
-#, fuzzy
-#| msgid ""
-#| "I know you are here, weakling Shek’kahan! You know better than to intrude "
-#| "upon my domain! Even if I must search this entire valley, I will find "
-#| "your hiding place.\n"
-#| "\n"
-#| "Fly, my pets! Sweep this place of every scaleless beast so I will have no "
-#| "distraction."
 msgid ""
 "I know you are here, weakling Shek’kahan! You know better than to intrude "
 "upon my domain, Brother! Even if I must search this entire valley, I will "
@@ -5759,8 +5660,8 @@ msgid ""
 "distraction."
 msgstr ""
 "I know you are here, weakling Shek’kahan! You know better than to intrude "
-"upon my domain! Even if I must search this entire valley, I will find your "
-"hiding place.\n"
+"upon my domain, Brother! Even if I must search this entire valley, I will "
+"find your hiding place.\n"
 "\n"
 "Fly, my pets! Sweep this place of every scaleless beast so I will have no "
 "distraction."
@@ -5802,10 +5703,8 @@ msgstr "I will return."
 
 #. [message]: speaker=Khrakrahs
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:470
-#, fuzzy
-#| msgid "Show yourself!"
 msgid "Show yourself, Brother!"
-msgstr "Show yourself!"
+msgstr "Show yourself, Brother!"
 
 #. [message]: speaker=Zedrix
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:474
@@ -5870,19 +5769,13 @@ msgstr "Zedrix, your Heart shall Reveal its Truth."
 
 #. [message]: speaker=Zedrix
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:543
-#, fuzzy
-#| msgid ""
-#| "Khrakrahs... Shek’kahan is dead. He fell protecting his domain and humble "
-#| "sssubjectsss...\n"
-#| "\n"
-#| "... of which I am all that is left."
 msgid ""
 "Khrakrahs... your brother is dead. He fell protecting his domain and humble "
 "sssubjectsss...\n"
 "\n"
 "... of which I am all that is left."
 msgstr ""
-"Khrakrahs... Shek’kahan is dead. He fell protecting his domain and humble "
+"Khrakrahs... your brother is dead. He fell protecting his domain and humble "
 "sssubjectsss...\n"
 "\n"
 "... of which I am all that is left."
@@ -5894,13 +5787,6 @@ msgstr "So then it is true..."
 
 #. [message]: speaker=Khrakrahs
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:557
-#, fuzzy
-#| msgid ""
-#| "It was nigh every season he would intrude upon my domain or me his. Each "
-#| "time, there was such a glorious battle between us as to impart even the "
-#| "clouds with fright. I must not have challenged him enough that he grew "
-#| "weak, vulnerable. Now another great battle between us there will never "
-#| "be. Now there is only me."
 msgid ""
 "It was nigh every season he would intrude upon my domain or me his. Each "
 "time, there was such a glorious battle between us, the sons of Drugis, as to "
@@ -5909,10 +5795,10 @@ msgid ""
 "will never be. Now there is only me."
 msgstr ""
 "It was nigh every season he would intrude upon my domain or me his. Each "
-"time, there was such a glorious battle between us as to impart even the "
-"clouds with fright. I must not have challenged him enough that he grew weak, "
-"vulnerable. Now another great battle between us there will never be. Now "
-"there is only me."
+"time, there was such a glorious battle between us, the sons of Drugis, as to "
+"impart even the clouds with fright. I must not have challenged him enough "
+"that he grew weak, vulnerable. Now another great battle between us there "
+"will never be. Now there is only me."
 
 #. [message]: speaker=Khrakrahs
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:566
@@ -6811,12 +6697,12 @@ msgstr "Yet I feel all thirteen years in my bones!"
 #. [message]: speaker=unit
 #: data/campaigns/Winds_of_Fate/scenarios/11_Crosswind.cfg:539
 msgid "???"
-msgstr ""
+msgstr "???"
 
 #. [message]: speaker=unit
 #: data/campaigns/Winds_of_Fate/scenarios/11_Crosswind.cfg:553
 msgid "Thisss ssstone has drake markingsss, maybe one of them can read it."
-msgstr ""
+msgstr "Thisss ssstone has drake markingsss, maybe one of them can read it."
 
 #. [message]: speaker=unit
 #: data/campaigns/Winds_of_Fate/scenarios/11_Crosswind.cfg:570

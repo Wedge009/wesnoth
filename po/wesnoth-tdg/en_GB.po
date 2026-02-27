@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2026-02-26 01:04 UTC\n"
-"PO-Revision-Date: 2026-01-21 14:51+1100\n"
+"PO-Revision-Date: 2026-02-27 21:06+1100\n"
 "Last-Translator: Wedge009 <wedge009@wedge009.net>\n"
 "Language-Team: none\n"
 "Language: en_GB\n"
@@ -104,16 +104,12 @@ msgstr "(Intermediate level, 7 scenarios.)"
 
 #. [campaign]: id=The Deceivers Gambit 1
 #: data/campaigns/The_Deceivers_Gambit/_main.cfg:152
-#, fuzzy
-#| msgid ""
-#| "Story continued in:\n"
-#| "The Deceiver’s Gambit II"
 msgid ""
 "The saga continues in\n"
 "<i>The Deceiver’s Gambit II</i>"
 msgstr ""
-"Story continued in:\n"
-"The Deceiver’s Gambit II"
+"The saga continues in\n"
+"<i>The Deceiver’s Gambit II</i>"
 
 #. [campaign]: id=The Deceivers Gambit 2
 #: data/campaigns/The_Deceivers_Gambit/_main.cfg:161
@@ -145,6 +141,8 @@ msgid ""
 "The saga continues in\n"
 "<i>Liberty</i>"
 msgstr ""
+"The saga continues in\n"
+"<i>Liberty</i>"
 
 #. [achievement_group]
 #: data/campaigns/The_Deceivers_Gambit/achievements.cfg:21
@@ -328,17 +326,14 @@ msgid "Shield"
 msgstr "Shield"
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:31
-#, fuzzy
-#| msgid ""
-#| "Spend <span color='#00bbe6' style='italic'>8 XP</span> to gain <i>+20% "
-#| "dodge chance</i> until the start of your next turn or until cancelled."
 msgid ""
 "Spend <span color='#00bbe6' style='italic'>8 XP</span> to gain an additional "
 "<i>20% terrain defense</i> (chance to evade) until the start\n"
 "          of your next turn or until cancelled."
 msgstr ""
-"Spend <span color='#00bbe6' style='italic'>8 XP</span> to gain <i>+20% dodge "
-"chance</i> until the start of your next turn or until cancelled."
+"Spend <span color='#00bbe6' style='italic'>8 XP</span> to gain an additional "
+"<i>20% terrain defence</i> (chance to evade) until the start\n"
+"          of your next turn or until cancelled."
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:39
 msgid "Panacea"
@@ -389,19 +384,14 @@ msgid "Levitate"
 msgstr "Levitate"
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:74
-#, fuzzy
-#| msgid ""
-#| "Spend <span color='#00bbe6' style='italic'>8 XP</span> to gain <i>flight</"
-#| "i> and the <i><ref dst='ability_skirmisherskirmisher'>skirmisher</ref></"
-#| "i> ability until the start of your next turn or until cancelled."
 msgid ""
 "Spend <span color='#00bbe6' style='italic'>8 XP</span> to gain <i>flight</i> "
 "and the <i><ref dst='ability_skirmisher'>skirmisher</ref></i> ability until "
 "the start of your next turn or until cancelled."
 msgstr ""
 "Spend <span color='#00bbe6' style='italic'>8 XP</span> to gain <i>flight</i> "
-"and the <i><ref dst='ability_skirmisherskirmisher'>skirmisher</ref></i> "
-"ability until the start of your next turn or until cancelled."
+"and the <i><ref dst='ability_skirmisher'>skirmisher</ref></i> ability until "
+"the start of your next turn or until cancelled."
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:82
 msgid "Find Familiar"
@@ -509,14 +499,9 @@ msgid "Glamour"
 msgstr "Glamour"
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:159
-#, fuzzy
-#| msgid ""
-#| "Gain the <i><ref dst='ability_leadershipleadership'>leadership</ref></i> "
-#| "ability."
 msgid "Gain the <i><ref dst='ability_leadership'>leadership</ref></i> ability."
 msgstr ""
-"Gain the <i><ref dst='ability_leadershipleadership'>leadership</ref></i> "
-"ability."
+"Gain the <i><ref dst='ability_leadership'>leadership</ref></i> ability."
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:173
 msgid ""
@@ -539,13 +524,6 @@ msgid "Enthrall"
 msgstr "Enthrall"
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:191
-#, fuzzy
-#| msgid ""
-#| "Spend <span color='#00bbe6' style='italic'>48 XP</span> and <span "
-#| "color='#c06a61' style='italic'>your attack</span> to magically disguise "
-#| "yourself as an awe-inspiring drake,\n"
-#| "          reducing accuracy and dodge by 10% for enemies in a 2 hex "
-#| "radius. Lasts until cancelled."
 msgid ""
 "Spend <span color='#00bbe6' style='italic'>48 XP</span> and <span "
 "color='#c06a61' style='italic'>your attack</span> to magically disguise "
@@ -557,8 +535,10 @@ msgid ""
 msgstr ""
 "Spend <span color='#00bbe6' style='italic'>48 XP</span> and <span "
 "color='#c06a61' style='italic'>your attack</span> to magically disguise "
-"yourself as an awe-inspiring drake,\n"
-"          reducing accuracy and dodge by 10% for enemies in a 2 hex radius. "
+"yourself as an awe-inspiring drake.\n"
+"          Enemies in a 2-hex radius suffer a -10% penalty to both their "
+"terrain defence\n"
+"          (chance to evade) and chance to hit (except for magical attacks). "
 "Lasts until cancelled."
 
 #: data/campaigns/The_Deceivers_Gambit/lua/skill_set.lua:199
@@ -1315,18 +1295,13 @@ msgstr ""
 
 #. [object]
 #: data/campaigns/The_Deceivers_Gambit/scenarios/01_Stirrings_of_War.cfg:392
-#, fuzzy
-#| msgid ""
-#| "Mages are deadly ranged attackers, with accurate <i>magical</i> attacks "
-#| "that are difficult to dodge. They have few hitpoints and are highly "
-#| "vulnerable in melee combat, so take good care of them!"
 msgid ""
 "Mages are deadly ranged attackers, with accurate <i>magical</i> attacks that "
 "are difficult to evade. They have few hitpoints and are highly vulnerable in "
 "melee combat, so take good care of them!"
 msgstr ""
 "Mages are deadly ranged attackers, with accurate <i>magical</i> attacks that "
-"are difficult to dodge. They have few hit-points and are highly vulnerable "
+"are difficult to evade. They have few hit-points and are highly vulnerable "
 "in melee combat, so take good care of them!"
 
 #. [message]
@@ -9071,13 +9046,6 @@ msgstr ""
 
 #. [message]: speaker=Eldred
 #: data/campaigns/The_Deceivers_Gambit/scenarios/14_Long_Live_the_Queen.cfg:837
-#, fuzzy
-#| msgid ""
-#| "They say this elixir came all the way from the old continent, Delfador. "
-#| "Persuading Malal to give it up wasn’t easy.\n"
-#| "\n"
-#| "You like magic so much? Once I drink from Jevyan’s Cup, I’ll have enough "
-#| "magic to turn you all to dust!"
 msgid ""
 "They say this elixir came all the way from the Old Continent, Delfador. "
 "Persuading Malal to give it up wasn’t easy.\n"
@@ -9085,7 +9053,7 @@ msgid ""
 "You like magic so much? Once I drink from Jevyan’s Cup, I’ll have enough "
 "magic to turn you all to dust!"
 msgstr ""
-"They say this elixir came all the way from the old continent, Delfador. "
+"They say this elixir came all the way from the Old Continent, Delfador. "
 "Persuading Malal to give it up wasn’t easy.\n"
 "\n"
 "You like magic so much? Once I drink from Jevyan’s Cup, I’ll have enough "

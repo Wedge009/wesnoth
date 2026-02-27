@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: Battle for Wesnoth 0.8.11+cvs\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2026-02-25 19:03-0600\n"
-"PO-Revision-Date: 2026-01-21 14:14+1100\n"
+"PO-Revision-Date: 2026-02-27 19:56+1100\n"
 "Last-Translator: Wedge009 <wedge009@wedge009.net>\n"
 "Language-Team: English (British) <http://wiki.wesnoth.org/"
 "EnglishGBTranslation>\n"
@@ -476,36 +476,29 @@ msgid "File does not have .map, .cfg, or .mask extension"
 msgstr "File does not have .map, .cfg, or .mask extension"
 
 #: src/editor/map/map_context.cpp:227
-#, fuzzy
-#| msgid "Failed to load the scenario, attempting to load only the map."
 msgid ""
 "Failed to load the scenario: $error\n"
 "\n"
 "Attempting to load only the map."
-msgstr "Failed to load the scenario, attempting to load only the map."
+msgstr ""
+"Failed to load the scenario: $error\n"
+"\n"
+"Attempting to load only the map."
 
 #: src/editor/map/map_context.cpp:253
-#, fuzzy
-#| msgid ""
-#| "The map file looks like a scenario, but the map_data value does not point "
-#| "to an existing file"
 msgid ""
 "The file looks like a scenario, but the map_data attribute does not point to "
 "an existing file"
 msgstr ""
-"The map file looks like a scenario, but the map_data value does not point to "
+"The file looks like a scenario, but the map_data attribute does not point to "
 "an existing file"
 
 #: src/editor/map/map_context.cpp:268
-#, fuzzy
-#| msgid ""
-#| "The map file looks like a scenario, but the map_file value does not point "
-#| "to an existing file"
 msgid ""
 "The file looks like a scenario, but the map_file attribute does not point to "
 "an existing file"
 msgstr ""
-"The map file looks like a scenario, but the map_file value does not point to "
+"The file looks like a scenario, but the map_file attribute does not point to "
 "an existing file"
 
 #: src/editor/map/map_context.cpp:448

@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2026-02-26 01:04 UTC\n"
-"PO-Revision-Date: 2025-12-22 15:45+1100\n"
+"PO-Revision-Date: 2026-02-27 20:57+1100\n"
 "Last-Translator: Wedge009 <wedge009@wedge009.net>\n"
 "Language-Team: English (British) <http://wiki.wesnoth.org/"
 "EnglishGBTranslation>\n"
@@ -3598,7 +3598,7 @@ msgstr ""
 #. [message]: speaker=Malifor
 #: data/campaigns/Northern_Rebirth/scenarios/05a_01_The_Pursuit.cfg:2861
 msgid "HAHAHAHA, THAT WEAPON CANNOT HARM ME!"
-msgstr ""
+msgstr "HA HA HA HA, THAT WEAPON CANNOT HARM ME!"
 
 #. [message]: speaker=unit
 #: data/campaigns/Northern_Rebirth/scenarios/05a_01_The_Pursuit.cfg:2866
@@ -3618,12 +3618,12 @@ msgstr "Geez, how are we going to kill him? This weapon is ineffective!"
 #. [message]: speaker=Malifor
 #: data/campaigns/Northern_Rebirth/scenarios/05a_01_The_Pursuit.cfg:2891
 msgid "YOUR WEAPONS CANNOT HARM ME, FOOLS!"
-msgstr ""
+msgstr "YOUR WEAPONS CANNOT HARM ME, FOOLS!"
 
 #. [message]: speaker=Tallin
 #: data/campaigns/Northern_Rebirth/scenarios/05a_01_The_Pursuit.cfg:2896
 msgid "We’ll have to try something else. Perhaps magic will help."
-msgstr ""
+msgstr "We’ll have to try something else. Perhaps magic will help."
 
 #. [message]: speaker=Malifor
 #: data/campaigns/Northern_Rebirth/scenarios/05a_01_The_Pursuit.cfg:2906
@@ -3643,23 +3643,24 @@ msgstr "Let’s try using something different on him."
 #. [message]: speaker=Malifor
 #: data/campaigns/Northern_Rebirth/scenarios/05a_01_The_Pursuit.cfg:2926
 msgid "HAHAHAHA, FOOL! THE COLD IS MY DOMAIN!"
-msgstr ""
+msgstr "HA HA HA HA, FOOL! THE COLD IS MY DOMAIN!"
 
 #. [message]: speaker=Tallin
 #: data/campaigns/Northern_Rebirth/scenarios/05a_01_The_Pursuit.cfg:2931
 msgid "I suppose we should’ve known better than to try freezing a Lich."
-msgstr ""
+msgstr "I suppose we should’ve known better than to try freezing a Lich."
 
 #. [message]: speaker=Malifor
 #: data/campaigns/Northern_Rebirth/scenarios/05a_01_The_Pursuit.cfg:2941
 msgid "FOOLS! I FREED MYSELF OF WEAKNESS LONG AGO!"
-msgstr ""
+msgstr "FOOLS! I FREED MYSELF OF WEAKNESS LONG AGO!"
 
 #. [message]: speaker=Tallin
 #: data/campaigns/Northern_Rebirth/scenarios/05a_01_The_Pursuit.cfg:2946
 msgid ""
 "Even arcane weapons have no effect on him! We need an expert in white magic."
 msgstr ""
+"Even arcane weapons have no effect on him! We need an expert in white magic."
 
 #. [message]: speaker=Malifor
 #: data/campaigns/Northern_Rebirth/scenarios/05a_01_The_Pursuit.cfg:2961

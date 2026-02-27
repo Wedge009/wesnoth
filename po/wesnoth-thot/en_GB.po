@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.3.12+dev\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2026-02-26 01:04 UTC\n"
-"PO-Revision-Date: 2025-12-22 15:55+1100\n"
+"PO-Revision-Date: 2026-02-27 21:08+1100\n"
 "Last-Translator: Wedge009 <wedge009@wedge009.net>\n"
 "Language-Team: English (British) <http://wiki.wesnoth.org/"
 "EnglishGBTranslation>\n"
@@ -306,13 +306,6 @@ msgstr ""
 
 #. [message]: speaker=Angarthing
 #: data/campaigns/The_Hammer_of_Thursagan/scenarios/02_Reclaiming_the_Past.cfg:102
-#, fuzzy
-#| msgid ""
-#| "The mark on this cloak-pin is that of our kin at Kal Kartha in the "
-#| "eastern hills, from whom we’ve heard nothing since before Tallin broke "
-#| "the orcish occupation of Knalga. It troubles us that an orc should have "
-#| "come to possess it; no orc should know even that loremasters exist, let "
-#| "alone come near enough one to get this."
 msgid ""
 "The mark on this cloak-pin is that of our kin at Kal Kartha in the eastern "
 "hills, from whom we’ve heard nothing since before Tallin broke the orcish "
@@ -323,7 +316,7 @@ msgstr ""
 "The mark on this cloak-pin is that of our kin at Kal Kartha in the eastern "
 "hills, from whom we’ve heard nothing since before Tallin broke the orcish "
 "occupation of Knalga. It troubles us that an orc should have come to possess "
-"it; no orc should even know that loremasters exist, let alone come near "
+"it; no outsider should know even that loremasters exist, let alone come near "
 "enough one to get this."
 
 #. [message]: speaker=Hamel
@@ -1206,7 +1199,7 @@ msgstr ""
 #. [message]: speaker=unit
 #: data/campaigns/The_Hammer_of_Thursagan/scenarios/06_Fear.cfg:335
 msgid "Argh!"
-msgstr ""
+msgstr "Argh!"
 
 #. [message]: speaker=Angarthing
 #: data/campaigns/The_Hammer_of_Thursagan/scenarios/06_Fear.cfg:341
@@ -1214,6 +1207,8 @@ msgid ""
 "Our castle is small, and these masked dwarves are many. This will be a "
 "bloody fight."
 msgstr ""
+"Our castle is small, and these masked dwarves are many. This will be a "
+"bloody fight."
 
 #. [message]: speaker=Aiglondur
 #: data/campaigns/The_Hammer_of_Thursagan/scenarios/06_Fear.cfg:345
@@ -1221,6 +1216,8 @@ msgid ""
 "The masked ones must have raided this place before. Damaging the castle "
 "would have made it harder for the peasants to rally a defense."
 msgstr ""
+"The masked ones must have raided this place before. Damaging the castle "
+"would have made it harder for the peasants to rally a defence."
 
 #. [message]: role=masked_speaker
 #. [message]: speaker=Karrag
@@ -1255,15 +1252,11 @@ msgstr "Thank you for your help, and for saving us!"
 
 #. [message]: speaker=Ollin
 #: data/campaigns/The_Hammer_of_Thursagan/scenarios/06_Fear.cfg:390
-#, fuzzy
-#| msgid ""
-#| "I do not mean to sound ungrateful, but — the fighting... they always come "
-#| "back..."
 msgid ""
 "I do not mean to sound ungrateful, but — the masked ones... they always come "
 "back..."
 msgstr ""
-"I do not mean to sound ungrateful, but — the fighting... they always come "
+"I do not mean to sound ungrateful, but — the masked ones... they always come "
 "back..."
 
 #. [message]: speaker=Aiglondur
@@ -1358,11 +1351,10 @@ msgstr ""
 
 #. [message]: speaker=Elurin
 #: data/campaigns/The_Hammer_of_Thursagan/scenarios/07_Forbidden_Forest.cfg:225
-#, fuzzy
-#| msgid "I have already given our answer. Return whence you came."
 msgid ""
 "I will say no more. I have already given our answer. Return whence you came."
-msgstr "I have already given our answer. Return whence you came."
+msgstr ""
+"I will say no more. I have already given our answer. Return whence you came."
 
 #. [message]: speaker=Angarthing
 #: data/campaigns/The_Hammer_of_Thursagan/scenarios/07_Forbidden_Forest.cfg:230
@@ -1491,7 +1483,7 @@ msgstr "Useless grunts! We should have taken the gate weeks ago! Fight harder!"
 #. [message]: speaker=Ratheln
 #: data/campaigns/The_Hammer_of_Thursagan/scenarios/08_The_Siege_of_Kal_Kartha.cfg:309
 msgid "I think they’ve been reinforced. I really don’t like orcs."
-msgstr ""
+msgstr "I think they’ve been reinforced. I really don’t like orcs."
 
 #. [message]: id=leader3,leader4,leader5,leader6
 #: data/campaigns/The_Hammer_of_Thursagan/scenarios/08_The_Siege_of_Kal_Kartha.cfg:334
@@ -1926,21 +1918,17 @@ msgstr "Poor guy didn’t make it."
 #: data/campaigns/The_Hammer_of_Thursagan/scenarios/10_The_Underlevels.cfg:407
 #: data/campaigns/The_Hammer_of_Thursagan/scenarios/10_The_Underlevels.cfg:408
 msgid "This chest contains 50 gold pieces."
-msgstr ""
+msgstr "This chest contains 50 gold pieces."
 
 #. [scenario]: id=10_The_Underlevels
 #: data/campaigns/The_Hammer_of_Thursagan/scenarios/10_The_Underlevels.cfg:409
-#, fuzzy
-#| msgid "There’s some gold in here!"
 msgid "There’s 150 gold in this chest!"
-msgstr "There’s some gold in here!"
+msgstr "There’s 150 gold in this chest!"
 
 #. [scenario]: id=10_The_Underlevels
 #: data/campaigns/The_Hammer_of_Thursagan/scenarios/10_The_Underlevels.cfg:410
-#, fuzzy
-#| msgid "There’s some gold in here!"
 msgid "There’s 200 gold in this chest!"
-msgstr "There’s some gold in here!"
+msgstr "There’s 200 gold in this chest!"
 
 #. [message]: speaker=unit
 #: data/campaigns/The_Hammer_of_Thursagan/scenarios/10_The_Underlevels.cfg:437
@@ -2017,17 +2005,20 @@ msgid ""
 "This must be a transport rune. Now that it is active, we can use to it to "
 "travel back and forth between here and the central gate."
 msgstr ""
+"This must be a transport rune. Now that it is active, we can use to it to "
+"travel back and forth between here and the central gate."
 
 #. [message]: speaker=unit
 #: data/campaigns/The_Hammer_of_Thursagan/scenarios/10_The_Underlevels.cfg:677
 msgid "We have activated another transport rune."
-msgstr ""
+msgstr "We have activated another transport rune."
 
 #. [message]: speaker=Aiglondur
 #: data/campaigns/The_Hammer_of_Thursagan/scenarios/10_The_Underlevels.cfg:766
 msgid ""
 "Dark magic swirls in the air. Karrag grows stronger with each passing minute."
 msgstr ""
+"Dark magic swirls in the air. Karrag grows stronger with each passing minute."
 
 #. [message]: speaker=narrator
 #: data/campaigns/The_Hammer_of_Thursagan/scenarios/10_The_Underlevels.cfg:771
@@ -2036,6 +2027,9 @@ msgid ""
 "confront him, the more gold he’ll have had time to stockpile. Open the "
 "Status Table (<i>Alt+S</i>) to check your opponents’ gold and income."
 msgstr ""
+"Karrag is not recruiting yet, so the longer it takes you to reach and "
+"confront him, the more gold he’ll have had time to stockpile. Open the "
+"Status Table (<i>Alt+S</i>) to check your opponents’ gold and income."
 
 #. [message]: speaker=narrator
 #: data/campaigns/The_Hammer_of_Thursagan/scenarios/10_The_Underlevels.cfg:773
@@ -2043,11 +2037,13 @@ msgid ""
 "Of course, the longer you wait to confront Karrag, the more gold you’ll have "
 "time to stockpile too."
 msgstr ""
+"Of course, the longer you wait to confront Karrag, the more gold you’ll have "
+"time to stockpile too."
 
 #. [message]: speaker=Angarthing
 #: data/campaigns/The_Hammer_of_Thursagan/scenarios/10_The_Underlevels.cfg:889
 msgid "It is done."
-msgstr ""
+msgstr "It is done."
 
 #. [message]: speaker=Aiglondur
 #: data/campaigns/The_Hammer_of_Thursagan/scenarios/10_The_Underlevels.cfg:894
@@ -2211,63 +2207,58 @@ msgstr "The master’s ritual... must not be... interrupted..."
 
 #. [message]: speaker=second_unit
 #: data/campaigns/The_Hammer_of_Thursagan/scenarios/10_The_Underlevels.cfg:1119
-#, fuzzy
-#| msgid ""
-#| "It seems that the guard spoke the truth. These doors will not open to us!"
 msgid ""
 "It seems that the guard spoke the truth. The eastern way is shut fast! There "
 "are two curious runes on the ground."
 msgstr ""
-"It seems that the guard spoke the truth. These doors will not open to us!"
+"It seems that the guard spoke the truth. The eastern way is shut fast! There "
+"are two curious runes on the ground."
 
 #. [message]: speaker=Angarthing
 #: data/campaigns/The_Hammer_of_Thursagan/scenarios/10_The_Underlevels.cfg:1124
-#, fuzzy
-#| msgid ""
-#| "They are sealed by the ancient runelore of the Hammer. No amount of force "
-#| "can open these doors — we will need to find the keys to the seals here."
 msgid ""
 "The way is sealed by the ancient runelore of the Hammer. No amount of force "
 "can open these doors."
 msgstr ""
-"They are sealed by the ancient runelore of the Hammer. No amount of force "
-"can open these doors — we will need to find the keys to the seals here."
+"The way is sealed by the ancient rune-lore of the Hammer. No amount of force "
+"can open these doors."
 
 #. [message]: speaker=Ratheln
 #: data/campaigns/The_Hammer_of_Thursagan/scenarios/10_The_Underlevels.cfg:1129
 msgid "Most curious. I’ve never encountered magic of this sort before."
-msgstr ""
+msgstr "Most curious. I’ve never encountered magic of this sort before."
 
 #. [message]: speaker=Aiglondur
 #: data/campaigns/The_Hammer_of_Thursagan/scenarios/10_The_Underlevels.cfg:1134
 msgid ""
 "You know something of runes, Angarthing. You have read Thursagan’s notebook."
 msgstr ""
+"You know something of runes, Angarthing. You have read Thursagan’s notebook."
 
 #. [message]: speaker=Angarthing
 #: data/campaigns/The_Hammer_of_Thursagan/scenarios/10_The_Underlevels.cfg:1139
 msgid "Aye."
-msgstr ""
+msgstr "Aye."
 
 #. [message]: speaker=Aiglondur
 #: data/campaigns/The_Hammer_of_Thursagan/scenarios/10_The_Underlevels.cfg:1144
 msgid "Can you open the doors?"
-msgstr ""
+msgstr "Can you open the doors?"
 
 #. [message]: speaker=Angarthing
 #: data/campaigns/The_Hammer_of_Thursagan/scenarios/10_The_Underlevels.cfg:1149
 msgid "Perhaps. We must be prepared for what lies beyond."
-msgstr ""
+msgstr "Perhaps. We must be prepared for what lies beyond."
 
 #. [objective]: condition=win
 #: data/campaigns/The_Hammer_of_Thursagan/scenarios/10_The_Underlevels.cfg:1155
 msgid "Prepare to face Karrag"
-msgstr ""
+msgstr "Prepare to face Karrag"
 
 #. [objective]: condition=win
 #: data/campaigns/The_Hammer_of_Thursagan/scenarios/10_The_Underlevels.cfg:1159
 msgid "When you are ready, move Angarthing to the marked hex"
-msgstr ""
+msgstr "When you are ready, move Angarthing to the marked hex"
 
 #. [message]: speaker=Dranath
 #: data/campaigns/The_Hammer_of_Thursagan/scenarios/10_The_Underlevels.cfg:1180

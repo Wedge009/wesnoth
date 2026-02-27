@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2026-02-26 01:04 UTC\n"
-"PO-Revision-Date: 2025-10-22 09:24+1100\n"
+"PO-Revision-Date: 2026-02-27 20:44+1100\n"
 "Last-Translator: Wedge009 <wedge009@wedge009.net>\n"
 "Language-Team: English (British) <http://wiki.wesnoth.org/"
 "EnglishGBTranslation>\n"
@@ -78,16 +78,12 @@ msgstr "(Novice level, 7 scenarios.)"
 #. [campaign]: id=Liberty
 #. this campaign is not a direct continuation of the story and characters, but is next chronologically and is the recommended next campaign
 #: data/campaigns/Liberty/_main.cfg:32
-#, fuzzy
-#| msgid ""
-#| "Story continued in:\n"
-#| "Heir to the Throne"
 msgid ""
 "The saga continues in\n"
 "<i>Heir to the Throne</i>"
 msgstr ""
-"Story continued in:\n"
-"Heir to the Throne"
+"The saga continues in\n"
+"<i>Heir to the Throne</i>"
 
 #. [about]
 #: data/campaigns/Liberty/_main.cfg:36
