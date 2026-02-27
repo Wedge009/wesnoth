@@ -408,9 +408,9 @@ msgstr "Erreur"
 
 #: src/editor/map/context_manager.cpp:705
 #, fuzzy
-#| msgid "Do you really want to quit?"
+#| msgid "Do you really want to save $type1 in $type2 folder?"
 msgid "Do you really want to save a map in the scenarios folder?"
-msgstr "Voulez-vous vraiment quitter ?"
+msgstr "Voulez-vous vraiment sauvegarder les $type1 dans le dossier $type2 ?"
 
 #: src/editor/map/context_manager.cpp:713
 #: src/editor/map/context_manager.cpp:905
@@ -423,9 +423,9 @@ msgstr "Sauvegarder le scénario sous"
 
 #: src/editor/map/context_manager.cpp:754
 #, fuzzy
-#| msgid "Do you really want to quit?"
+#| msgid "Do you really want to save $type1 in $type2 folder?"
 msgid "Do you really want to save a scenario in the maps folder?"
-msgstr "Voulez-vous vraiment quitter ?"
+msgstr "Voulez-vous vraiment sauvegarder les $type1 dans le dossier $type2 ?"
 
 #: src/editor/map/context_manager.cpp:762
 msgid "This scenario is already open."
@@ -573,9 +573,9 @@ msgstr "Ne fonctionnera pas dans le jeu sans travail supplémentaire."
 
 #: src/editor/palette/item_palette.cpp:33
 #, fuzzy
-#| msgid "Right-click: "
+#| msgid " | Right-click to remove"
 msgid "Left-click: Place item $item | Right-click to remove"
-msgstr "Clic droit :"
+msgstr " | Clic droit pour effacer"
 
 #: src/editor/palette/location_palette.cpp:247
 msgid "Go To"
@@ -624,11 +624,11 @@ msgstr "Cmd + clic : copier le terrain"
 msgid "Ctrl + click: copy terrain"
 msgstr "Ctrl + clic : copier le terrain"
 
-#, fuzzy
-#~| msgid ""
-#~| "Found the characters '<<' indicating inline lua is present - aborting"
+#~ msgid "Load Map"
+#~ msgstr "Charger une carte"
+
 #~ msgid ""
-#~ "Found the characters ‘<<’ indicating inline lua is present — aborting"
+#~ "Found the characters '<<' indicating inline lua is present - aborting"
 #~ msgstr ""
 #~ "Les caractères '<<' dans le fichier trahissent la présence de code lua – "
 #~ "abandon"
@@ -636,23 +636,14 @@ msgstr "Ctrl + clic : copier le terrain"
 #~ msgid "Unable to parse file to find map data"
 #~ msgstr "Les données de la carte n'ont pas pu être trouvées dans ce fichier"
 
-#~ msgid "Load Map"
-#~ msgstr "Charger une carte"
+#~ msgid "Left-click: Place item "
+#~ msgstr "Clic gauche : placer les objets"
 
 #~ msgid "Choose File"
 #~ msgstr "Sélectionner un fichier"
 
 #~ msgid "Select"
 #~ msgstr "Sélectionner"
-
-#, fuzzy
-#~| msgid "Left-click: "
-#~ msgid "Left-click: Place item "
-#~ msgstr "Clic gauche :"
-
-#~ msgid "Clipboard support not found, contact your packager"
-#~ msgstr ""
-#~ "Pas de prise en charge du presse-papier, contactez votre empaqueteur"
 
 #~ msgid "player^None"
 #~ msgstr "Aucun"

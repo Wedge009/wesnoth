@@ -7454,10 +7454,8 @@ msgid "$title ($count/$total)"
 msgstr ""
 
 #: src/gui/dialogs/achievements_dialog.cpp:138
-#, fuzzy
-#| msgid "Completed"
 msgid "Completed $count/$total"
-msgstr "Réalisé"
+msgstr ""
 
 #: src/gui/dialogs/addon/addon_server_info.cpp:95
 #: src/gui/dialogs/addon/addon_server_info.cpp:120
@@ -8651,8 +8649,8 @@ msgid ""
 "“<b>$hotkey_sequence|</b>” is in use by “<b>$old_hotkey_action|</b>”.\n"
 "Do you wish to reassign it to “<b>$new_hotkey_action|</b>”?"
 msgstr ""
-"« <b>$hotkey_sequence|</b> » est utilisé par « <b>$old_hotkey_action|</b> "
-"».\n"
+"« <b>$hotkey_sequence|</b> » est utilisé par « <b>$old_hotkey_action|</"
+"b> ».\n"
 "Voulez-vous le réattribuer à « <b>$new_hotkey_action|</b> » ?"
 
 #: src/gui/dialogs/preferences_dialog.cpp:965
@@ -9579,10 +9577,8 @@ msgid "Item Tool"
 msgstr "Outil d'objet"
 
 #: src/hotkey/hotkey_command.cpp:210
-#, fuzzy
-#| msgid "Left mouse button sets a new item."
 msgid "Left mouse button sets a new item. Right click removes item."
-msgstr "Les clic gauche place un nouvel objet."
+msgstr "Le clic gauche place un nouvel objet. Le clic droit les efface."
 
 #: src/hotkey/hotkey_command.cpp:211
 msgid ""
@@ -9621,10 +9617,8 @@ msgid "Loyal"
 msgstr "Fidèle"
 
 #: src/hotkey/hotkey_command.cpp:220
-#, fuzzy
-#| msgid "Server Information"
 msgid "Show Tool Information"
-msgstr "Information du serveur"
+msgstr "Information des outils"
 
 #: src/hotkey/hotkey_command.cpp:222
 msgid "Toggle Minimap Unit Coding"
@@ -10011,22 +10005,91 @@ msgstr ""
 "Dans la section « [$section|] » la clé obligatoire « $key » n'est pas "
 "renseignée."
 
-#~ msgid "Turn dialog"
-#~ msgstr "Message en début de tour"
+#~ msgid "Rocky Sands"
+#~ msgstr "Sables pierreux"
+
+#~ msgid "Sands"
+#~ msgstr "Sable"
+
+#~ msgid "Connected Players"
+#~ msgstr "Joueurs connectés"
+
+#~ msgid "Reloading alters future combat outcomes"
+#~ msgstr "Le rechargement altère l'issue des prochains combats"
+
+#~ msgid "Combat outcomes remain constant when reloading"
+#~ msgstr "L'issue des combats reste constante lors d'un rechargement"
+
+#~ msgid "Biased RNG (experimental)"
+#~ msgstr "RNG biaisé (expérimental)"
+
+#~ msgid ""
+#~ "Combat outcomes are more in line with displayed probabilities and "
+#~ "unaffected by reloading"
+#~ msgstr ""
+#~ "L'issue des combats est plus en phase avec les probabilités affichées et "
+#~ "n'est pas affectée par un rechargement"
+
+#~ msgid "Add-on ID"
+#~ msgstr "Identifiant de l'extension"
+
+#~ msgid "Configuration:"
+#~ msgstr "Configuration :"
+
+#~ msgid "Copy the full report to clipboard"
+#~ msgstr "Copier ce rapport dans le presse-papier"
 
 #~ msgid "Battle For Wesnoth Help"
 #~ msgstr "Afficher l'aide de Bataille pour Wesnoth"
 
-#~ msgid "Completed"
-#~ msgstr "Réalisé"
+#~ msgid "<b>Faction:</b>"
+#~ msgstr "<b>Faction :</b>"
 
-#, fuzzy
-#~| msgid "Show next tip of the day"
-#~ msgid "Hide tip of the day"
-#~ msgstr "Afficher l'astuce du jour suivante"
+#~ msgid "<b>Gender:</b>"
+#~ msgstr "<b>Genre : </b>"
 
-#~ msgid "Race"
-#~ msgstr "Race"
+#~ msgid "Turn dialog"
+#~ msgstr "Message en début de tour"
+
+#~ msgid "Limit FPS"
+#~ msgstr "Limiter le nombre d'image par seconde"
+
+#~ msgid ""
+#~ "Disabling this increases CPU usage, but may slightly improve performance "
+#~ "(requires restart to take effect)"
+#~ msgstr ""
+#~ "Désactiver cette option augmente l'usage du CPU, mais peut améliorer "
+#~ "sensiblement les performances (nécessite un redémarrage pour prendre "
+#~ "effet)"
+
+#~ msgid "View the credits"
+#~ msgstr "Voir les crédits"
+
+#~ msgid "filesystem_path_game^User preferences"
+#~ msgstr "Préférences utilisateur"
+
+#~ msgid "--userdata-dir=<relative path that doesn't start with a period>"
+#~ msgstr "--userdata-dir=<chemin relatif qui ne commence par par un point>"
+
+#~ msgid ""
+#~ "Use an absolute path, or a relative path that starts with a period and a "
+#~ "backslash"
+#~ msgstr ""
+#~ "Utilise un chemin absolu ou relatif qui commence par un point et une "
+#~ "barre oblique"
+
+#~ msgid "--userdata-dir=<relative path>"
+#~ msgstr "--userdata-dir=<chemin relatif>"
+
+#~ msgid ""
+#~ "Use absolute paths. Relative paths are deprecated because they are "
+#~ "interpreted relative to $HOME"
+#~ msgstr ""
+#~ "Utilisez des chemin absolus. Les chemins relatifs sont dépréciés car ils "
+#~ "sont interprétés relativement à la variable $HOME"
+
+#~ msgid "The text contains invalid Pango markup: "
+#~ msgstr "Le texte contient une balise Pango invalide : "
 
 #~ msgid "timespan^expired"
 #~ msgstr "expiré"
@@ -10066,23 +10129,6 @@ msgstr ""
 #~ msgstr[0] "$num seconde"
 #~ msgstr[1] "$num secondes"
 
-#~ msgid "Limit FPS"
-#~ msgstr "Limiter le nombre d'image par seconde"
-
-#~ msgid ""
-#~ "Disabling this increases CPU usage, but may slightly improve performance "
-#~ "(requires restart to take effect)"
-#~ msgstr ""
-#~ "Désactiver cette option augmente l'usage du CPU, mais peut améliorer "
-#~ "sensiblement les performances (nécessite un redémarrage pour prendre "
-#~ "effet)"
-
-#~ msgid "Connected Players"
-#~ msgstr "Joueurs connectés"
-
-#~ msgid "The text contains invalid Pango markup: "
-#~ msgstr "Le texte contient une balise Pango invalide : "
-
 #~ msgid "Text has a font size of 0."
 #~ msgstr "Le texte a une taille de police de 0."
 
@@ -10091,84 +10137,11 @@ msgstr ""
 #~ "Le support du presse-papier n'a pas été trouvé, contactez votre "
 #~ "empaqueteur"
 
-#~ msgid "<b>Faction:</b>"
-#~ msgstr "<b>Faction :</b>"
-
-#~ msgid "<b>Gender:</b>"
-#~ msgstr "<b>Genre : </b>"
-
-#, fuzzy
-#~| msgid "page^Copy"
-#~ msgid "page^✔ Copied"
-#~ msgstr "Copier"
-
-#, fuzzy
-#~| msgid "Status"
-#~ msgid "Stats"
-#~ msgstr "Statut"
-
-#~ msgid "Configuration:"
-#~ msgstr "Configuration :"
-
-#~ msgid "filesystem_path_game^User preferences"
-#~ msgstr "Préférences utilisateur"
-
-#~ msgid "--userdata-dir=<relative path that doesn't start with a period>"
-#~ msgstr "--userdata-dir=<chemin relatif qui ne commence par par un point>"
-
-#~ msgid ""
-#~ "Use an absolute path, or a relative path that starts with a period and a "
-#~ "backslash"
-#~ msgstr ""
-#~ "Utilise un chemin absolu ou relatif qui commence par un point et une "
-#~ "barre oblique"
-
-#~ msgid "--userdata-dir=<relative path>"
-#~ msgstr "--userdata-dir=<chemin relatif>"
-
-#~ msgid ""
-#~ "Use absolute paths. Relative paths are deprecated because they are "
-#~ "interpreted relative to $HOME"
-#~ msgstr ""
-#~ "Utilisez des chemin absolus. Les chemins relatifs sont dépréciés car ils "
-#~ "sont interprétés relativement à la variable $HOME"
+#~ msgid "Running on $os"
+#~ msgstr "Exécuté sous $os"
 
 #~ msgid "Load Map"
 #~ msgstr "Charger une carte"
-
-#~ msgid "Rocky Sands"
-#~ msgstr "Sables pierreux"
-
-#~ msgid "Sands"
-#~ msgstr "Sable"
-
-#~ msgid "Reloading alters future combat outcomes"
-#~ msgstr "Le rechargement altère l'issue des prochains combats"
-
-#~ msgid "Combat outcomes remain constant when reloading"
-#~ msgstr "L'issue des combats reste constante lors d'un rechargement"
-
-#~ msgid "Biased RNG (experimental)"
-#~ msgstr "RNG biaisé (expérimental)"
-
-#~ msgid ""
-#~ "Combat outcomes are more in line with displayed probabilities and "
-#~ "unaffected by reloading"
-#~ msgstr ""
-#~ "L'issue des combats est plus en phase avec les probabilités affichées et "
-#~ "n'est pas affectée par un rechargement"
-
-#~ msgid "Add-on ID"
-#~ msgstr "Identifiant de l'extension"
-
-#~ msgid "Copy the full report to clipboard"
-#~ msgstr "Copier ce rapport dans le presse-papier"
-
-#~ msgid "View the credits"
-#~ msgstr "Voir les crédits"
-
-#~ msgid "Running on $os"
-#~ msgstr "Exécuté sous $os"
 
 #~ msgid "Choose your preferred language:"
 #~ msgstr "Choisissez votre langue préférée :"
@@ -10236,8 +10209,8 @@ msgstr ""
 #~ "The key '$deprecated_key' has been renamed to '$key'. Support for "
 #~ "'$deprecated_key' will be removed in version $removal_version."
 #~ msgstr ""
-#~ "La clef « $deprecated_key » a été remplacée par « $key ». « "
-#~ "$deprecated_key » ne sera plus maintenue à partir de la version "
+#~ "La clef « $deprecated_key » a été remplacée par « $key ». "
+#~ "« $deprecated_key » ne sera plus maintenue à partir de la version "
 #~ "$removal_version."
 
 #~ msgid "Show disengaged orb"
@@ -10694,8 +10667,8 @@ msgstr ""
 
 #~ msgid "Linked '$id' group needs a 'fixed_width' or 'fixed_height' key."
 #~ msgstr ""
-#~ "Le groupe lié « $id » a besoin d'une clé « fixed_width » ou « "
-#~ "fixed_height »."
+#~ "Le groupe lié « $id » a besoin d'une clé « fixed_width » ou "
+#~ "« fixed_height »."
 
 #~ msgid "Items"
 #~ msgstr "Objets"
