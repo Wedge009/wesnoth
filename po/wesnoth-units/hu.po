@@ -8,22 +8,22 @@
 # Gabor Udvari <gabor.udvari@gmail.com>, 2008.
 # Kádár-Németh Krisztián <krisztian.kad@gmail.com>, 2008, 2009, 2010, 2011, 2012, 2014.
 # Farkas János <mail.janos.farkas@gmail.com>, 2014.
-# Berda Jenő <big4billy@gmail.com>, 2024
+# Berda Jenő <big4billy@gmail.com>, 2024-2026.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: hu-units_1.5\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2024-03-18 00:07 UTC\n"
-"PO-Revision-Date: 2025-12-04 03:02+0100\n"
+"PO-Revision-Date: 2026-02-23 23:45+0100\n"
 "Last-Translator: Berda Jenő <big4billy@gmail.com>\n"
-"Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
+"Language-Team: Hungarian <>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.5\n"
-"X-Poedit-Bookmarks: 232,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
+"X-Generator: Lokalize 26.03.70\n"
 
 #. [attack]: type=impact
 #: data/campaigns/Dead_Water/units/Soldier_King.cfg:30
@@ -7794,7 +7794,7 @@ msgstr ""
 #. [unit_type]: id=Horned Scarab, race=monster
 #: data/core/units/monsters/Scarab.cfg:4
 msgid "Horned Scarab"
-msgstr "Szarvas szkarabeusz"
+msgstr "Orrszarvúbogár"
 
 #. [special_note]
 #: data/core/units/monsters/Scarab.cfg:21
@@ -10343,6 +10343,12 @@ msgstr ""
 #~ "közelharcnak, valamint a föld egy kis darabját is egy tölgy szívósságával "
 #~ "védik."
 
+#~ msgid "Wandering Scarab"
+#~ msgstr "Vándor szkarabeusz"
+
+#~ msgid "Snipe"
+#~ msgstr "orvlövés"
+
 #~ msgid "Canoe"
 #~ msgstr "kenu"
 
@@ -10767,6 +10773,23 @@ msgstr ""
 #~ msgstr "tűzcsapás"
 
 #~ msgid ""
+#~ "What creatures manage to eke out a living in the inhospitable wastes find "
+#~ "themselves inviolably changed. Rugged, well-armored, and known to grow to "
+#~ "enormous sizes, the Horned Scarab is no less nimble on the shifting sands "
+#~ "than its fair-weathered cousins are in the air. Lone travelers should "
+#~ "especially be wary of their spiked horns. Though passive by nature, these "
+#~ "insects will defend themselves with great ferocity, and few men alive "
+#~ "would fain to face their penetrating barbs."
+#~ msgstr ""
+#~ "Azok a teremtmények, amelyeknek sikerül megélniük a barátságtalan "
+#~ "pusztaságban, változáson mennek keresztül. A masszív, jól páncélozott és "
+#~ "hatalmas méretűre megnövő orrszarvúbogár nem kevésbé fürge a folyós "
+#~ "homokon, mint tündöklő rokonai a levegőben. A magányos utazóknak "
+#~ "különösen óvakodniuk kell tüskés szarvaiktól. Bár természetüknél fogva "
+#~ "passzívak, ezek a rovarok ádázul védekeznek és kevés élő ember nézne "
+#~ "szembe szívesen átütő szúrásaikkal."
+
+#~ msgid ""
 #~ "The veteran naga guards have learnt a unique fighting style, different "
 #~ "from the heavy infantry of other races. By combining the inertia of a "
 #~ "heavy mace with the flexibility of their bodies, they can deliver a "
@@ -10833,6 +10856,17 @@ msgstr ""
 #~ "erejüket arra használták, hogy megakadályozzák ellenségeiket a harcban, "
 #~ "és általában úgy tartják, hogy különbözik a tündék vagy a sellők "
 #~ "mágiájától. A mesterség részleteit más fajok csak találgathatják."
+
+#~ msgid ""
+#~ "Wandering Scarabs are large, rugged insects that can grow to be quite "
+#~ "large, making them a threat when they decide to be aggressive. Their "
+#~ "primary means of attack is the large, sharp horn growing from their head. "
+#~ "Because of their large size, armor, and horn, they cannot fly."
+#~ msgstr ""
+#~ "A vándor szkarabeuszok nagy, kemény rovarok, amelyek meglehetősen nagyra "
+#~ "nőhetnek, így fenyegetést jelentenek, ha agresszívvá válnak. Elsődleges "
+#~ "támadási eszközük a fejükből kinövő nagy, éles szarv. Nagy méretük, "
+#~ "páncéljuk és szarvuk miatt nem tudnak repülni."
 
 #, fuzzy
 #~| msgid "Shadow"
