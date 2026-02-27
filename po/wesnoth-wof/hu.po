@@ -6,9 +6,9 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2026-02-26 01:03 UTC\n"
-"PO-Revision-Date: 2026-02-03 23:55+0100\n"
+"PO-Revision-Date: 2026-02-20 19:23+0100\n"
 "Last-Translator: Kelemen Zoltán <kele@neszmely.eu>\n"
-"Language-Team: none\n"
+"Language-Team: Hungarian <>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -126,7 +126,7 @@ msgstr "A Győztes szárnyak hadjárat alapján, ennek szerzője:"
 #. [scenario]: id=01_The_Hunt
 #: data/campaigns/Winds_of_Fate/scenarios/01_The_Hunt.cfg:5
 msgid "The Hunt"
-msgstr "A vadászat"
+msgstr "A Vadászat"
 
 #. [part]
 #. In this campaign, the drake narrator and other drake characters speak with the Morogor dialect, which has some unique syntax and terms.
@@ -170,7 +170,7 @@ msgid ""
 "more flights to betray the Ways of Morogor than uphold them."
 msgstr ""
 "A legkétségbeesettebb szárnyrajok tagjai egymás után kezdtek fosztogató "
-"akciókba. Megszegték a perzsekények közötti hosszú békét, betörtek "
+"akciókba. Megszegték a perzsekények közötti hosszú békét, betörtek a "
 "szomszédaik területére. Ezeket a banditákat, egyiket a másik után "
 "semmisítették meg az Út követői. A fosztogatók száma mégis egyre "
 "gyarapodott, kettesével, majd négyesével támadtak. Hamarosan több szárnyraj "
@@ -321,7 +321,7 @@ msgstr ""
 "\n"
 "Az éhező fiókáik sivalkodásaitól hajtva sok vadász próbált itt zsákmányt "
 "szerezni.\n"
-"S aztán maguk estek prédául."
+"S aztán maguk váltak prédává."
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/01_The_Hunt.cfg:165
@@ -390,7 +390,7 @@ msgid ""
 msgstr ""
 "Figyeljetek a szigetet tarkító számos gyógyító oázisra!\n"
 "Tisztító vizük eltávolítja a sebekből a fertőzést.\n"
-" A tópartokon növő faroklevélből pedig kiváló borogatás készülhet."
+"A tópartokon növő faroklevélből pedig kiváló borogatás készülhet."
 
 #. [message]: speaker=Resha
 #: data/campaigns/Winds_of_Fate/scenarios/01_The_Hunt.cfg:207
@@ -534,7 +534,7 @@ msgid ""
 msgstr ""
 "Ez egy Mesélő.\n"
 "Talán csak ők olyan idősek, mint a Szájhagyományaink.\n"
-"Az Időszámítás Kezdetén hatalmasak voltak, mint a viharfelhők.\n"
+"Az Időszámítás Kezdetén olyan hatalmasak voltak, mint a viharfelhők.\n"
 "És olyan fényesek, mint az égi tűz."
 
 #. [message]: type=Fire Guardian
@@ -544,7 +544,7 @@ msgid ""
 "worlds. The calm wind that snuffs warm souls. The Faerie reached this world."
 msgstr ""
 "Óvakodjatok, mert megérkezett. A szürke fény, amely beárnyékolja az élő "
-"világokat. A hűvös szél, amely elnyomja a meleg lelkeket. A tündérek elérték "
+"világokat. A hűvös szél, amely elnyomja a meleg lelkeket. A Tündérek elérték "
 "ezt a világot."
 
 #. [message]: speaker=Gorlack
@@ -570,7 +570,7 @@ msgstr ""
 "\n"
 "Az utolsó szavakat azonban hangosan mondta...\n"
 "\n"
-"„Óvakodjatok! A tündérek elérték ezt a világot.”"
+"„Óvakodjatok! A Tündérek elérték ezt a világot.”"
 
 #. [message]: speaker=Karron
 #: data/campaigns/Winds_of_Fate/scenarios/01_The_Hunt.cfg:382
@@ -691,7 +691,7 @@ msgstr ""
 "A legészakibb szigetünket e pillanatban egy garázda, földhözragadt népség "
 "szállta meg.\n"
 "Ez a sziget korábban gazdag vadászterület volt, most ezek az élősködők "
-"teljesen letarolták.."
+"teljesen letarolták."
 
 #. [part]
 #. [unit]: id=Vladnir, type=Drake Warden, role=dominant
@@ -953,7 +953,7 @@ msgid ""
 "They have yet to rally a defense."
 msgstr ""
 "Úgy tűnik, gyors közeledésünkkel elkerültük ellenségünk figyelmét.\n"
-"Még nem szervezték meg a védekezésüket."
+"Még nem szervezték meg a védelmüket."
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/02_Reclamation.cfg:304
@@ -983,7 +983,7 @@ msgid ""
 msgstr ""
 "Ez legyen az első feladatod, Resha.\n"
 "Miután elfogtuk a foglyot, égesd el a tengeri járműveiket!\n"
-"A földhözragadt zsákmányt pedig a fiatalabb vadászainknak hagyhatjuk."
+"A többi földhözragadt zsákmányt pedig a fiatalabb vadászainknak hagyhatjuk."
 
 #. [message]: speaker=Grag
 #. By ‘wyrms’ he is referring to the drakes in a belittling way.
@@ -1076,7 +1076,7 @@ msgid ""
 msgstr ""
 "Ez a tűzpikkely túl könnyű páncélkészítéshez...\n"
 "\n"
-" Szembeszálló-jelek vannak belevésve; ez a tűzpikkely biztosan a kasztjuk "
+"Szembeszálló-jelek vannak belevésve; ez a tűzpikkely biztosan a kasztjuk "
 "egyik Titkos Dossziéja."
 
 #. [message]: speaker=unit
@@ -1142,14 +1142,14 @@ msgstr ""
 "\n"
 "— A tűzokádók stratégiákban gondolkodnak, s különös érzékenységgel "
 "viseltetnek fajtársaik iránt. Született vezetők, de a büszkeségük és "
-"elbagatellizálási hajlamuk könnyen katasztrófába torkollhat..\n"
+"elbagatellizálási hajlamuk könnyen katasztrófába torkollhat.\n"
 "\n"
 "— A szembeszállók közismerten rigorózus követői Morogor Útjának. Ők "
 "gondozzák a fiókákat, s a kerámia lapokra vésett, titkos tudást tartalmazó "
 "könyvtárakat. Ezeket a titkokat nemcsak előlünk, de a <i>többi kaszt</i> "
 "elől is rejtegetik.\n"
 "\n"
-"—A harcosok merészek. Gyors felfogásúak, de reménytelenül szűk látókörűek. "
+"— A harcosok merészek. Gyors felfogásúak, de reménytelenül szűk látókörűek. "
 "Velük van a legtöbb problémánk.\n"
 "\n"
 "A surranók kutató elméjüket a 'Szájhagyományok', egyfajta szóbeli emlékezet, "
@@ -1170,7 +1170,7 @@ msgstr ""
 "túl élő perzsekényekről. Resha említett pár ilyen történetet, mielőtt egy "
 "harcos kasztbeli lázadó ribilliója megszakította a beszélgetésünket.\n"
 "\n"
-"<i>―Southbayi Leodren herceg\n"
+"<i>― Southbayi Leodren herceg\n"
 "\n"
 "Keleti Óceáni Expedíció, 26. nap.</i>"
 
@@ -1259,7 +1259,7 @@ msgstr ""
 #. ‘Spit’ as in a device on which to roast meat.
 #: data/campaigns/Winds_of_Fate/scenarios/02_Reclamation.cfg:604
 msgid "Put him on the <i>Spit of Telling</i>."
-msgstr "Vigyétek a <i>Szórabíró</i> szobába!."
+msgstr "Vigyétek a <i>Szórabíró</i> szobába!"
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/02_Reclamation.cfg:677
@@ -1467,7 +1467,7 @@ msgid ""
 "The captive’s mind revealed its every secret."
 msgstr ""
 "Gorlack, jó híreim vannak.\n"
-"A fogolyból kiszedtem minden titkát.."
+"A fogolyból kiszedtem minden titkát."
 
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/02x_Victory_Feast.cfg:34
@@ -1522,10 +1522,10 @@ msgid ""
 "Surely it is the place from which our ancestors followed Dominant Morogor "
 "into exile."
 msgstr ""
-"A távoli nyugaton fekvő 'Zöld Szigetről' indultak el.\n"
+"A távoli nyugaton fekvő 'Zöld-szigetről' indultak el.\n"
 "Ez a sziget olyan nagy, hogy még a mi központi szigeteinkkel is vetekszik.\n"
 "\n"
-" Mégis, nyugatra tőle egy elképzelhetetlenül hatalmas szárazföld terül el, "
+"Mégis, nyugatra tőle egy elképzelhetetlenül hatalmas szárazföld terül el, "
 "amit még a felhők közül sem lehet teljesen átlátni.\n"
 "Bizonyára ez az a hely, ahonnan őseink Morogor főnököt követték a "
 "száműzetésbe."
@@ -1821,7 +1821,7 @@ msgstr ""
 "Az éhező fiókáink elhullanak.\n"
 "Perzsekény perzsekény ellen fenekedik.\n"
 "\n"
-"S ami ezeknél is rosszabb— szívetekben félelem lakozik!"
+"S ami ezeknél is rosszabb — szívetekben félelem lakozik!"
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/03_The_Contention.cfg:422
@@ -1868,7 +1868,7 @@ msgid ""
 msgstr ""
 "Várjatok a hívásomra!\n"
 "\n"
-" Mert az lesz a megváltásotok!"
+"Mert az lesz a megváltásotok!"
 
 #. [message]: speaker=narrator
 #: data/campaigns/Winds_of_Fate/scenarios/03_The_Contention.cfg:452
@@ -2241,7 +2241,7 @@ msgstr "Uram! Perzsekények szálltak partra délen!"
 #. By ‘rocks’ he is referring to the Morogor Archipelago in a belittling way.
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:217
 msgid "Drakes?! By the gods, how can they be out this far from their rocks?"
-msgstr "Perzsekények? Hogy az ördögbe kerültek ilyen messze a szikláiktól?"
+msgstr "Perzsekények?! Hogy az ördögbe kerültek ilyen messze a szikláiktól?"
 
 #. [message]: speaker=Shussek
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:223
@@ -2569,7 +2569,7 @@ msgstr ""
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:592
 #: data/campaigns/Winds_of_Fate/scenarios/11_Crosswind.cfg:481
 msgid "What you say?"
-msgstr "Mit beszélsz?"
+msgstr "Mit bessszzzélssszzz?"
 
 #. [message]: speaker=Resha
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:558
@@ -2593,7 +2593,7 @@ msgstr "Ssszzzissszzz? Elpártoltok a sellőktől?"
 #. [message]: speaker=Shussek
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:582
 msgid "And now you take this reef from us? Ssssss!"
-msgstr "És most el akarjátok venni a zátonyokat tőlünk? Ssszzzissszzz!"
+msgstr "Éssss mosssst el akarjátok venni a zátonyokat tőlünk? Ssszzzissszzz!"
 
 #. [message]: speaker=Shussek
 #: data/campaigns/Winds_of_Fate/scenarios/04_Journey.cfg:602
@@ -2666,7 +2666,7 @@ msgid ""
 msgstr ""
 "Resha meggyőzte Gorlackot, hogy óvatosságból először a közeli, három "
 "szigetből álló földdarabon szálljanak le. Ezt csak egy keskeny szoros "
-"választotta el az ismeretlen veszélyeket rejtő Nagy Kontinenstől."
+"választotta el az ismeretlen veszélyeket rejtő Nagyföldtől."
 
 #. [side]
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:42
@@ -2703,7 +2703,7 @@ msgstr "Aethyr Kardja"
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:147
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:180
 msgid "Addroran’s Gaze"
-msgstr "Addroran tekintete"
+msgstr "Addroran hívei"
 
 #. [side]
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:153
@@ -3025,8 +3025,8 @@ msgid ""
 "By every sssign upon firmament, we hear you Shek’kahan! You are our "
 "moonlight!"
 msgstr ""
-"Minden jel, amit hallunk, arra utal, hogy te vagy Shek'kahan! A mi "
-"holdsugarunk!"
+"Minden jel, amit hallunk, arra utal, hogy te vagy Sssshek'kahan! A mi "
+"holdssssugarunk!"
 
 #. [message]: speaker=Elyn
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:639
@@ -3043,7 +3043,8 @@ msgstr ""
 "királyát, és annyira büszke volt a küldetésére, hogy alábecsülte ennek az "
 "átkozott helynek az aljasságát és a furcsa ellenségünket, aki itt talált "
 "menedéket.\n"
-" Emberek, mostantól én vagyok a parancsnok. Nincs több magányos hősködés. "
+"\n"
+"Emberek, mostantól én vagyok a parancsnok. Nincs több magányos hősködés. "
 "Jelezzétek a keleti különítménynek, hogy megpróbálunk velük egyesülni a "
 "sziget déli partján."
 
@@ -3098,7 +3099,7 @@ msgid ""
 "unprovoked! Your Fort Elense sssitsss over their bones!"
 msgstr ""
 "A királyod <b>igazsssságossssága</b>?! A királyod ok nélkül meggyilkolta a "
-"nővéreimet! A Fort Elense erőd a csontjaik felett trónol!"
+"nővéreimet! A Fort Elensssse erőd a csontjaik felett trónol!"
 
 #. [message]: speaker=Elyn
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:685
@@ -3129,7 +3130,7 @@ msgstr ""
 #. [message]: speaker=Zedrix
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:699
 msgid "Ssso let that be your epitaph."
-msgstr "Akkor ez lesz a sírfeliratod."
+msgstr "Akkor ez lessszzz a ssssírfeliratod."
 
 #. [message]: speaker=narrator
 #. This text is partially cyphered by a Silver Mage or is written in an older dialect used for formal writing within the Silver Order.
@@ -3172,7 +3173,7 @@ msgstr ""
 "is.\n"
 "\n"
 "Valójában ijen víztölcsérek húsz mérföldenként kísérik a Nagy Kontinens "
-"partjait. Mindez összhangban van Dagájos Odiló méjtengeri kutatő "
+"partjait. Mindez összhangban van Dagájos Odiló méjtengeri kutató "
 "jelzéseivel. Nem szabadott volna őt hátra hagyni a régi hejen. A méjségi "
 "ismeretei nélkül mi, az Ezüst Rend sújos problémákkal kell küszködjön, mejek "
 "a kontinensen található ismeretlen veszéjek miatt lesnek az emberekre. A "
@@ -3217,7 +3218,9 @@ msgstr ""
 msgid ""
 "I shall keep that in mind.\n"
 "Carry on with your duty."
-msgstr "Ezt észben fogom tartani. Folytasd a feladatod."
+msgstr ""
+"Ezt észben fogom tartani.\n"
+"Folytasd a feladatod."
 
 #. [message]: speaker=narrator
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:778
@@ -3281,7 +3284,7 @@ msgid ""
 "The settlements are seized, along with all contained provisions.\n"
 "There is enough to feed our flight for half a dozen moons."
 msgstr ""
-"A településeket elfoglaljtuk, az ott található élelemkészletekkel együtt. "
+"A településeket elfoglaltuk, az ott található élelemkészletekkel együtt. "
 "Ezzel hat hónapig el tudjuk látni a szárnytestünket."
 
 #. [message]: speaker=Gorlack
@@ -3291,7 +3294,7 @@ msgid ""
 "\n"
 "From here my domain extends."
 msgstr ""
-"Ezen a szigetet jelölöm ki a sárkányfészkem helyeként. Itt kezdődik a "
+"Ezt a szigetet jelölöm ki a sárkányfészkem helyeként. Itt kezdődik a "
 "birodalmam."
 
 #. [message]: speaker=Gorlack
@@ -3306,13 +3309,13 @@ msgid ""
 "From here, they may go forth to set eyries of their own upon this greatest "
 "land."
 msgstr ""
-"Resha, küldj vissza surranókat Morogorba a hírekkel\n"
+"Resha, küldj vissza surranókat Morogorba a hírekkel!\n"
 "Üzend meg nekik, hogy egy éven belül kiadom a felhívásomat.\n"
 "Minden szárnytest, akiknek szívében buzog az erő, nekivághat az utazásnak,\n"
 " itt, a sárkányfészkemben fogadom őket.\n"
 "\n"
-" Innen indulhatnak tovább, hogy saját sárkányfészkeket építsenek ezen a "
-"tágas szárazföldön."
+"Innen indulhatnak tovább, hogy saját sárkányfészkeket építsenek ezen a tágas "
+"szárazföldön."
 
 #. [message]: speaker=Resha
 #: data/campaigns/Winds_of_Fate/scenarios/05_Threshold.cfg:878
@@ -3324,8 +3327,8 @@ msgid ""
 msgstr ""
 "Ahogy parancsolod.\n"
 "\n"
-" Szeretnék egy légi őrjáratot is kiküldeni.\n"
-" Hogy megkezdjék a keleti partunk közelében fekvő Nagyföld folyamatos "
+"Szeretnék egy légi őrjáratot is kiküldeni.\n"
+"Hogy megkezdjék a keleti partunk közelében fekvő Nagyföld folyamatos "
 "megfigyelését."
 
 #. [message]: speaker=Gorlack
@@ -3391,7 +3394,7 @@ msgid ""
 "for prime drakes able to make the journey."
 msgstr ""
 "Nem hagytál esélyt a várakozásra.\n"
-"Távozásod után a gazfickók elkezdték felderíteni Vladnir birodalmát.\n"
+"Távozásod után a gazfickók elkezdtek beszivárogni Vladnir birodalmába.\n"
 "A szárnytesteddel együtt lett volna elég harcosunk, hogy ellenálljunk "
 "nekik.\n"
 "\n"
@@ -3409,7 +3412,9 @@ msgstr "Vladnir nem maradhat életben szövetségesek <b>nélkül</b>."
 msgid ""
 "Vladnir is to follow me here.\n"
 "By now he is already faring."
-msgstr "Vladnir követni fog ide. Mostanra már útra is kelt."
+msgstr ""
+"Vladnir követni fog ide.\n"
+"Mostanra már útra is kelt."
 
 #. [message]: speaker=Resha
 #: data/campaigns/Winds_of_Fate/scenarios/05x_Early_Arrival.cfg:164
@@ -3427,12 +3432,15 @@ msgid ""
 "Gorlack we must—\n"
 "\n"
 "Gorlack, hatchlings do not belong at a counsel gathering."
-msgstr "Gorlack, muszáj... Gorlack, a fiókáknak nincs helyük a tanács ülésén."
+msgstr ""
+"Gorlack, muszáj—\n"
+"\n"
+"Gorlack, a fiókáknak nincs helyük a tanács ülésén."
 
 #. [message]: speaker=Arinexis
 #: data/campaigns/Winds_of_Fate/scenarios/05x_Early_Arrival.cfg:177
 msgid "We are <b>not</b> hatchlings..."
-msgstr "Mi <b>nem</b> fiókák vagyunk... "
+msgstr "Mi <b>nem</b> fiókák vagyunk..."
 
 #. [message]: speaker=Arinexis
 #: data/campaigns/Winds_of_Fate/scenarios/05x_Early_Arrival.cfg:183
@@ -3507,7 +3515,7 @@ msgid ""
 "You must gain control over them."
 msgstr ""
 "Gorlack, a fióka-lényeid értelmetlen dolgokat kiabálnak.\n"
-" Meg kellene fegyelmezned őket."
+"Meg kellene fegyelmezned őket."
 
 #. [message]: speaker=Arinexis
 #: data/campaigns/Winds_of_Fate/scenarios/05x_Early_Arrival.cfg:250
@@ -3523,12 +3531,12 @@ msgid ""
 msgstr ""
 "Nem értelmetlen, amit mondok! 'Emberek', így nevezik magukat a lények, "
 "akiket láttál. Nehézkessss, brutálissss, utálatossss ssszzzörnyek, akiknek "
-"bőrét nedves varangyborítás fedi. A mély, ssssötét Wessssmere-i erdő tündéi "
-"hívták őket ide a világ aljáról.\n"
+"bőrét nedvessss varangyborítássss fedi. A mély, ssssötét Wessssmere-i erdő "
+"tündéi hívták őket ide a világ aljáról.\n"
 "\n"
 "Ezek az emberek leméssszzzárolták majdnem az egéssszzz klánomat! A "
-"ssszzzülőhelyem romjain emelték fel hatalmas Elenssse erődjüket. Imádkozom a "
-"ssssárkányokhoz, hogy tűzzel éssss kénkővel ssssújtsák ezeket a "
+"ssszzzülőhelyem romjain emelték fel hatalmassss Elenssse erődjüket. "
+"Imádkozom a ssssárkányokhoz, hogy tűzzel éssss kénkővel ssssújtsák ezeket a "
 "ssszzzörnyetegeket!"
 
 #. [message]: speaker=Karron
@@ -3619,7 +3627,7 @@ msgstr ""
 "\n"
 "Bennük találtam meg az ihletet.\n"
 "Az első segéded akartam lenni.\n"
-" Hogy részese leessek azoknak — a jövőbeli kalandjaidnak.\n"
+"Hogy részese lehessek azoknak — a jövőbeli kalandjaidnak.\n"
 "\n"
 "Keményebben edzettem, mint a többiek.\n"
 "A kihívásokban hevesebben harcoltam, mint bármelyikük.\n"
@@ -3647,7 +3655,7 @@ msgid ""
 msgstr ""
 "Csak a pillanatnyi helyzet miatt hivatkozom a múltra!\n"
 "\n"
-"Emlékeztetlek, milyen  <b>tűzzel</b> beszéltél a dicsőséges álmaidról!\n"
+"Emlékeztetlek, milyen <b>tűzzel</b> beszéltél a dicsőséges álmaidról!\n"
 "A kasztod adottságáról, amely a te szívedben lángolt a legfényesebben!"
 
 #. [message]: speaker=Karron
@@ -3679,7 +3687,7 @@ msgid ""
 "Veiled by the clouds above, Karron with her wing of hunters watched for the "
 "signal to pounce."
 msgstr ""
-"az emberzsákmányok tömege közelében a Gorlack Szárnytest pozíciót foglalt. A "
+"Az emberzsákmányok tömege közelében a Gorlack Szárnytest pozíciót foglalt. A "
 "felhők takarásában Karron szárnyraja várt a jelre, hogy közbeavatkozzon."
 
 #. [side]
@@ -3756,7 +3764,10 @@ msgid ""
 "Gorlack, you have made landfall!\n"
 "\n"
 "Within sight of these humans!"
-msgstr "Gorlack, földet értél! Az emberek szeme láttára!"
+msgstr ""
+"Gorlack, földet értél!\n"
+"\n"
+"Az emberek szeme láttára!"
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/06_Landfall.cfg:192
@@ -3782,7 +3793,7 @@ msgid ""
 msgstr ""
 "Gorlack, szörnyen meggondolatlanul cselekedtél!\n"
 "\n"
-"Az emberek erőforrásait még nem ismerjük teljesen."
+"Az emberek képességeit még nem ismerjük teljesen."
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/06_Landfall.cfg:208
@@ -3867,7 +3878,7 @@ msgstr ""
 #. [message]: speaker=Iryn
 #: data/campaigns/Winds_of_Fate/scenarios/06_Landfall.cfg:290
 msgid "Sir!"
-msgstr "Uram!"
+msgstr "Értettem!"
 
 #. [message]: speaker=narrator
 #: data/campaigns/Winds_of_Fate/scenarios/06_Landfall.cfg:313
@@ -3927,12 +3938,12 @@ msgstr ""
 "Mélyen benyomultunk a szárazföld belsejébe, a Végzet-szél legbelsőbb "
 "kaotikus örvényeibe.\n"
 "\n"
-"Bár a Széljárásunk ismeretlen, de attől tartok háború felé sodor bennünket."
+"Bár a Széljárásunk ismeretlen, de attól tartok háború felé sodor bennünket."
 
 #. [message]: speaker=Karron
 #: data/campaigns/Winds_of_Fate/scenarios/06_Landfall.cfg:444
 msgid "There can be no <i>war</i> in a land with prey so plenty."
-msgstr "<i>Háborút</i> emlegetsz ezen a földön, ami bővelkedik prédában? ."
+msgstr "<i>Háborút</i> emlegetsz ezen a földön, ami bővelkedik prédában?"
 
 #. [message]: speaker=Resha
 #: data/campaigns/Winds_of_Fate/scenarios/06_Landfall.cfg:450
@@ -3943,14 +3954,14 @@ msgid ""
 msgstr ""
 "Ezek a lények többek egyszerű prédánál.\n"
 "\n"
-"Könnyen fölénk is kerekedhetnek"
+"Könnyen fölénk is kerekedhetnek."
 
 #. [message]: speaker=Karron
 #: data/campaigns/Winds_of_Fate/scenarios/06_Landfall.cfg:456
 msgid "... You witnessed only moments ago how we slew a nest of them utterly."
 msgstr ""
 "...mondod ezt azok után, hogy láttad, milyen simán kifüstöltük őket a "
-"fészkükből. "
+"fészkükből."
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/06_Landfall.cfg:460
@@ -3978,7 +3989,7 @@ msgstr ""
 "bossszzzússszzzomját... de ezek az emberek csak a tündék martalócai voltak, "
 "igeeeen, a tündéknek isss fizetniük kell...\n"
 "\n"
-"Wessssmere tündéi, mosssst ti jöttök! "
+"Wessssmere tündéi, mosssst ti jöttök!"
 
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/06x_Winds_of_Fate.cfg:15
@@ -4134,7 +4145,7 @@ msgstr ""
 "Hasonlóképp az ellenségek számos rettenetes lényt fogtak össze — a Hordát, a "
 "Jotnart... a Tündéreket.\n"
 "Attól tartok az utóbbiak valamelyike űzte el a népünket a Nagyföldről réges-"
-"régen. "
+"régen."
 
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/06x_Winds_of_Fate.cfg:97
@@ -4199,25 +4210,26 @@ msgid ""
 "\n"
 "Yet our written secrets quietly remained."
 msgstr ""
-"We were forbidden to do so.\n"
-"Since the Time of Legend, we clashers have been charged with the keeping of "
-"secrets —\n"
+"Tilos volt beszélni róla.\n"
+"A Legendák Ideje óta mi, a szembeszállók, titkok őrzésével vagyunk megbízva "
+"—\n"
 "\n"
-"The meandering way through the underland took by Parapathos in seeking the "
-"Council of Nine.\n"
-"Makings for the mighty Automata down to their metal hearts that mix fire "
-"into water.\n"
-"Witwegana’s final words of affection to her mate before delaying Lenvan with "
-"a hopeless duel.\n"
+"A kanyargós út az alvilágban, amelyet Parapathos tett meg a Kilencek Tanácsa "
+"keresése közben.\n"
+"A hatalmas Automaták fém szívének elkészítése, amely a tüzet a vízbe "
+"keveri.\n"
+"Witwegana utolsó szeretetteljes szavai párjához, mielőtt reménytelen "
+"párbajjal késleltette Lenvant.\n"
 "\n"
-"The wisdoms, the powers, the stories of our Ancestors.\n"
+"Őseink bölcsessége, ereje, történetei.\n"
 "\n"
-"These were once shared freely among all drakes.\n"
-"Until, anguished by our exile, Dominant Morogor forbade their telling.\n"
-"Your glider caste alone would not comply.\n"
-"By our honor, we did.\n"
+"Ezeket egykor minden perzsekény szabadon megoszthatott a másikkal.\n"
+"Amíg a száműzetéstől elgyötört Morogor főnök be nem tiltotta a "
+"továbbadásukat.\n"
+"Egyedül a surranó kaszt nem engedelmeskedett a tiltásnak.\n"
+"Mi becsülettel igen.\n"
 "\n"
-"Yet our written secrets quietly remained."
+"Még az írott emlékeink is némák maradtak."
 
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/06x_Winds_of_Fate.cfg:138
@@ -4227,7 +4239,7 @@ msgid ""
 msgstr ""
 "Most már messze vagyunk Morogor birodalmától; itt az ő rendeletei nem "
 "érvényesek.\n"
-"Mindazt, amit titkosított, itt megoszthatom veled."
+"Mindazt, amit titkosított, itt megoszthatom veletek."
 
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/06x_Winds_of_Fate.cfg:144
@@ -4290,7 +4302,7 @@ msgstr ""
 "\n"
 "Annyi kihívást leküzdöttünk már.\n"
 "Annyi ellenséget legyőztünk.\n"
-" Mégsem érzed, hogyan változtatjuk meg a Végzet-szelet az Akaratunk erejével."
+"Mégsem érzed, hogyan változtatjuk meg a Végzet-szelet az Akaratunk erejével."
 
 #. [part]
 #: data/campaigns/Winds_of_Fate/scenarios/06x_Winds_of_Fate.cfg:178
@@ -4483,7 +4495,7 @@ msgstr "Begyűjtesz minden zsákmányt"
 #. [note]
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:266
 msgid "Opponents will remain passive until attacked"
-msgstr "Az ellenségek nem mozdulnak, amjg támadás nem éri óket"
+msgstr "Az ellenségek nem mozdulnak, amíg támadás nem éri őket"
 
 #. [note]
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:269
@@ -4559,7 +4571,8 @@ msgstr ""
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:322
 msgid ""
 "<i>... Shek’kahan, thisss is elves’ sssoft underbelly I ssspoke of... </i>"
-msgstr "<i>... Shek'kahan, ez az a gyenge pont, amiről bessszzzéltem... </i>"
+msgstr ""
+"<i>... Sssshek'kahan, ez az a gyenge pont, amiről bessszzzéltem... </i>"
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:326
@@ -4573,7 +4586,7 @@ msgid ""
 "i>"
 msgstr ""
 "<i>Pontossssan ezt tessszzzik. Mosssst tovább fogom őket kábítani egy kis "
-"hízelgéssel—</i>"
+"hízelgéssssel—</i>"
 
 #. [message]: speaker=Arinexis
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:334
@@ -4593,7 +4606,7 @@ msgid ""
 "“Wise Lady Salennea, the Just, Wielder of the Sapphire of Ice, the Embracer "
 "of Woses, the Merciful to Orcs, Keeper of Ca—"
 msgstr ""
-"Á, „Salennea, az Igazságos”. Ezt is beépítem a már meglévő címeim hosszú "
+"Á, „Salennea, az Igazlátó”. Ezt is beépítem a már meglévő címeim hosszú "
 "sorába...\n"
 "\n"
 "„Bölcs Salennea, az Igazságos, a Jégzafír Viselője, a Fapásztorok "
@@ -4963,13 +4976,13 @@ msgstr "Ó igen, túl fogunk lépni, túl fogunk..."
 #. [message]: speaker=Arinexis
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:543
 msgid "...as sssoon as we have finished with you here."
-msgstr "...mihelysssst végérvényessssen tissszzztáztuk a dolgot veled. "
+msgstr "...mihelysssst végérvényessssen tissszzztáztuk a dolgot veled."
 
 #. [message]: speaker=Arinexis
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:547
 msgid "Gorlack, pray position your hunters well and then let usss attack!"
 msgstr ""
-"Gorlack, foglaljanak állást a vadászaid, aztán indítsuk el a támadássst!"
+"Gorlack, foglaljanak állást a vadássszzzaid, aztán indítsuk el a támadássst!"
 
 #. [message]: speaker=Salennea
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:563
@@ -4989,7 +5002,7 @@ msgid ""
 msgstr ""
 "Jövök, Úrnőm, megmentelek!\n"
 "\n"
-"Küldjetek galambokat a Ka’lianhoz, veszélyben vagyunk! "
+"Küldjetek galambokat a Ka’lianhoz, veszélyben vagyunk!"
 
 #. [message]: speaker=Nomeon
 #: data/campaigns/Winds_of_Fate/scenarios/07_Harvest.cfg:576
@@ -5050,7 +5063,7 @@ msgstr ""
 "Szárnytest, széledjetek szét!\n"
 "Gyűjtsetek be mindent, amit csak kínál ez a dzsungel!\n"
 "\n"
-"Aztán találkozunk az Égigérő Csúcsnál!"
+"Aztán találkozzunk az Égigérő Csúcsnál!"
 
 #. [scenario]: id=08_Overlook
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:5
@@ -5129,7 +5142,7 @@ msgid ""
 "To command ressspect, our alliance with dragons mussst have <b>sssssome</b> "
 "name!"
 msgstr ""
-"Kellő tissszzztelettel, a sárkányokkal való ssszzzövetségünknek "
+"Kellő tissszzztelettel, a ssssárkányokkal való ssszzzövetségünknek "
 "<b>valamilyen</b> nevet kellene adni!"
 
 #. [message]: speaker=Zedrix
@@ -5140,7 +5153,7 @@ msgstr "‘A Kelő Nap Tesssstvérissssége‘"
 #. [message]: speaker=Arinexis
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:262
 msgid "‘Union of Saurgrath and Morogor’"
-msgstr "‘Ssssaurgrath és Morogor Uniója‘"
+msgstr "‘Ssssaurgrath éssss Morogor Uniója‘"
 
 #. [message]: speaker=Zedrix
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:268
@@ -5168,8 +5181,8 @@ msgid ""
 "Ah, that is mossst favored name— ‘Sandfolksss’ —bland, yet no negative "
 "connotationsss which sssummon..."
 msgstr ""
-"Ah, ez a legssszzzerencséssssebb név— ‘homoklakók’ —egyszerű, éssss "
-"nincsenek negatjv képzettárssssítássssok, amik felidéznének..."
+"Ah, ez a legssszzzerencséssssebb név— ‘homoklakók’ —egyssszzzerű, éssss "
+"nincsenek negatív képzettárssssítássssok, amik felidéznének..."
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:292
@@ -5288,7 +5301,7 @@ msgid ""
 msgstr ""
 "Földre, surranók!\n"
 "\n"
-"Az ő segjtségükkel időt nyerhetünk, mielőtt megjönnek a többiek."
+"Az ő segítségükkel időt nyerhetünk, mielőtt megjönnek a többiek."
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:416
@@ -5398,8 +5411,8 @@ msgstr ""
 "Mive' a favággók nem műkszenek a tünde erőkben, niccsen táptalaj a gombáknak "
 "se, de az érctelérek is kimerültek, itt haggyuk ezt a helyet.\n"
 "\n"
-"Lehetne üzletőni, azza' a furcsa \"Nova\" línnye' egyíbkínt. Ott egye a fen. "
-"Fogla'kozzanak víle a tündék, ha visszagyünnek."
+"Lehetne üzletőni, azza' a furcsa \"Nova\" línnye' egyíbkínt. Ott egye a "
+"fene. Fogla'kozzanak víle a tündék, ha visszagyünnek."
 
 #. [message]: speaker=Lich-Lord Selmar
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:579
@@ -5411,7 +5424,7 @@ msgstr "Te vagy az újra, Khrakrahs?"
 #. [message]: speaker=Zedrix
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:583
 msgid "It is to his ssstronger brother, Shek’kahan, that you ssspeak!"
-msgstr "Az erősebb báty, Shek’kahan, akivel bessszzzélssszzz!"
+msgstr "Az erőssssebb báty, Sssshek’kahan, akivel bessszzzélssszzz!"
 
 #. [message]: speaker=Lich-Lord Selmar
 #: data/campaigns/Winds_of_Fate/scenarios/08_Overlook.cfg:589
@@ -5530,7 +5543,7 @@ msgstr ""
 "<i>*kidugja a nyelvét*</i>\n"
 "\n"
 "Ssssárkányaim! A bessszzzélő csontkupac mögötti kapu felől frissss levegő "
-"áramlik. Ott végződik az átjáró. Átkell verekednünk magunkat a kapuhoz! "
+"áramlik. Ott végződik az átjáró. Át kell verekednünk magunkat a kapuhoz! "
 "Gyorssssan, ssssárkányok!"
 
 #. [message]: speaker=Lich-Lord Selmar
@@ -5630,7 +5643,7 @@ msgstr "Gorlacknak el kell jutnia az északi vulkánban lévő jeladóhoz"
 #. [objective]: condition=win
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:89
 msgid "From there, make your final stand"
-msgstr "Onnan vezényelheted a végső feladatot"
+msgstr "Onnan vezényelheted a végső ellenállást"
 
 #. [note]
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:108
@@ -5675,7 +5688,7 @@ msgstr ".................."
 #. [message]: speaker=Klanir
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:158
 msgid "I must relay what I know to Dominant Karron, should she still live."
-msgstr "Amit el tudok mondani Karron főnökről, minden bizonnyal életben van. "
+msgstr "Amit el tudok mondani Karron főnökről, minden bizonnyal életben van."
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:162
@@ -5685,7 +5698,7 @@ msgstr "Surranó, légy óvatos!"
 #. [message]: speaker=Zedrix
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:177
 msgid "Cold ssseason has arrived. Many moons of cold are now upon usssss."
-msgstr "Beköszöntött a hideg évssszzzak. Sok hónapnyi hideg vár ránk."
+msgstr "Bekössszzzöntött a hideg évssszzzak. Ssssok hónapnyi hideg vár ránk."
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:181
@@ -5695,8 +5708,11 @@ msgid ""
 "\n"
 "May it provide the safety for our weary flight that I have failed to."
 msgstr ""
-"Ott táborozunk le... Ahol a sebesült föld meleg vérét ontja... Remélem, hogy "
-"ez biztosítja a fáradt menekülésünk biztonságát, amit én nem tudtam megtenni."
+"Ott táborozunk le...\n"
+"Ahol a sebesült föld meleg vérét ontja...\n"
+"\n"
+"Remélem, hogy ez biztosítja a fáradt szárnytestünk biztonságát, amit én nem "
+"tudtam megtenni."
 
 #. [message]: speaker=narrator
 #. "Back next spring." As in the season after winter and before summer.
@@ -5761,6 +5777,7 @@ msgid ""
 "It was the drakekin who led us from the Moonlit Wastes in the Time of Fate."
 msgstr ""
 "Saját szemünkkel látjuk a sárkányfélét...\n"
+"\n"
 "A sárkányféle volt az, aki elvezetett minket a Holdfényes Pusztaságból a "
 "Végzet Idejében."
 
@@ -5802,7 +5819,7 @@ msgstr "Shek'kahan, nem issssmered fel Khrakrahssss-t...?"
 #. [objective]: condition=win
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:371
 msgid "Make your final stand"
-msgstr "utolsó állás"
+msgstr "Végig ellenállsz"
 
 #. [message]: speaker=Khrakrahs
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:404
@@ -5834,12 +5851,12 @@ msgstr "Mutasd magad!"
 #. [message]: speaker=Zedrix
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:474
 msgid "Khrakrahs, he is here..."
-msgstr "Khrakrahs, ő van itt..."
+msgstr "Khrakrahssss, ő van itt..."
 
 #. [message]: speaker=Zedrix
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:490
 msgid "Behold, mighty Shek’kahan!"
-msgstr "Mutasd magad, hatalmas Shek'kahan!"
+msgstr "Mutassssd magad, hatalmassss Sssshek'kahan!"
 
 #. [message]: speaker=Khrakrahs
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:496
@@ -5856,7 +5873,7 @@ msgid ""
 msgstr ""
 "Ssszzzélhámossss?\n"
 "\n"
-"Én a Zöld Mocsár Klán bölcse vagyok, éssss egéssszzz életemben Shek'kahan "
+"Én a Zöld Mocsár Klán bölcse vagyok, éssss egéssszzz életemben Sssshek'kahan "
 "védernyője alatt éltem. Ssssoha nem tévessszzztene meg egy ssszzzélhámossss!"
 
 #. [message]: speaker=Zedrix
@@ -5864,7 +5881,7 @@ msgstr ""
 msgid ""
 "If you do not sssee this is Shek’kahan... then impossster is <b>you</b>!"
 msgstr ""
-"Ha nem látod, hogy Shek’kahan áll előtted, akkor<b>te</b> vagy a "
+"Ha nem látod, hogy Sssshek’kahan áll előtted, akkor<b>te</b> vagy a "
 "ssszzzélhámossss!"
 
 #. [message]: speaker=Arinexis
@@ -5908,7 +5925,7 @@ msgid ""
 "\n"
 "... of which I am all that is left."
 msgstr ""
-"Khrakrahssss... Shek’kahan meghalt. Elesett, amikor a birodalmát és "
+"Khrakrahssss... Sssshek’kahan meghalt. Elessssett, amikor a birodalmát éssss "
 "nyomorult alattvalóit védte ...\n"
 "\n"
 "... akik közül csak én maradtam hírmondónak."
@@ -5963,7 +5980,7 @@ msgstr "Igaz, Shek’kahan nem ismerte a félelmet.."
 #. [message]: speaker=Khrakrahs
 #: data/campaigns/Winds_of_Fate/scenarios/09_Ancestor.cfg:588
 msgid "<b>That</b> was his weakness."
-msgstr " <b>Ez</b> volt a gyengéje... "
+msgstr "<b>Ez</b> volt a gyengéje... "
 
 #. [scenario]: id=10_Fire_Meets_Steel
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:11
@@ -6035,7 +6052,7 @@ msgstr "A csatornára állított egységed megsemmisíti a följárót"
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:336
 msgid "I sssee now you are not Shek’kahan. I sssaw as I wished to sssee."
 msgstr ""
-"Mosssst már látom, hogy te nem Shek'kahan vagy. Azt láttam benned, amit "
+"Mosssst már látom, hogy te nem Sssshek'kahan vagy. Azt láttam benned, amit "
 "látni akartam."
 
 #. [message]: speaker=Gorlack
@@ -6065,7 +6082,7 @@ msgstr ""
 "Vladnir sárkányfészkétől messzire kóboroltam, dicső dolgok véghezviteléről "
 "álmodoztam.\n"
 "\n"
-"Egy közeli barlangbók kiáltásokat hallottam.\n"
+"Egy közeli barlangból kiáltásokat hallottam.\n"
 "A barátom, Resha felfedezte a barlangban rejtőző becstelen brigantit.\n"
 "Az megpróbálta elnémítani, hogy ne legyen tanúja a rejtekhelyének."
 
@@ -6159,7 +6176,7 @@ msgstr ""
 #. [message]: speaker=Zedrix
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:405
 msgid "You shunned Resha’s fears too."
-msgstr "Még Resha félelmeit is elűzted."
+msgstr "Még Ressssha félelmeit issss elűzted."
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:409
@@ -6199,7 +6216,8 @@ msgid ""
 "feared for her. Because you did."
 msgstr ""
 "A dárdahegy csak essszzzköz volt, hogy megmentsd a barátodat. <b>Azért</b> "
-"jelent meg, mert féltetted a barátodat. S eszközre volt szükséged."
+"jelent meg, mert féltetted a barátodat. Ssss essszzzközre volt "
+"ssszzzüksssséged."
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:435
@@ -6227,8 +6245,8 @@ msgstr ""
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:498
 msgid "It ssspeaksss but I hear no words... deep dwellers mussssst be drunken."
 msgstr ""
-"Valamit motyog, de nem lehet érteni, mit mond... a mélysági lakók alighanem "
-"réssszzzegek."
+"Valamit motyog, de nem lehet érteni, mit mond... a mélysssségi lakók "
+"alighanem réssszzzegek."
 
 #. [message]: speaker=Zedrix
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:504
@@ -6246,7 +6264,7 @@ msgid ""
 "come spring, wull mak’ fur a stowed oot Knalgan gusher, if ye ken whit ah "
 "mean."
 msgstr ""
-"Jovanna, hagassatok ide, sárkányok. Nemakarom, hoty csak ájjatok itt egész "
+"Jovanna, haagassatok ide, sárkányok. Nemakarom, hoty csak ájjatok itt egész "
 "tílen, s bepotyogjatok a tuggyátokmibe, ezen a fagyos tunrán, míglen gyün a "
 "tavasz, s eedugíccsátok a knalgai vizeket, ha tuggyátok, mirű beszílek."
 
@@ -6270,7 +6288,7 @@ msgstr "Mija francos nyavalyát hőbörgsz ittend, égi suttyófijú?! Tunnod k�
 #. [message]: speaker=Arinexis
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:538
 msgid "Your hornblower ssspews notesss over your words!"
-msgstr "A füssssteregetőd magmássssítja a ssszzzavaidat!"
+msgstr "A füssssteregetőd megmássssítja a ssszzzavaidat!"
 
 #. [message]: speaker=Thurdakor
 #. "Just ignore him, he had awefully much to drink."
@@ -6291,9 +6309,9 @@ msgid ""
 "Weel that is it then, wee jimmies. Ye a’ saw how ah tried tae be reasonable. "
 "Bit thare is na reasoning wi’ dragons. Thay ainlie ken th’ bite o’ oor axes."
 msgstr ""
-"Nos, ennyi volt, skacok. Láttátok, hogy megpróbá'tam kedves lenni. De hát "
+"Nos, ennyi vót, skacok. Láttátok, hogy megpróbá'tam kedves lenni. De hát "
 "sárkányokka' nem lehet kedvessen tárgya'ni. Ők csakk a bárdok harapását "
-"iértik."
+"jértik."
 
 #. [message]: speaker=Thurdakor
 #. "What are you waiting for, why are you boys not attacking?!    Wait, maybe I didn't give the order...    Alright boys, attack!"
@@ -6306,7 +6324,9 @@ msgid ""
 "A’richt lads, attack!"
 msgstr ""
 "Mire vártok, mért nem támadtok, fijúk?!\n"
+"\n"
 "Hopsza, talántán nem adtam parancsba...\n"
+"\n"
 "Oksa, fijúk, támadáás!!"
 
 #. [message]: speaker=Thurdakor
@@ -6322,8 +6342,9 @@ msgid ""
 "You can no easier cast us off these peaks than we could pull you from the "
 "deep."
 msgstr ""
-"Nézd meg, mit műveltél! Nem tudsz minket könnyebben elűzni ezekről a "
-"csúcsokról, mint mi téged a mélységből."
+"Nézd meg, mit műveltél!\n"
+"Nem tudsz minket könnyebben elűzni ezekről a csúcsokról, mint mi téged a "
+"mélységből."
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:628
@@ -6371,8 +6392,7 @@ msgstr "Nem könnyű veled alkudozni, sárkány."
 msgid ""
 "Sae be it, a deal we hae. Ah wull even set free mah wee pet dragon fur ye."
 msgstr ""
-"Így legyen, megegyeztünk. Még a kis kedvenc sárkányomat is szabadon engedem "
-"neked."
+"Háát legyen, megegyesztünk. Még a kis kedvenc sá'kányomat is odadom neked."
 
 #. [message]: speaker=Resha
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:751
@@ -6394,7 +6414,7 @@ msgstr "Resha!"
 #. "Well, that is it for me, back down the chute." He is going back down to his underground realm.
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:768
 msgid "Well, that is it fur me, back doon th’ shute."
-msgstr "Nos, ennyi volt, visszamegyek a csúszdához."
+msgstr "Nah, ennyi vót, visszamegyek a csusszdáhó."
 
 #. [message]: speaker=Resha
 #: data/campaigns/Winds_of_Fate/scenarios/10_Fire_Meets_Steel.cfg:788
@@ -6515,7 +6535,7 @@ msgstr ""
 "\n"
 "Együttesen szépen kiiktatjuk azokat a prédaféléket, akik most problémát "
 "okoztak.\n"
-"Végül megszelidítjük ezt a <i>vad</i> földet."
+"Végül megszelídítjük ezt a <i>vad</i> földet."
 
 #. [message]: speaker=Arinexis
 #: data/campaigns/Winds_of_Fate/scenarios/11_Crosswind.cfg:247
@@ -6564,7 +6584,7 @@ msgid ""
 msgstr ""
 "A mércém rossz volt.\n"
 "Azt gondoltam, hogy elég, ha kiszökünk Morogorból, s megszüntetjük a "
-"számüzetést.\n"
+"száműzetést.\n"
 "De valami rosszat magunkkal hoztunk Morogorból.\n"
 "A túlzott magabiztosságot.\n"
 "\n"
@@ -6572,8 +6592,8 @@ msgstr ""
 "Levadásztunk minden lényt, ami elénk került.\n"
 "Olyanná váltunk, mint egykori ősellenségeink — a Horde, a Jotnar, a "
 "Tündérek... a Perzsekények.\n"
-"Míg szembe nem találkoztunk azzal, hogy mi is legyőzhetőek vagyunk, ahogy "
-"előttünk Morogor főnök is.\n"
+"Míg szembe nem találkoztunk azzal, hogy legyőzhetőek vagyunk, ahogy előttünk "
+"Morogor főnök is az volt.\n"
 "Mert száműztünk magunkból minden félelmet.\n"
 "\n"
 "Emiatt száműztek minket a nemes Ősök is.\n"
@@ -6625,7 +6645,7 @@ msgstr ""
 #. [message]: speaker=Arinexis
 #: data/campaigns/Winds_of_Fate/scenarios/11_Crosswind.cfg:307
 msgid "Lisssten to Karron!"
-msgstr "...... Hallgass Karronra!"
+msgstr "Hallgassss Karronra!"
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/11_Crosswind.cfg:313
@@ -6635,7 +6655,7 @@ msgid ""
 "\n"
 "There is nothing more I can do for our folk now—"
 msgstr ""
-"Én soha nem hirdettem ki a meghívást, a szárnytestek idejekorán érkeztek\n"
+"Én soha nem hirdettem ki a meghívást, a szárnytestek idejekorán érkeztek.\n"
 "Az én vadászatom becsődölt.\n"
 "\n"
 "Semmi többet nem tudok tenni a népemért—"
@@ -6714,7 +6734,7 @@ msgid ""
 "Yet burners too were absent.\n"
 "It may be two castes is all that remains of her flight."
 msgstr ""
-"Mielőtt tábort vertek volna megnéztem  a Karron Szárnytestet alaposabban.\n"
+"Mielőtt tábort vertek volna megnéztem a Karron Szárnytestet alaposabban.\n"
 "\n"
 "Nem láttam surranókat közöttük.\n"
 "Talán földerítésre mentek.\n"
@@ -6805,7 +6825,7 @@ msgid ""
 msgstr ""
 "Üdv, Shussek!\n"
 "\n"
-"Különös, hogy ilyen messzire a zátonyaiktól bukkansz föl."
+"Különös, hogy ilyen messzire a zátonyaitoktól bukkansz föl."
 
 #. [message]: speaker=Resha
 #: data/campaigns/Winds_of_Fate/scenarios/11_Crosswind.cfg:485
@@ -6918,8 +6938,8 @@ msgstr ""
 "a tündérek kreálta lénnyel.\n"
 "\n"
 "Parapathos hideg szívvel folytatta útját az alsó világok felé, sorsára "
-"hagyva barátait a csatában. Korábban nem neheztelt a szembeszálló-örökség "
-"becsületkódex miatt. Ami most is megkövetelte volna a többiek melletti "
+"hagyva barátait a csatában. Korábban sem foglalkozott szembeszálló-örökség "
+"becsületkódex soraival. Ami most is megkövetelte volna a többiek melletti "
 "harcos kiállást.\n"
 "\n"
 "A csatazaj lassan elcsitult, csend vette körül, ahogy egyre mélyebbre "
@@ -6935,8 +6955,8 @@ msgstr ""
 "hogy tényleg teljesen eltűntek, amitől Witwegana félt. \n"
 "\n"
 "A csendben elhaló hangokat lehetett hallani, amelyek a kristály padló felől "
-"jöttek. Határozottan egy  <i>barkácsoló</i> műhely ritmusát idézték. "
-"Valójában a szentélyük megmenekült; Pontosan alattuk volt. Áttörve a padlót, "
+"jöttek. Határozottan egy <i>barkácsoló</i> műhely ritmusát idézték. "
+"Valójában a szentélyük megmenekült. Pontosan alattuk volt. Áttörve a padlót, "
 "egy egész világ tárult elé lent egy hatalmas sziklatömzs belsejében. "
 "Parapathos megszabadult a vértjétől, összecsukta a szárnyait, aztán "
 "lecsúszott a lyukba.\n"
@@ -6944,7 +6964,7 @@ msgstr ""
 "Ahogy lesiklott, számos csoda tárult a szeme elé, amiről a Legendák Kora óta "
 "népünk már elfeledkezett. Ez a világ tele volt a <i>barkácsolók</i> által "
 "készített fémtárgyakkal. Az őrhelyeik nem a tornyok tetején voltak, hanem a "
-"levegőben libegőbuborékokról függtek alá. A legkülönösebbek a fáklyák "
+"levegőben libegő buborékokról függtek alá. A legkülönösebbek a fáklyák "
 "voltak, amik lángok nélkül világították meg a lenti világot. Ezek a "
 "barkácsolók tényleg azok voltak, akikhez a népünknek fordulnia kellett a "
 "Tündérekkel vívott harc okán.\n"
@@ -7001,7 +7021,7 @@ msgstr ""
 "A távolban csörömpölés hallatszott. Füst gomolygott föl a horizont mögül. "
 "Aztán lassan megjelent két ormótlan fém szörnyeteg.\n"
 "\n"
-"A perzskény automata tűnt föl először, mivel ő valamival gyorsabban mozgott. "
+"A perzskény automata tűnt föl először, mivel ő valamivel gyorsabban mozgott. "
 "<i>Sárkányfélének</i> látszott, bár elég bizonytalan volt, s szárnyatlan és "
 "faroktalan.. A lába alatti görgőkön mozgott. Fenyegető fekete füstöt fújt, "
 "míg a testét borító fém aranyszínben ragyogott.\n"
@@ -7032,9 +7052,9 @@ msgstr ""
 "\n"
 "Egy <i>barkácsoló</i> rúnakovács nevetve ment be az arénába. Elmondta az "
 "elképedt szembeszállóknak, hogy az ő automatájának nincsenek kezelői, senki "
-"nem irányította belülről a gépezete. A rúnái segítségével önálló Akarattal "
+"nem irányította belülről a gépezetet. A rúnái segítségével önálló Akarattal "
 "ruházta föl a gépet. A szembeszállók újra az automata felé fordultak, majd "
-"elsimerően biccentettek felé.\n"
+"elismerően biccentettek felé.\n"
 "\n"
 "― Legendák Kora, 31. század ―"
 
@@ -7073,7 +7093,7 @@ msgstr "Te győztél, én megyek... elfutok."
 #. [message]: speaker=Karron
 #: data/campaigns/Winds_of_Fate/scenarios/11_Crosswind.cfg:811
 msgid "You have one last victory over me... finish it."
-msgstr "Utolsó győzelmet arattál fölöttem... feladom."
+msgstr "Utolsó győzelmet arattál fölöttem... végezz velem!"
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/11_Crosswind.cfg:817
@@ -7137,7 +7157,7 @@ msgid ""
 msgstr ""
 "Ennek már most is tanúi lehetünk.\n"
 "\n"
-"Talán a beérkező szárnytestek fele nyomult be mélyen a Nagyföldbe.\n"
+"Talán a beérkező szárnytestek fele nyomult be mélyen a Nagyföldre.\n"
 "Ahol ismeretlen végzettel találkoztak, ahogy elveszett a Vladnir Szárnytest "
 "is.\n"
 "Csak a pusztulásuk során jöttek rá, hogy amire vadásztak, az nem egyszerű "
@@ -7157,7 +7177,7 @@ msgstr ""
 "Ahol a Nagyföld az aréna.\n"
 "Mindaddig egyenrangú ellenfelek, míg be nem <b>bizonyítjuk</b>, hogy mi "
 "vagyunk a jobbak.\n"
-"Ebben a Hatalmas Küzdelemben."
+"Ebben a Hatalmas Megmérettetésben."
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/11_Crosswind.cfg:871
@@ -7174,7 +7194,7 @@ msgstr ""
 "A mélységek szörnyein kívül is, akikkel már most is van egyezményünk.\n"
 "\n"
 "Minden lépésünkkel a győzelem felé kell haladnunk.\n"
-"Ebben a Hatalmas Küzdelemben, amely évezredekig is eltarthat."
+"Ebben a Hatalmas Megmérettetésben, amely évezredekig is eltarthat."
 
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/11_Crosswind.cfg:882
@@ -7249,7 +7269,7 @@ msgstr ""
 #. [message]: speaker=Gorlack
 #: data/campaigns/Winds_of_Fate/scenarios/11_Crosswind.cfg:925
 msgid "May your wings catch the winds to soar."
-msgstr "kedvező szél emelje a szárnyaidat magasba!"
+msgstr "Kedvező szél emelje a szárnyaidat magasba!"
 
 #. [scenario]: id=12_Epilogue
 #: data/campaigns/Winds_of_Fate/scenarios/12_Epilogue.cfg:5
@@ -7266,7 +7286,7 @@ msgid ""
 "the noble creatures of this far land, she would strive to drive off the "
 "opposing legions so new eyries might be set there."
 msgstr ""
-"Karron főnök a surranói által elbeszélt Szájhagyományt hallgatta. Több "
+"Karron főnök a surranói által elbeszélt Szájhagyományra hallgatott. Több "
 "szárnytestet vezetett Morogortól messze nyugatra, a távoli Zöld-szigetre. "
 "Együtt a sziget nemes lényeivel kiszorította az ellenségek légióit, s új "
 "sárkányfészkeket alapított a területen."
@@ -7282,7 +7302,7 @@ msgid ""
 msgstr ""
 "Számtalan perzsekény érkezett Morogorból, hogy helyet égessenek maguknak a "
 "Nagyföldön. Azok a lények, amelyek túlélték a vadászatot, halálos "
-"ravaszsággal nagy csapatokat alkottak,. Hamarosan egész szárnytestek váltak "
+"ravaszsággal nagy csapatokat alkottak. Hamarosan egész szárnytestek váltak "
 "vélt prédáik áldozatává. Mások szétszóródtak a Nagyföldön, miközben egyre "
 "többen érkeztek Morogorból, hogy felváltsák őket."
 
@@ -7339,7 +7359,14 @@ msgstr ""
 "felfedezés, kereskedelem vagy utazások céljára. Sokkal biztonságosabbak a "
 "könnyű járműveknél, s még akár kémkedésre is használható a mélyebb folyókon "
 "navigálva, ahol a manőverezhetőség és az alacsony fedélzet kompenzálja az "
-"eszköz súlyát."
+"eszköz súlyát.\n"
+"\n"
+"Míg más fajok hajóihoz képest lassabb sebességük akadályozza a kitérést, a "
+"magas orr és a taton lévő építmény a különböző hajítófegyverek széles "
+"skálájával megbízható védelmet nyújt úgy a kalózok, mint a mélytengeri "
+"szörnyek ellen.\n"
+"\n"
+"A karavellák kiköthetnek a partmenti falvakban, de ott rendkívül sebezhetőek."
 
 #. [attack]: type=pierce
 #: data/campaigns/Winds_of_Fate/units/Caravel.cfg:56
@@ -7380,7 +7407,7 @@ msgid ""
 msgstr ""
 "A víz felszínén könnyedén és gyorsan haladva ezek a portyázó hajók könnyen "
 "észlelik Wesnoth nagyobb és robusztusabb hajóit. Bár méretükhöz képest jól "
-"felfegyverkezettek és nagy legénységgel rendelkeznek, az ork külvitorlások "
+"felfegyverzettek és nagy legénységgel rendelkeznek, az ork külvitorlások "
 "mégis a számbeli fölényükre támaszkodnak, hogy legyőzzék a jól védett part "
 "menti településeket és hajókat.\n"
 "\n"
@@ -7432,7 +7459,7 @@ msgstr "szélörvény"
 #. [attack]: type=cold
 #: data/campaigns/Winds_of_Fate/units/Storm_Wisp.cfg:88
 msgid "squall"
-msgstr "sikítás"
+msgstr "süvöltés"
 
 #. [attack]: type=arcane
 #: data/campaigns/Winds_of_Fate/units/Storm_Wisp.cfg:101
@@ -7455,10 +7482,10 @@ msgid ""
 "from this bird’s call, though some drakes use their superior strength to "
 "hunt them."
 msgstr ""
-"A sztimfalik gonosz és ördögi természetű ragadozó madarak, amelyek az égen "
-"repülve keresik zsákmányukat, amely lehet kis patkánytól nagy emberig bármi. "
-"Átható, bronzszínű csőrükkel még a legkeményebb csontokat is átvágják, "
-"hatalmas szárnyaikat borotvaéles tollak borítják, amiket tömegesen "
+"A sztimfaliaiak gonosz és ördögi természetű ragadozó madarak, amelyek az "
+"égen repülve keresik zsákmányukat, amely lehet kis patkánytól nagy emberig "
+"bármi. Átható, bronzszínű csőrükkel még a legkeményebb csontokat is "
+"átvágják, hatalmas szárnyaikat borotvaéles tollak borítják, amiket tömegesen "
 "hajíthatnak áldozataikra. Bár a legtöbb ember elmenekülne ennek a madárnak "
 "már a hangjától is, néhány perzsekény az erőfölényét kihasználva vadászik "
 "rájuk."
@@ -7533,7 +7560,7 @@ msgstr "Arinexissszzz... Túl hamar bevégezted!"
 #. [message]: speaker=Zedrix
 #: data/campaigns/Winds_of_Fate/utils/characters.cfg:156
 msgid "My dragon, I have failed you..."
-msgstr "Sárkányom, cserben hagytalak..."
+msgstr "Ssssárkányom, cserben hagytalak..."
 
 #. [floating_text]
 #: data/campaigns/Winds_of_Fate/utils/macros.cfg:80
@@ -7548,7 +7575,7 @@ msgstr "szembeszálló segéd"
 #. [floating_text]
 #: data/campaigns/Winds_of_Fate/utils/macros.cfg:209
 msgid "+$amount experience"
-msgstr "+$amount tapaztalatpont"
+msgstr "+$amount tapasztalatpont"
 
 #. [object]
 #: data/campaigns/Winds_of_Fate/utils/macros.cfg:217
@@ -7635,7 +7662,7 @@ msgstr "jégzafír"
 #~ "Megálljatok! \n"
 #~ "\n"
 #~ "Kénytelen vagyok teljes erőből koncentrálni, hogy távol tartsam a Tündér "
-#~ "lényeket, hogy meglássák ennek a helynek a valódi természetét. nem "
+#~ "lényeket, nehogy meglássák ennek a helynek a valódi természetét. Nem "
 #~ "harcolhatok egyszerre egy horda sárkány ellen is!\n"
 #~ "\n"
 #~ "Nem hagytok más lehetőséget, mint hogy megsemmisítsem a kreatúráimat, "

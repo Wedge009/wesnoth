@@ -8,22 +8,22 @@
 # Gabor Udvari <gabor.udvari@gmail.com>, 2008.
 # Kádár-Németh Krisztián <krisztian.kad@gmail.com>, 2008, 2009, 2010, 2011, 2012, 2014.
 # Farkas János <mail.janos.farkas@gmail.com>, 2014.
-# Berda Jenő <big4billy@gmail.com>, 2024-2025.
+# Berda Jenő <big4billy@gmail.com>, 2024-2026.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: hu-units_1.5\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2026-02-26 01:03 UTC\n"
-"PO-Revision-Date: 2025-12-28 01:45+0100\n"
+"PO-Revision-Date: 2026-02-23 23:45+0100\n"
 "Last-Translator: Berda Jenő <big4billy@gmail.com>\n"
-"Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
+"Language-Team: Hungarian <>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.8\n"
-"X-Poedit-Bookmarks: 232,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
+"X-Generator: Lokalize 26.03.70\n"
 
 #. [attack]: type=impact
 #: data/campaigns/Dead_Water/units/Soldier_King.cfg:30
@@ -7409,7 +7409,7 @@ msgstr "háló"
 #. [unit_type]: id=Horned Scarab, race=monster
 #: data/core/units/monsters/Horned_Scarab.cfg:4
 msgid "Horned Scarab"
-msgstr "Szarvas szkarabeusz"
+msgstr "Orrszarvúbogár"
 
 #. [unit_type]: id=Horned Scarab, race=monster
 #: data/core/units/monsters/Horned_Scarab.cfg:20
@@ -7422,6 +7422,13 @@ msgid ""
 "insects will defend themselves with great ferocity, and few men alive would "
 "fain to face their penetrating barbs."
 msgstr ""
+"Azok a teremtmények, amelyeknek sikerül megélniük a barátságtalan "
+"pusztaságban, változáson mennek keresztül. A masszív, jól páncélozott és "
+"hatalmas méretűre megnövő orrszarvúbogár nem kevésbé fürge a folyós homokon, "
+"mint tündöklő rokonai a levegőben. A magányos utazóknak különösen óvakodniuk "
+"kell tüskés szarvaiktól. Bár természetüknél fogva passzívak, ezek a rovarok "
+"ádázul védekeznek és kevés élő ember nézne szembe szívesen átütő "
+"szúrásaikkal."
 
 #. [attack]: type=pierce
 #: data/core/units/monsters/Horned_Scarab.cfg:48
