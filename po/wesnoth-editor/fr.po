@@ -376,7 +376,6 @@ msgstr "Erreur"
 
 #: src/editor/map/context_manager.cpp:713
 #: src/editor/map/context_manager.cpp:762
-#, fuzzy
 msgid "Do you really want to save $type1 in $type2 folder?"
 msgstr "Voulez-vous vraiment sauvegarder les $type1 dans le dossier $type2 ?"
 
@@ -512,12 +511,10 @@ msgid "Will not work in game without extra care."
 msgstr "Ne fonctionnera pas dans le jeu sans travail supplémentaire."
 
 #: src/editor/palette/item_palette.cpp:32
-#, fuzzy
 msgid " | Right-click to remove"
 msgstr " | Clic droit pour effacer"
 
 #: src/editor/palette/item_palette.cpp:32
-#, fuzzy
 msgid "Left-click: Place item "
 msgstr "Clic gauche : placer les objets"
 

@@ -67,14 +67,12 @@ msgstr "Gros fichiers de texte brut"
 
 #. [advanced_preference]: type=boolean
 #: data/advanced_preferences.cfg:26
-#, fuzzy
 msgid "Whether to show icons in the add-ons list on the add-ons manager"
 msgstr ""
 "Contrôle l'affichage des icônes dans la liste du gestionnaire d'extensions"
 
 #. [advanced_preference]: type=boolean
 #: data/advanced_preferences.cfg:27
-#, fuzzy
 msgid ""
 "Disabling saves bandwidth by not sending icons for the add-ons list in the "
 "add-ons manager"

@@ -992,18 +992,6 @@ msgstr "Outil objet (outil de mise en scène)"
 
 #. [topic]: id=editor_tool_scenery
 #: data/core/editor/help.cfg:243
-#, fuzzy
-#| msgid ""
-#| "The Item Tool allows placing decorations such as windmills, bookcases and "
-#| "monoliths. Multiple items can be placed on the same hex.\n"
-#| "\n"
-#| "<bold>text='Note:'</bold> the tool doesn’t support deleting items once "
-#| "placed, nor does it support undo. Mistakes can currently only be fixed by "
-#| "editing the generated WML file.\n"
-#| "\n"
-#| "This tool is only available in Scenario Mode; the decorations are not "
-#| "part of the terrain and are implemented in the scenario using WML’s "
-#| "<italic>text='[item]'</italic> tag."
 msgid ""
 "The Item Tool allows placing decorations such as windmills, bookcases and "
 "monoliths. Multiple items can be placed on the same hex.\n"
