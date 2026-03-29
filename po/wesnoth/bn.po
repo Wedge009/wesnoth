@@ -1,15 +1,15 @@
 # #-#-#-#-#  wesnoth  #-#-#-#-#
 # Bengali translation of Wesnoth.
 # Copyright (C) 2024 Wesnoth development team
-# Subhraman Sarkar <suvrax@gmail.com>, 2024-2025.
+# Subhraman Sarkar <sbmskmm@protonmail.com>, 2024-2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: bn\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2025-12-21 21:26-0600\n"
-"PO-Revision-Date: 2025-07-20 16:54+0530\n"
-"Last-Translator: Subhraman Sarkar <suvrax@gmail.com>\n"
+"PO-Revision-Date: 2026-03-23 16:53+0530\n"
+"Last-Translator: Subhraman Sarkar <sbmskmm@protonmail.com>\n"
 "Language-Team: Bengali < >\n"
 "Language: bn\n"
 "MIME-Version: 1.0\n"
@@ -2065,6 +2065,20 @@ msgid ""
 "short_centre=lol|febr|tom|lith|nal|lor|wón|rad|rien|mar|reb|riel|mal|ram|nil|"
 "nim|nol|bris|lad|rier|ra|fil|thran|man\n"
 msgstr ""
+"\n"
+"main={generated_prefix}{consonnant}{suffix}|{prefix}{centre}{suffix}\n"
+"generated_prefix={starting_consonnant}{vowel}\n"
+"starting_consonnant=স|ড|ফ|ল|ম|ন|প|ক|র|স|ট|ভ\n"
+"vowel=া|ে|ি|ো|্যা|ে\n"
+"consonnant=ন|ল|র|ম|স|ভ|থ|ন্ন\n"
+"prefix={prefix_vc}{vowel}|{prefix_cv}\n"
+"prefix_vc=লোন|এয়োন|আড|সার|আল|টাল|টিল|এল|লেগ|ওর|টির|ওল|কাল|কান|এল্ভ|ফান|ফাড|"
+"ফিথ|ফিল|গাল|গ্লাড|লেগ|গ্লার|গ্লি|হার|টাড|সোর|পির\n"
+"prefix_cv=আমা|আমি|বে|কা|গা|ইসি|হা|হে|লে|লো|ন্য|নি|মা|থু|থ্রি|টি|উনু|ভে|ভা\n"
+"suffix=র|িম|িয়ান|িন|ার|িয়েল|াস|িয়ন|াস|র|িয়ন|াল|ান্ড|ের|াস|ির|েল|াল|াড|েইল\n"
+"centre={short_centre}|{short_centre}|-{short_centre}|{short_centre}-\n"
+"short_centre=লল|ফেব্র|টম|লিথ|নাল|লর|ওন|রাড|রিয়েন|মার|রেব|রিয়েল|মাল|রাম|নিল|"
+"নিম|নল|ব্রিস|লাড|রিয়ের|রা|ফিল|থ্রান|মান\n"
 
 #. Generator for female elf names; see <https://wiki.wesnoth.org/Context-free_grammar> for syntax
 #: data/core/macros/names.cfg:68
@@ -2390,6 +2404,13 @@ msgid ""
 "suffix=asse|mailia|ilis|ana|ama|ssa|ssilai|zi|xias|lai|maissa|bra|lin|lina|"
 "na|bra|aa|lia|lai|laila|na|pkne|alsp|ekp\n"
 msgstr ""
+"\n"
+"main={prefix}{suffix}\n"
+"prefix=আলি|আমা|আক্স|ব্লা|ব্লি|ব্রা|ব্রি|গাক্স|গ্রি|হাই|হার|হু|ইনা|ইস|ক্রেজ|ক্যাপ|লাম|"
+"লেক্স|লি|লিন|মাই|মু|নিল|অক্স|পোন|প্জা|রি|সাল|সাক্স|সেক|স্নেল|স্রা|ট্রিক্স|ভিল|ভিস|"
+"ব্লান|জাব|জাম|জি|জনাম|জোপ|জাল|জ্লে|জ্সে\n"
+"suffix=আসে|মালিয়া|ইলিস|আনা|আমা|সা|সিলাই|জি|জিয়াস|লাই|মাইসা|ব্রা|লিন|লিনা|না|"
+"ব্রা|আ|লিয়া|লাই|লাইলা|না|প্কনে|আলস্প|একপ\n"
 
 #: data/core/macros/names.cfg:226
 msgid "Akoark,Akort,Akzalk,Arkarm,Barkuk,Blokkar,Borkuk,Bukkak,Bulruk,Corkkar,Delkkak,Garkuk,Gnukk,Goruk,Grak,Gurk,Gurm,Kalknix,Karak,Karbuk,Kargnak,Karterak,Kayrak,Kelkrar,Kerta,Kilkrar,Kingrok,Kirk,Klud,Kokkan,Kolk,Komak,Korgnak,Kork,Koruck,Kramak,Krog,Krukrak,Krumuk,Kuknuk,Kurkur,Kurmak,Makron,Markaak,Markuk,Merknik,Nargak,Olk,Orkut,Reknak,Takolak,Trabuk,Trakkon,Urkar,Urkark"
@@ -2472,6 +2493,17 @@ msgid ""
 "suffix=men|drum|tor|num|lad|de|ak|lol|dum|tam|nur|dium|deum|bil|rook|relm|"
 "dium|numm|dan|doom|tum|din\n"
 msgstr ""
+"\n"
+"main={prefix}{centre}{centre}{suffix}|{prefix}{centre}{centre}{centre}"
+"{suffix}\n"
+"prefix=ব্লু|বো|ব্রে|ব্রো|ব্রু|বু|কার|ডা|ডা|ডে|ডিব|ডোল|ড্রো|ডুল|ডুম|এল|গ্রে|গুল|গুম|লাফ|"
+"লান|লাস|লেফ|লিব|লোল|মোন|মুল|মুন|নান|নুন|অর|পাম|পোম|রিথ|তান|তেম|তোন|ট্রুম|তুন|তুম|ওন|"
+"উন\n"
+"centre=দে|বাল|ড্রাম|উল|দেল|বেম|পোম|গোন|তান|বোম|কেন|তান|তোন|মান|তেন|ড্রোন|ডাব|"
+"না|দা|নি|মি|লুল|মোন|দুয়েল|লেম|নুম|নোব|মান্দ|রুম|লাদ|রোম|বে|লোম|সেম|নুব|দি|উইম|দিন|"
+"ব্লেম|নান্দ|দুল|দিল|অফ|তাম|কোন|তোন|তুন|কোন|তেন|রান|মাল|দো\n"
+"suffix=মেন|ড্রাম|তোর|নুম|লাদ|দে|আক|লোল|ডাম|তাম|নুর|দিউম|দেউম|বিল|রুক|রেলম|দিউম|"
+"নুম্ম|দান|ডুম|তুম|দিন\n"
 
 #: data/core/macros/names.cfg:275
 msgid "Bal,Cam,Corn,Del,Earl,El,Fox,Fren,Gel,Hel,Hex,Hol,Hox,Il,Kin,Nam,Nes,New,Ol,Old,Olf,Oul,Ox,Rock,Rook,Sal,Sam,Sed,Sel,Sen,Sil,Tal,Water,Wet,York"
@@ -2479,6 +2511,18 @@ msgstr "বাল,কাম,কর্ন,ডেল,আর্ল,এল,ফক্
 
 #. Generator for the base names of features assigned by the random map generator; see <https://wiki.wesnoth.org/Context-free_grammar> for syntax
 #: data/core/macros/names.cfg:277
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "main={c_prefix}{c_middle}{suffix}|{f_prefix}{f_middle}{suffix}|"
+#| "{other_prefix}{middle}{suffix}\n"
+#| "c_prefix=C\n"
+#| "c_middle=a|e|o|i\n"
+#| "f_prefix=F\n"
+#| "f_middle=a|e|o|i\n"
+#| "other_prefix=B|D|E|Fr|Wat|G|H|K|N|O|R|S|T|W|Y|Ro\n"
+#| "middle=a|e|o|i|u\n"
+#| "suffix=l|m|rn|x|w|ld|ck|k|rk\n"
 msgid ""
 "\n"
 "main={prefix}{middle}{suffix}\n"
@@ -2487,8 +2531,13 @@ msgid ""
 "suffix=l|m|rn|x|w|ld|ck|k|rk\n"
 msgstr ""
 "\n"
-"main={prefix}{middle}{suffix}\n"
-"prefix=ব|ক|ড|এ|ফ|ফ্র|ওয়াট|গ|হ|ক|ন|ও|র|স|ট|ওয়|য়|রো\n"
+"main={c_prefix}{c_middle}{suffix}|{f_prefix}{f_middle}{suffix}|{other_prefix}"
+"{middle}{suffix}\n"
+"c_prefix=ক\n"
+"c_middle=া|ে|ো|ি\n"
+"f_prefix=ফ\n"
+"f_middle=া|ে|ো|ি\n"
+"other_prefix=ব|ক|এ|ফ্র|ওয়াট|গ|হ|ক|ন|ও|র|স|ট|ওয়|য়|রো\n"
 "middle=া|ে|ো|ু|ি\n"
 "suffix=ল|ম|র্ন|ক্স|ও|ল্ড|ক|ক|র্ক\n"
 
@@ -4214,11 +4263,12 @@ msgstr ""
 #: data/tips.cfg:188
 #, fuzzy
 #| msgid ""
-#| "Instead of leveling up, high-level units gain an <i>After Maximum Level "
-#| "Advancement</i> (AMLA) bonus, which usually increases the unit’s maximum "
-#| "hitpoints by three and fully heals it. This is much less than the normal "
-#| "benefits of advancing a level, so it is generally wiser to advance your "
-#| "lower-level units instead."
+#| "Once a unit reaches maximum level, further advancement provides a minor "
+#| "bonus called an “AMLA” — “After Maximum Level Advancement.” Some "
+#| "campaigns let you choose between several AMLA options, but the only "
+#| "default AMLA is a +3 bonus to maximum hitpoints. AMLAs are usually weaker "
+#| "than the normal benefits of advancing a level, so it is generally wiser "
+#| "to advance your lower-level units instead."
 msgid ""
 "Instead of leveling up, high-level units gain an <i>After Maximum Level "
 "Advancement</i> (AMLA) bonus, which usually increases the unit’s maximum "
@@ -4226,11 +4276,11 @@ msgid ""
 "benefits of advancing a level, so it is generally wiser to advance your "
 "lower-level units instead."
 msgstr ""
-"পরবর্তী পর্যায়ে উন্নীত হওয়ার পরিবর্ত, উচ্চ-পর্যায়ের ইউনিটেরা সাধারণত একটি "
-"<i>সর্বোচ্চ পর্যায় পরবর্তী উন্নয়ণ</i> (এএমএলএ) অতিরিক্ত পেয়ে থাকে, যেটি সাধারণ "
-"ইউনিটটির সর্বোচ্চ জীবন সংখ্যা তিন বৃদ্ধি করে এবং সেটিকে সম্পূর্ণ সুস্থ করে । এটি "
-"সাধারণ উন্নয়ণের থেকে কম সুবিধাযুক্ত, তাই সাধারণত কম পর্যায়ের ইউনিটগুলিকে উন্নীত "
-"করাই শ্রেয় ।"
+"একটি ইউনিট সর্বোচ্চ পর্যায়ে পৌঁছানোর পর, আরও অগ্রগতি একটি ছোট বোনাস প্রদান করে "
+"যাকে বলা হয় \"এএমএলএ\" — “সর্বোচ্চ পর্যায় পরবর্তী উন্নয়ণ”। কিছু অভিযানে আপনি বেশ "
+"কয়েকটি এএমএলএ বিকল্পের মধ্যে বেছে নিতে পারেন, তবে একমাত্র ডিফল্ট এএমএলএ হলো "
+"সর্বোচ্চ জীবন সংখ্যায় +৩ বোনাস। এএমএলএ সাধারণত একটি পর্যায় উন্নীত হওয়ার স্বাভাবিক "
+"সুবিধার চেয়ে কম কার্যকর, তাই সাধারণত কম পর্যায়ের ইউনিটগুলিকে উন্নীত করাই শ্রেয়।"
 
 #. [tip]
 #: data/tips.cfg:192
@@ -4318,6 +4368,10 @@ msgid ""
 "use leadership — or a strong or dextrous unit — whenever the extra point or "
 "two of damage makes a one-hit kill possible."
 msgstr ""
+"তিনটি বা তার বেশি আক্রমণ সহ ইউনিট — বিশেষত যাদের জাদু আক্রমণ আছে — মাত্র কয়েকটি "
+"জীবনসংখ্যা অবশিষ্ট থাকা শত্রুদের শেষ করে দেওয়ার জন্য আদর্শ। যখনই এক বা দুই পয়েন্ট "
+"অতিরিক্ত ক্ষতি এক আঘাতে হত্যা সম্ভব করে তোলে, তখন অবশ্যই নেতৃত্ব — অথবা একটি "
+"শক্তিশালী বা দক্ষ ইউনিট — ব্যবহার করুন।"
 
 #. [tip]
 #: data/tips.cfg:221
@@ -6275,16 +6329,20 @@ msgid "Back to Start"
 msgstr "শুরুতে ফিরে যান"
 
 #: src/hotkey/hotkey_handler.cpp:441
+#, fuzzy
+#| msgid "Back to Turn $number"
 msgid "Back to Turn "
-msgstr "দানে ফিরে যান : দান "
+msgstr "$number দানে ফিরে যান"
 
 #: src/hotkey/hotkey_handler.cpp:457
 msgid "Replay from Start"
 msgstr "শুরু থেকে পুনরায় খেলুন"
 
 #: src/hotkey/hotkey_handler.cpp:457
+#, fuzzy
+#| msgid "Replay from Turn $number"
 msgid "Replay from Turn "
-msgstr "এখান থেকে খেলুন : দান "
+msgstr "দান $number থেকে খেলুন"
 
 #: src/hotkey/hotkey_handler_sp.cpp:151
 msgid "(press $hotkey to deactivate)"
@@ -6303,12 +6361,14 @@ msgid "Do you want to load it anyway?"
 msgstr "আপনি কী তবুও এটা খুলতে চান?"
 
 #: src/hotkey/hotkey_handler_sp.cpp:338
+#, fuzzy
+#| msgid "The file you have tried to load has no replay information."
 msgid "The file you have tried to load has no replay information. "
-msgstr "আপনি যে ফাইলটি খোলার চেষ্টা করেছেন তাতে কোনো রিপ্লে তথ্য নেই"
+msgstr "আপনি যে ফাইলটি খোলার চেষ্টা করেছেন তাতে কোনো রিপ্লে তথ্য নেই।"
 
 #: src/hotkey/hotkey_handler_sp.cpp:342
 msgid "The file you have tried to load is not from the current session."
-msgstr "আপনি যে ফাইলটি খোলার চেষ্টা করছেন সেটি বর্তমান সেশনের নয় ।"
+msgstr "আপনি যে ফাইলটি খোলার চেষ্টা করছেন সেটি বর্তমান সেশনের নয়।"
 
 #: src/language.cpp:115
 msgid "System default language"
@@ -7326,28 +7386,36 @@ msgid "Special Notes:"
 msgstr "বিশেষ টীকা:"
 
 #: src/reports.cpp:222
+#, fuzzy
+#| msgid "Races: "
 msgid "Race: "
-msgstr "জাতি: "
+msgstr "জাতিসমূহ:"
 
 #: src/reports.cpp:241
 msgid "Side: <b>$side_name</b> ($color_name)"
 msgstr "দল: <b>$side_name</b> ($color_name)"
 
 #: src/reports.cpp:319
+#, fuzzy
+#| msgid "Trait:"
 msgid "Trait: "
-msgstr "বৈশিষ্ট্য: "
+msgstr "বৈশিষ্ট্য:"
 
 #: src/reports.cpp:342
+#, fuzzy
+#| msgid "invisible:"
 msgid "invisible: "
-msgstr "অদৃশ্য: "
+msgstr "অদৃশ্য:"
 
 #: src/reports.cpp:343
 msgid "This unit is invisible. It cannot be seen or attacked by enemy units."
 msgstr "এই ইউনিটটি অদৃশ্য । শত্রু ইউনিট এটিকে দেখতে বা আক্রমণ করতে পারবে না ।"
 
 #: src/reports.cpp:346
+#, fuzzy
+#| msgid "slowed:"
 msgid "slowed: "
-msgstr "ধীরগতি: "
+msgstr "ধীরগতি:"
 
 #: src/reports.cpp:347
 msgid ""
@@ -7358,8 +7426,10 @@ msgstr ""
 "করবে এবং এর স্থানান্তরের জন্য দ্বিগুণ মূল্য লাগবে ।"
 
 #: src/reports.cpp:350
+#, fuzzy
+#| msgid "poisoned:"
 msgid "poisoned: "
-msgstr "বিষ: "
+msgstr "বিষ:"
 
 #: src/reports.cpp:351
 msgid ""
@@ -7378,16 +7448,20 @@ msgstr ""
 "জীবনসংখ্যা 1-এর নীচে নামাবে না ।"
 
 #: src/reports.cpp:354
+#, fuzzy
+#| msgid "petrified:"
 msgid "petrified: "
-msgstr "প্রস্তরীভূত: "
+msgstr "প্রস্তরীভূত:"
 
 #: src/reports.cpp:355
 msgid "This unit has been petrified. It may not move or attack."
 msgstr "এই ইউনিটটি প্রস্তরীভূত হয়ে পড়েছে । এটি চলতে বা আক্রমণ করতে পারবে না ।"
 
 #: src/reports.cpp:358
+#, fuzzy
+#| msgid "unhealable:"
 msgid "unhealable: "
-msgstr "অচিকিৎসনীয়: "
+msgstr "অচিকিৎসনীয়:"
 
 #: src/reports.cpp:359
 msgid ""
@@ -7398,36 +7472,46 @@ msgstr ""
 "না এবং স্থির দাঁড়িয়ে থাকার দ্বারা এটি উপকৃত হয় না ।"
 
 #: src/reports.cpp:362
+#, fuzzy
+#| msgid "invulnerable:"
 msgid "invulnerable: "
-msgstr "অনাক্রম্য: "
+msgstr "অনাক্রম্য:"
 
 #: src/reports.cpp:363
 msgid "This unit is invulnerable. It cannot be harmed by any attack."
 msgstr "এই ইউনিটটি অনাক্রম্য । এটিকে কোনো আক্রমণ দিয়ে ক্ষতি করা যাবে না ।"
 
 #: src/reports.cpp:441
+#, fuzzy
+#| msgid "Ability:"
 msgid "Ability: "
-msgstr "দক্ষতা: "
+msgstr "দক্ষতা:"
 
 #: src/reports.cpp:443 src/reports.cpp:998
 msgid " (inactive)"
 msgstr " (নিস্ক্রিয়)"
 
 #: src/reports.cpp:511
+#, fuzzy
+#| msgid "Resistances:"
 msgid "Resistances: "
-msgstr "প্রতিরোধ: "
+msgstr "প্রতিরোধ:"
 
 #: src/reports.cpp:513
 msgid "(Att / Def)"
 msgstr "(আক্র / সুর)"
 
 #: src/reports.cpp:544
+#, fuzzy
+#| msgid "Experience Modifier:"
 msgid "Experience Modifier: "
-msgstr "অভিজ্ঞতার পরিবর্তন: "
+msgstr "অভিজ্ঞতার পরিবর্তন:"
 
 #: src/reports.cpp:594
+#, fuzzy
+#| msgid "Terrain:"
 msgid "Terrain: "
-msgstr "ভূমি: "
+msgstr "ভূমি:"
 
 #: src/reports.cpp:611
 msgid "maximum^max."
@@ -7438,8 +7522,10 @@ msgid "minimum^min."
 msgstr "সর্বনিম্ন"
 
 #: src/reports.cpp:616
+#, fuzzy
+#| msgid "Defense:"
 msgid "Defense: "
-msgstr "সুরক্ষা: "
+msgstr "সুরক্ষা:"
 
 #: src/reports.cpp:651 src/reports.cpp:652
 msgid "vision:"
@@ -7454,56 +7540,80 @@ msgid "Movement Costs:"
 msgstr "স্থানান্তরের মূল্য:"
 
 #: src/reports.cpp:828
+#, fuzzy
+#| msgid "Base damage:"
 msgid "Base damage: "
-msgstr "মূল ক্ষতি: "
+msgstr "মূল ক্ষতি:"
 
 #: src/reports.cpp:830 src/reports.cpp:864 src/reports.cpp:874
+#, fuzzy
+#| msgid "With specials:"
 msgid "With specials: "
-msgstr "বিশেষত্ব সহ: "
+msgstr "বিশেষত্ব সহ:"
 
 #: src/reports.cpp:833
 msgid "Time of day: "
 msgstr "দিনের সময়: "
 
 #: src/reports.cpp:837
+#, fuzzy
+#| msgid "Leadership:"
 msgid "Leadership: "
-msgstr "নেতৃত্ব: "
+msgstr "নেতৃত্ব:"
 
 #: src/reports.cpp:841
+#, fuzzy
+#| msgid "Slowed:"
 msgid "Slowed: "
-msgstr "ধীর: "
+msgstr "ধীর:"
 
 #: src/reports.cpp:849
+#, fuzzy
+#| msgid "Max swarm bonus:"
 msgid "Max swarm bonus: "
-msgstr "দঙ্গলের জন্য সর্বোচ্চ ক্ষতি: "
+msgstr "দঙ্গলের জন্য সর্বোচ্চ ক্ষতি:"
 
 #: src/reports.cpp:850 src/reports.cpp:869
+#, fuzzy
+#| msgid "Swarm:"
 msgid "Swarm: "
-msgstr "দঙ্গল: "
+msgstr "দঙ্গল:"
 
 #: src/reports.cpp:851 src/reports.cpp:862 src/reports.cpp:873
+#, fuzzy
+#| msgid "Base attacks:"
 msgid "Base attacks: "
-msgstr "মূল আক্রমণ: "
+msgstr "মূল আক্রমণ:"
 
 #: src/reports.cpp:857
+#, fuzzy
+#| msgid "Specials:"
 msgid "Specials: "
-msgstr "বিশেষত্ব: "
+msgstr "বিশেষত্ব:"
 
 #: src/reports.cpp:867
+#, fuzzy
+#| msgid "Subject to swarm:"
 msgid "Subject to swarm: "
-msgstr "দঙ্গলের প্রভাব: "
+msgstr "দঙ্গলের প্রভাব:"
 
 #: src/reports.cpp:901
+#, fuzzy
+#| msgid "Weapon range:"
 msgid "Weapon range: "
-msgstr "অস্ত্রের সীমা: "
+msgstr "অস্ত্রের সীমা:"
 
 #: src/reports.cpp:902
+#, fuzzy
+#| msgid "Damage type:"
 msgid "Damage type: "
-msgstr "ক্ষতির প্রকৃতি: "
+msgstr "ক্ষতির প্রকৃতি:"
 
 #: src/reports.cpp:903
+#, fuzzy
+#| msgid "Damage versus:"
 msgid "Damage versus: "
-msgstr "বনাম ক্ষতি: "
+msgstr "বনাম ক্ষতি:"
 
 #: src/reports.cpp:965
 msgid "Accuracy:"
@@ -7514,8 +7624,10 @@ msgid "Parry:"
 msgstr "প্রত্যাঘাত:"
 
 #: src/reports.cpp:996
+#, fuzzy
+#| msgid "Weapon special:"
 msgid "Weapon special: "
-msgstr "অস্ত্রের বিশেষত্ব: "
+msgstr "অস্ত্রের বিশেষত্ব:"
 
 #: src/reports.cpp:1071
 msgid "weapon^None"
@@ -7549,20 +7661,28 @@ msgid "Time of day:"
 msgstr "দিনের সময়:"
 
 #: src/reports.cpp:1318 src/reports.cpp:1372
+#, fuzzy
+#| msgid "Lawful units:"
 msgid "Lawful units: "
-msgstr "নৈতিক ইউনিট: "
+msgstr "নৈতিক ইউনিটগুলি: "
 
 #: src/reports.cpp:1320 src/reports.cpp:1374
+#, fuzzy
+#| msgid "Neutral units:"
 msgid "Neutral units: "
-msgstr "নিরপেক্ষ ইউনিট: "
+msgstr "নিরপেক্ষ ইউনিটগুলি: "
 
 #: src/reports.cpp:1321 src/reports.cpp:1375
+#, fuzzy
+#| msgid "Chaotic units:"
 msgid "Chaotic units: "
-msgstr "অনৈতিক ইউনিট: "
+msgstr "অনৈতিক ইউনিটগুলি: "
 
 #: src/reports.cpp:1323 src/reports.cpp:1377
+#, fuzzy
+#| msgid "Liminal units:"
 msgid "Liminal units: "
-msgstr "মধ্যবর্তী ইউনিট: "
+msgstr "মধ্যবর্তী ইউনিটগুলি: "
 
 #: src/reports.cpp:1436
 msgid "Turn Number"
@@ -8250,11 +8370,27 @@ msgstr "$player-এর জন্য পরিকল্পনা লুকোন"
 msgid "Whiteboard Options"
 msgstr "হোয়াইটবোর্ড অপশনগুলি"
 
-#~ msgid "Urban Jungle (Internal)"
-#~ msgstr "শহুরে জঙ্গল (আভ্যন্তরীণ)"
-
 #~ msgid "Show icons in the Add-ons manager"
 #~ msgstr "অ্যাড-অন ম্যানেজারে আইকন দেখান"
+
+#~ msgid "Customize Reach Map (Unit Movement UI)"
+#~ msgstr "রিচম্যাপ (ইউনিট সরানোর ইউআই) সাজান"
+
+#~ msgid "Show missed attack indicator"
+#~ msgstr "আক্রমণ "
+
+#~ msgid "Display a visual indicator above a defender when an attack misses."
+#~ msgstr "আক্রমণ না লাগলে রক্ষণকারী ইউনিটের ওপরে একটি নির্দেশক দেখান"
+
+#~ msgid "SIMD acceleration"
+#~ msgstr "SIMD ত্বরণ"
+
+#~ msgid ""
+#~ "Use hardware acceleration (SSE2/NEON) for faster image processing on the "
+#~ "CPU. Try disabling this if you experience graphical glitches or crashes."
+#~ msgstr ""
+#~ "সিপিইউতে দ্রুত চিত্র প্রক্রিয়াকরণের জন্য হার্ডওয়্যার ত্বরণ (এসএসই 2 / নিওন) ব্যবহার "
+#~ "করুন। আপনি গ্রাফিকাল ত্রুটি বা ক্র্যাশ অনুভব করলে এটি বন্ধ করে দেখুন।"
 
 #~ msgid "deflect"
 #~ msgstr "বিক্ষেপ"
@@ -8298,17 +8434,8 @@ msgstr "হোয়াইটবোর্ড অপশনগুলি"
 #~ msgid "Urban"
 #~ msgstr "শহর"
 
-#~ msgid ""
-#~ "Densely packed structures are less suitable for garrison than traditional "
-#~ "villages, providing no income or healing. They are difficult to navigate "
-#~ "quickly, but offer significant protection."
-#~ msgstr ""
-#~ "ঘনবিন্যস্ত গঠনগুলি সাধারণ গ্রামগুলির তুলনায় সেনাছাউনির জন্য কম উপযুক্ত, কারণ তা "
-#~ "থেকে কোনও আয় বা চিকিৎসা পাওয়া যায় না । এগুলির মধ্যে দ্রুত চলাচল করা কঠিন, তবে "
-#~ "উল্লেখযোগ্য সুরক্ষা সরবরাহ করে।"
-
-#~ msgid "Urban Jungle"
-#~ msgstr "শহুরে জঙ্গল"
+#~ msgid "WesScript"
+#~ msgstr "Lohit Bengali"
 
 #~ msgid "Dawn"
 #~ msgstr "ভোর"
@@ -8366,6 +8493,23 @@ msgstr "হোয়াইটবোর্ড অপশনগুলি"
 
 #~ msgid "<i>― Great Mage Delfador, 520YW</i>"
 #~ msgstr "<i>― মহান জাদুবিদ ডেলফাডোর, 520 ই.ও.</i>"
+
+#~ msgid ""
+#~ "Nearly every hotkey can be customized in the <b>Preferences</b> > "
+#~ "<b>Hotkeys</b> tab. Rebinding frequently used actions (Undo, Show Enemy "
+#~ "Moves, End Turn, Recruit/Recall) to comfortable keys can noticeably speed "
+#~ "up your turns and improve your quality of life."
+#~ msgstr ""
+#~ "প্রায় প্রতিটি হটকি <b>Preferences</b> > <b>Hotkeys</b> ট্যাবে কাস্টমাইজ করা "
+#~ "যায়। ঘন ঘন ব্যবহৃত অ্যাকশনগুলো (Undo, Show Enemy Moves, End Turn, Recruit/"
+#~ "Recall) সুবিধাজনক কীতে রিবাইন্ড করলে আপনার টার্নের গতি উল্লেখযোগ্যভাবে বাড়তে "
+#~ "পারে এবং ব্যবহারের অভিজ্ঞতা আরও ভাল হতে পারে।"
+
+#~ msgid "attack^miss"
+#~ msgstr "মিস"
+
+#~ msgid "Unhandled choices while redoing"
+#~ msgstr "রিডো করার সময় না-নেওয়া পছন্দগুলি"
 
 #~ msgid "Requesting add-on counts by type..."
 #~ msgstr "প্রকারের সাপেক্ষে অ্যাড-অনের সংখ্যা চাওয়া হচ্ছে..."
@@ -8437,11 +8581,29 @@ msgstr "হোয়াইটবোর্ড অপশনগুলি"
 #~ msgid "timespan^expired"
 #~ msgstr "শেষ"
 
+#~ msgid "multiplayer^MP"
+#~ msgstr "এমপি"
+
 #~ msgid "Your IP address is banned on this server for $duration|."
 #~ msgstr "আপনার আইপি অ্যাড্রেস এই সার্ভারে $duration|-এর জন্য নিষিদ্ধ।"
 
 #~ msgid "Your IP address is banned on this server."
 #~ msgstr "আপনার আইপি অ্যাড্রেস এই সার্ভারে নিষিদ্ধ।"
+
+#~ msgid "Previous"
+#~ msgstr "পূর্ববর্তী"
+
+#~ msgid "Next"
+#~ msgstr "পরবর্তী"
+
+#~ msgid "This is a global trait."
+#~ msgstr "এটি একটি গ্লোবাল দক্ষতা।"
+
+#~ msgid "Races with this trait"
+#~ msgstr "এই দক্ষতাবিশিষ্ট জাতিগুলি"
+
+#~ msgid "Units with this trait"
+#~ msgstr "এই দক্ষতাবিশিষ্ট ইউনিটগুলি"
 
 #~ msgid "‘Undiscover’ all units in help."
 #~ msgstr "সাহায্যে সকল ইউনিট ‘না দেখা’ করুন"
@@ -8451,6 +8613,40 @@ msgstr "হোয়াইটবোর্ড অপশনগুলি"
 
 #~ msgid "prompt^Formula:"
 #~ msgstr "ফর্মুলা"
+
+#~ msgid "Type:"
+#~ msgstr "প্রকৃতি:"
+
+#~ msgid "Race:"
+#~ msgstr "জাতি:"
+
+#~ msgid "Alignment:"
+#~ msgstr "স্বভাব:"
+
+#~ msgid "vision^V:"
+#~ msgstr "দৃ:"
+
+#~ msgid "jamming^J:"
+#~ msgstr "জ্যা:"
+
+#~ msgid "Weapon:"
+#~ msgstr "অস্ত্র:"
+
+#~ msgid "Damage:"
+#~ msgstr "ক্ষতি:"
+
+#~ msgid "Attacks:"
+#~ msgstr "আঘাতসংখ্যা:"
+
+#~ msgid "uses $num attack"
+#~ msgid_plural "uses $num attacks"
+#~ msgstr[0] "$number-টি আক্রমণ ব্যবহৃত"
+#~ msgstr[1] "$number-গুলি আক্রমণ ব্যবহৃত"
+
+#~ msgid "This attack uses $num attack point"
+#~ msgid_plural "This attack uses $num attack points"
+#~ msgstr[0] "এই আক্রমণটি $num-টি আক্রমণ সংখ্যা ব্যবহার করে"
+#~ msgstr[1] "এই আক্রমণটি $num-টি আক্রমণ সংখ্যা ব্যবহার করে"
 
 #~ msgid "$number min range"
 #~ msgstr "$number নিম্ন সীমা"
@@ -8464,6 +8660,9 @@ msgstr "হোয়াইটবোর্ড অপশনগুলি"
 #~ msgid "<span color=\"$color\">$number_or_percent</span> max range"
 #~ msgstr "<span color=\"$color\">$number_or_percent</span> উচ্চ সীমা"
 
+#~ msgid "The $unit_type is not available to recruit."
+#~ msgstr "$unit_type নিয়োগের জন্য উপলব্ধ নয়।"
+
 #~ msgid "This unit cannot be dismissed."
 #~ msgstr "এই ইউনিটটি বরখাস্ত করা যাবে না ।"
 
@@ -8471,6 +8670,26 @@ msgstr "হোয়াইটবোর্ড অপশনগুলি"
 #~ msgstr "এই ইউনিটটি একটি দলের নেতা এবং একে বরখাস্ত করা যাবে না ।"
 
 #, fuzzy
-#~| msgid "No description available."
-#~ msgid "description"
-#~ msgstr "কোনো বর্ণনা নেই ।"
+#~| msgid "Bare Branch"
+#~ msgid "Wose Branch"
+#~ msgstr "পত্রহীন শাখা"
+
+#, fuzzy
+#~| msgid "Legends of the North"
+#~ msgid "Echoes of the Earth"
+#~ msgstr "লেজেন্ডস্ অফ নর্থ"
+
+#~ msgid "Urban Jungle (Internal)"
+#~ msgstr "শহুরে জঙ্গল (আভ্যন্তরীণ)"
+
+#~ msgid ""
+#~ "Densely packed structures are less suitable for garrison than traditional "
+#~ "villages, providing no income or healing. They are difficult to navigate "
+#~ "quickly, but offer significant protection."
+#~ msgstr ""
+#~ "ঘনবিন্যস্ত গঠনগুলি সাধারণ গ্রামগুলির তুলনায় সেনাছাউনির জন্য কম উপযুক্ত, কারণ তা "
+#~ "থেকে কোনও আয় বা চিকিৎসা পাওয়া যায় না । এগুলির মধ্যে দ্রুত চলাচল করা কঠিন, তবে "
+#~ "উল্লেখযোগ্য সুরক্ষা সরবরাহ করে।"
+
+#~ msgid "Urban Jungle"
+#~ msgstr "শহুরে জঙ্গল"

@@ -1,15 +1,15 @@
 # #-#-#-#-#  wesnoth-units  #-#-#-#-#
 # Bengali translation of Wesnoth.
 # Copyright (C) 2024 Wesnoth development team
-# Subhraman Sarkar <suvrax@gmail.com>, 2024-2026.
+# Subhraman Sarkar <sbmskmm@protonmail.com>, 2024-2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: bn\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2024-03-18 00:07 UTC\n"
-"PO-Revision-Date: 2026-03-13 18:14+0530\n"
-"Last-Translator: Subhraman Sarkar <suvrax@gmail.com>\n"
+"PO-Revision-Date: 2026-03-23 13:33+0530\n"
+"Last-Translator: Subhraman Sarkar <sbmskmm@protonmail.com>\n"
 "Language-Team: Bengali < >\n"
 "Language: bn\n"
 "MIME-Version: 1.0\n"
@@ -4076,6 +4076,17 @@ msgid ""
 "the orcish assassins, making a swipe from these beasts’ paws into a most "
 "deadly stroke."
 msgstr ""
+"যদিও ডায়ারউলফদের বর্বরতা ও বিপজ্জনক স্বভাব অনেকের কাছেই ভয়ের কারণ, ছোট গবলিনেরা "
+"এই ভয়ানক প্রাণীদের সঙ্গে অদ্ভুত এক বন্ধন গড়ে তোলে। গবলিনদের পক্ষে এই জন্তুকে বশ করা "
+"সম্ভব না হলেও, যদি কোনো সাহসী গবলিন তাদের মধ্যেই বসবাস করে ছোটবেলা থেকেই একটি "
+"বাচ্চা নেকড়েকে লালন করে, তবে দুপক্ষের মধ্যে একটি নির্দিষ্ট পরিমাণ সম্মান গড়ে উঠতে "
+"পারে। একবার গবলিনটিকে নিজেদের একজন হিসেবে স্বীকৃতি দিলে, একটি বিরাট নেকড়ে "
+"গবলিনটিকে নিজের ওপর চড়ার অনুমতি দিতে পারে।\n"
+"\n"
+"বিরাট নেকড়ের নখ সাধারণত সবচেয়ে বিপজ্জনক অঙ্গ হিসেবে ধরা হয় না, কিন্তু এত বিশাল "
+"এক প্রাণীর ক্ষেত্রে সেগুলো লোহার নখের চেয়েও মোটা ও দীর্ঘ। এসব প্রাণীর আরোহীরা "
+"সামনে থাকা নখগুলোর ওপরে বিষ মাখিয়ে রাখে, ওর্ক জাতির হত্যাকারীদের ব্যবহৃত বিষের "
+"অনুরূপ, যা এই প্রাণীর থাবার থেকে এক আঘাতকে প্রাণঘাতী করে তোলে।"
 
 #. [unit_type]: id=Goblin Impaler, race=goblin
 #: data/core/units/goblins/Impaler.cfg:4
@@ -4090,6 +4101,10 @@ msgid ""
 "with a long spear to compensate for their short reach, and better armor to "
 "guard their diminutive frames."
 msgstr ""
+"ওর্করা শত্রুর সেনাদলকে ভাঙার জন্য গবলিনদের ছেদনকারী হিসেবে ব্যবহার করে । যারা "
+"প্রথম কয়েকটা লড়াই থেকে বেঁচে ফিরতে পারে, তারা তাদের স্বল্প নাগালের ক্ষতি পুষিয়ে "
+"নিতে লম্বা বর্শা সংগ্রহ করে, এবং তাদের ক্ষুদ্রকায় দেহ রক্ষার জন্য আরও ভালো বর্ম "
+"পরিধান করে।"
 
 #. [unit_type]: id=Goblin Knight, race=wolf
 #: data/core/units/goblins/Knight.cfg:4
@@ -4098,6 +4113,19 @@ msgstr "গবলিন নাইট"
 
 #. [unit_type]: id=Goblin Knight, race=wolf
 #: data/core/units/goblins/Knight.cfg:18
+#, fuzzy
+#| msgid ""
+#| "Battle experience strengthens not only the combat prowess of both mount "
+#| "and rider, but also heartens the bond between them. While a human knight "
+#| "may ride different steeds into battle, a ‘Goblin Knight’ refers to goblin "
+#| "and wolf together as a single unit, fiercely loyal to one another almost "
+#| "to a fault.\n"
+#| "\n"
+#| "Among orcs, the riders are treated as a class above goblins, even when "
+#| "separated from their mount. Orcish Grunts, while feeling themselves "
+#| "superior to goblins, recognize that picking a fight with the rider is "
+#| "also picking a fight with jaws that strike faster than a sword, and "
+#| "almost as hard."
 msgid ""
 "Battle experience strengthens not only the combat prowess of both mount and "
 "rider, but also heartens the bond between them. While a human knight may "
@@ -4110,6 +4138,15 @@ msgid ""
 "to goblins, recognize that picking a fight with the rider is also picking a "
 "fight with jaws that strike faster than a sword, and almost as hard."
 msgstr ""
+"যুদ্ধের অভিজ্ঞতা শুধু আরোহী ও তার বাহন উভয়ের লড়াইয়ের দক্ষতাই বাড়ায় না, বরং তাদের "
+"মধ্যকার বন্ধনকেও গভীর করে। একজন মানব নাইট যেখানে বিভিন্ন ঘোড়ায় চড়ে যুদ্ধে নামতে "
+"পারেন, সেখানে ‘গবলিন নাইট’ বলতে গবলিন ও নেকড়েকে একটিমাত্র অবিচ্ছেদ্য দল হিসেবে "
+"বোঝায়, যারা প্রায় অন্ধভাবে একে অপরের প্রতি অনুগত।\n"
+"\n"
+"তারা তাদের বাহন থেকে আলাদা থাকলেও, ওর্কদের মধ্যে এই আরোহীদের সাধারণ গবলিনদের "
+"চেয়ে উচ্চ মর্যাদার বলে গণ্য করা হয়। ওর্ক গ্রান্টরা, গবলিনদের নিজেদের চেয়ে হীন মনে "
+"করলেও, এটা ভালোভাবেই বোঝে যে এই আরোহীর সাথে ঝামেলায় জড়ানো মানে একই সাথে সেই "
+"নেকড়ের সাথেও শত্রুতা করা, যার কামড় তলোয়ারের চেয়ে দ্রুত এবং প্রায় ততটাই মারাত্মক।"
 
 #. [unit_type]: id=Goblin Pillager, race=wolf
 #: data/core/units/goblins/Pillager.cfg:4
@@ -4118,12 +4155,22 @@ msgstr "গবলিন লুণ্ঠনকারী"
 
 #. [unit_type]: id=Goblin Pillager, race=wolf
 #: data/core/units/goblins/Pillager.cfg:18
+#, fuzzy
+#| msgid ""
+#| "Some goblins train their wolves to overcome their fear of fire. In raids, "
+#| "these goblins take a supporting role; they will torch the homes and crops "
+#| "of their foes, and also carry nets to wreak havoc against those "
+#| "attempting to rally for defense or reprisal."
 msgid ""
 "Some Goblins train their wolves to overcome their fear of fire. In raids, "
 "these goblins take a supporting role; they will torch the homes and crops of "
 "their foes, and also carry nets to wreak havoc against those attempting to "
 "rally for defense or reprisal."
 msgstr ""
+"কিছু গবলিন তাদের নেকড়েদের আগুনের ভয় কাটিয়ে উঠতে প্রশিক্ষণ দেয়। অভিযানের সময়, এই "
+"গবলিনরা সহায়ক ভূমিকা পালন করে — তারা শত্রুর ঘরবাড়ি ও ফসলে আগুন ধরিয়ে দেয়, এবং "
+"সেইসাথে জাল বহন করে, যা প্রতিরোধ বা পাল্টা আক্রমণের জন্য একত্রিত হওয়ার "
+"চেষ্টাকারীদের বিপর্যস্ত করতে ব্যবহৃত হয়।"
 
 #. [attack]: type=impact
 #: data/core/units/goblins/Pillager.cfg:50
@@ -4139,6 +4186,13 @@ msgstr "গবলিন উত্তেজক"
 
 #. [unit_type]: id=Goblin Rouser, race=goblin
 #: data/core/units/goblins/Rouser.cfg:19
+#, fuzzy
+#| msgid ""
+#| "Standard-bearers are an oddity amongst goblins. A goblin who has survived "
+#| "enough battles to be considered a veteran is rare enough, and it is rarer "
+#| "still for the other goblins to recognize and respect his veteran status. "
+#| "Nonetheless, a Rouser’s frenzied goading effectively steels the less "
+#| "veteran fighters to strive harder and longer before they die."
 msgid ""
 "Standard-bearers are an oddity amongst goblins. A goblin who has survived "
 "enough battles to be considered a veteran is rare enough, and it is rarer "
@@ -4146,6 +4200,11 @@ msgid ""
 "Nonetheless, a rouser’s frenzied goading effectively steels the less veteran "
 "fighters to strive harder and longer before they die."
 msgstr ""
+"গবলিনদের মধ্যে পতাকাবাহীরা একটি বিরল ব্যাপার। এমন একজন গবলিন যে যথেষ্ট যুদ্ধে "
+"টিকে থেকে অভিজ্ঞ যোদ্ধার মর্যাদা অর্জন করেছে, সে নিজেই বিরল — আর অন্য গবলিনরা যে "
+"তার সেই অভিজ্ঞতাকে স্বীকার করবে ও সম্মান দেখাবে, সেটা আরও বিরল। তবুও, একজন "
+"রাউজারের উন্মত্ত উত্তেজনা ও তাড়না কম অভিজ্ঞ যোদ্ধাদের কার্যকরভাবে মনোবল জোগায়, "
+"যাতে তারা মৃত্যুর আগে পর্যন্ত আরও কঠোরভাবে ও দীর্ঘক্ষণ লড়াই চালিয়ে যেতে পারে।"
 
 #. [unit_type]: id=Goblin Spearman, race=goblin
 #: data/core/units/goblins/Spearman.cfg:4
@@ -4163,6 +4222,12 @@ msgid ""
 "fodder against an enemy of their larger siblings’ choosing while equipped "
 "with only the crudest of spears."
 msgstr ""
+"যেকোনো জাতির মধ্যে সবসময়ই এমন কিছু বিরল ব্যক্তি থাকে যারা দুর্ভাগ্যবশত তাদের "
+"স্বজাতির বাকিদের তুলনায় অনেক ছোট ও দুর্বল হয়ে জন্মায়। তবে ওর্কদের ক্ষেত্রে এই ঘটনা "
+"অস্বাভাবিক রকমের সাধারণ, প্রতিটি বাচ্চার দলে সাধারণত বেশ কয়েকটি এরকম দুর্বল সদস্য "
+"জন্ম নেয়। ‘গবলিন’ নামে পরিচিত এই রুগ্ণ প্রাণীরা প্রায় সবসময়ই স্বল্পস্থায়ী ও কঠিন "
+"জীবন যাপন করে, অধিকাংশকে শুধু সবচেয়ে দূর্বল বর্শা নিয়ে তাদের বড় ভাইদের পছন্দের "
+"শত্রুর বিরুদ্ধে কামানের খোরাক হিসেবে ব্যবহার করা হয় ।"
 
 #. [unit_type]: id=Wolf Rider, race=wolf
 #: data/core/units/goblins/Wolf_Rider.cfg:4
@@ -4183,6 +4248,13 @@ msgid ""
 "horses, these mounts have a rather easy time traversing the mountains, "
 "though water and woods will still slow them down."
 msgstr ""
+"কেউ ঠিকমতো জানে না নেকড়ে পোষ মানানো ও তাতে চড়ার রীতি কীভাবে শুরু হয়েছিল, তবে "
+"একজন গবলিনের জন্য এর সুবিধা সুস্পষ্ট। গবলিনরা তাদের অর্কিশ স্বজাতির তুলনায় অনেক ছোট "
+"ও দুর্বল, এবং তাদের প্রায়ই যুদ্ধের সবচেয়ে বিপজ্জনক ও অনাকাঙ্ক্ষিত স্থানে পাঠানো হয়। "
+"যে কেউ একটি বাহন পোষ মানাতে সক্ষম হয়, তার যুদ্ধে অনেক বেশি নিরাপদের থাকে।\n"
+"যদিও বেশিরভাগ নেকড়ে একজন পূর্ণবয়ষ্ক ওর্কের ভার বহন করতে হিমশিম খাবে, একটি "
+"গবলিনকে দ্রুতগতিতে বহন করা অনেক নেকড়ের পক্ষেই সম্ভব। ঘোড়ার মতো না হলেও, এই "
+"বাহনগুলো পাহাড়ি পথ অতিক্রম করতে বেশ পটু, যদিও জল ও বনজঙ্গল তাদের গতি কমিয়ে দেয়।"
 
 #. [unit_type]: id=Gryphon, race=gryphon
 #: data/core/units/gryphons/Gryphon.cfg:4
@@ -4240,6 +4312,13 @@ msgstr "মহান নাইট"
 
 #. [unit_type]: id=Grand Knight, race=human
 #: data/core/units/humans/Horse_Grand_Knight.cfg:20
+#, fuzzy
+#| msgid ""
+#| "Grand Knights have reached the acme of skill with sword and lance. "
+#| "Wearing full plate, and riding steeds bred more for power than for speed, "
+#| "these warriors form the core of any serious cavalry force. A Grand Knight "
+#| "at the head of a charge is a terrifying sight for infantry, and is often "
+#| "enough to break right through a defensive line."
 msgid ""
 "Grand Knights have reached the acme of skill with sword and lance. Wearing "
 "full plate, and riding steeds bred more for power than for speed, these "
@@ -4247,6 +4326,11 @@ msgid ""
 "head of a charge is a terrifying sight for infantry, and is often enough to "
 "break right through a defensive line."
 msgstr ""
+"মহান নাইটরা তরবারি ও বর্শায় দক্ষতার সর্বোচ্চ শিখরে পৌঁছেছে। সম্পূর্ণ পাত-বর্ম পরিহিত "
+"এবং গতির চেয়ে শক্তির জন্য প্রজনন করা ঘোড়ার আরোহী এই যোদ্ধারা যেকোনো গুরুত্বপূর্ণ "
+"অশ্বারোহী বাহিনীর মূল শক্তি । একজন গ্র্যান্ড নাইট যখন আক্রমণের নেতৃত্ব দেয়, তখন "
+"পদাতিক সৈন্যদের কাছে তা এক ভয়ঙ্কর দৃশ্য, এবং প্রায়শই এটুকুই একটি প্রতিরক্ষা সারিকে "
+"সম্পূর্ণ ভেদ করে ফেলার জন্য যথেষ্ট।"
 
 #. [unit_type]: id=Knight, race=human
 #: data/core/units/humans/Horse_Knight.cfg:4
@@ -4264,6 +4348,12 @@ msgid ""
 "however, and growing experience with these weapons makes them deadlier at "
 "the tilt."
 msgstr ""
+"দক্ষ ও শৃঙ্খলাবদ্ধ অশ্বারোহীদের নাইট পদে উন্নীত করা হয়। যুদ্ধের পোড় খাওয়া এই অভিজ্ঞ "
+"যোদ্ধারা ব্যর্থ আক্রমণের মারাত্মক পরিণতি বহুবার নিজ চোখে দেখেছে, এবং এর ব্যবহারে "
+"সতর্কতা অবলম্বন করতে শিখেছে। তাই নাইটরা তাদের অস্ত্রভাণ্ডারে তরবারি বহন করে, এবং "
+"এমন কৌশল অনুশীলন করে যেটিতে সরাসরি আক্রমণের চেয়ে অনেক বেশি ধৈর্যের প্রয়োজন হলেও "
+"তা কম ঝুঁকিপূর্ণ। তবে তাদের ল্যান্স সবসময় প্রস্তুত থাকে, আর এই অস্ত্রে ক্রমবর্ধমান "
+"অভিজ্ঞতা তাদের সরাসরি আঘাতে আরও প্রাণঘাতী করে তোলে।"
 
 #. [unit_type]: id=Lancer, race=human
 #: data/core/units/humans/Horse_Lancer.cfg:4
@@ -4280,6 +4370,12 @@ msgid ""
 "down infantrymen who have made the mistake of breaking formation, and in "
 "piercing defensive lines. However, they have limited use in defense."
 msgstr ""
+"ল্যান্স বিশারদেরা ওয়েসনথের সমস্ত অশ্বারোহীদের মধ্যে সবচেয়ে সাহসী ও ভয়ঙ্কর যোদ্ধাদের "
+"অন্যতম। ন্যূনতম বর্ম পরিধান করে তারা নিজেদের দ্রুতগতিতে ছুটে চলার স্বাধীনতা দেয় — "
+"তাদের সমকক্ষ যেকোনো অশ্বারোহীর চেয়ে দ্রুত। তাদের দুঃসাহসিক কৌশল একটি দ্বিধারী "
+"তরবারির মতো, কেননা এটি প্রায়শই হয় গৌরব, নয়তো দ্রুত মৃত্যু ডেকে আনে। যেসব পদাতিক "
+"সৈন্য ভুলবশত গঠন ভেঙে ফেলে তাদের তাড়া করতে এবং প্রতিরক্ষা সারি ভেদ করতে "
+"ল্যান্সাররা অতুলনীয়। তবে রক্ষণাত্মক ভূমিকায় তাদের কার্যকারিতা সীমিত।"
 
 #. [unit_type]: id=Horseman, race=human
 #: data/core/units/humans/Horseman.cfg:4
@@ -4300,6 +4396,13 @@ msgstr ""
 
 #. [unit_type]: id=Bowman, race=human, gender=male
 #: data/core/units/humans/Loyalist_Bowman.cfg:18
+#, fuzzy
+#| msgid ""
+#| "The use of archery in shooting something other than game was seen from "
+#| "its inception, and archers have been indispensable in warfare since time "
+#| "immemorial. Usually of humble origins, hailing from the peasantry or "
+#| "woodsmen, military Bowmen are trained to competence with both a bow and a "
+#| "short sword, and are very common on the battlefield."
 msgid ""
 "The use of archery in shooting something other than game was seen from its "
 "inception, and archers have been indispensable in warfare since time "
@@ -4307,6 +4410,10 @@ msgid ""
 "woodsmen, military bowmen are trained to competence with both a bow and a "
 "short sword, and are very common on the battlefield."
 msgstr ""
+"শিকারের বাইরে কোনোকিছু লক্ষ্যভেদের জন্য তীরন্দাজির ব্যবহার শুরু থেকেই দেখা গেছে, এবং "
+"তীরন্দাজরা যুগ যুগ ধরে যুদ্ধে অপরিহার্য ভূমিকা রেখে এসেছে। সাধারণত গরিব পরিবার থেকে "
+"বা গ্রামীণ বা বনজীবী পেশা থেকে আগত, সামরিক ধনুকধারীদের ধনুক ও ছোট তলোয়ার—"
+"দুইটিতেই দক্ষতা অর্জন করানো হয়, এবং যুদ্ধক্ষেত্রে তাদের দেখতে পাওয়া স্বাভাবিক।"
 
 #. [unit_type]: id=Cavalier, race=human
 #: data/core/units/humans/Loyalist_Cavalier.cfg:4
@@ -4416,6 +4523,11 @@ msgid ""
 "in ornate plate armor and granted some of the finest weaponry that human "
 "craftsmen can offer."
 msgstr ""
+"সেনাবাহিনীর নেতা হিসেবে, সেনাপতিরা তাদের রাজ্যের গুরুত্বপূর্ণ বা বিস্তৃত এলাকা রক্ষার "
+"দায়িত্ব বহন করেন। যুদ্ধকলায় সুপরিপক্ব এই সেনাপতিরা একদম নতুন সৈন্যদেরও কৌশলগতভাবে "
+"পরিচালিত করতে পারেন, যাতে তারা কঠিন প্রতিকূলতার বিরুদ্ধেও আঘাত হেনে বিজয়ী হয়ে "
+"উঠতে পারে। অভিজাত শ্রেণী ও সাধারণ নাগরিক উভয়ের কাছেই স্বীকৃত, তাদের অলংকৃত বর্ম "
+"পরানো হয় এবং মানব কারিগরদের তৈরি সেরা অস্ত্রশস্ত্র প্রদান করা হয়।"
 
 #. [unit_type]: id=Grand Marshal, race=human
 #: data/core/units/humans/Loyalist_Grand_Marshal.cfg:4
@@ -4430,6 +4542,10 @@ msgid ""
 "proving both their tactical wit and their considerable mettle at personal "
 "combat."
 msgstr ""
+"সর্বোচ্চ সেনাপতির পদ মানবজাতির সেনাবাহিনীতে সবচেয়ে সম্মানিত পদগুলোর একটি, এবং "
+"যারা এই উপাধি বহন করেন তারা অগ্নিপরীক্ষার মতো অসংখ্য কঠিন পরিস্থিতি পেরিয়ে "
+"এসেছেন, প্রমাণ করেছেন তাদের কৌশলগত বুদ্ধিমত্তা এবং ব্যক্তিগত লড়াইয়ে তাদের অসাধারণ "
+"সাহস ও দৃঢ়তা।"
 
 #. [unit_type]: id=Halberdier, race=human
 #: data/core/units/humans/Loyalist_Halberdier.cfg:4
@@ -4539,7 +4655,7 @@ msgstr ""
 #. [unit_type]: id=Longbowman, race=human, gender=male
 #: data/core/units/humans/Loyalist_Longbowman.cfg:4
 msgid "Longbowman"
-msgstr "দীর্ঘ-ধনু বিশারদ"
+msgstr "দীর্ঘ-ধনুধারী"
 
 #. [unit_type]: id=Longbowman, race=human, gender=male
 #: data/core/units/humans/Loyalist_Longbowman.cfg:19
@@ -4550,6 +4666,11 @@ msgid ""
 "carry their weapons as a badge of pride, and most bowmen look forward to the "
 "day they can begin using one."
 msgstr ""
+"দীর্ঘ ধনুক ভয়ঙ্কর অস্ত্র, কিন্তু নবাগত ধনুকধারীদের জন্য ব্যবহার করা অত্যন্ত কঠিন। এটিকে "
+"টানতে বেশ শক্তি লাগে, এবং এর অতিরিক্ত পরিসর ও শক্তি তখনই কাজে আসে যখন ব্যক্তি তার "
+"লক্ষ্যভেদের দক্ষতা অর্জন করে। দীর্ঘ-ধনুধারীরা তাদের অস্ত্রকে গর্বের প্রতীক হিসেবে ধারণ "
+"করে, এবং অধিকাংশ ধনুকধারী সেই দিনটির অপেক্ষায় থাকে যখন তারা এটার ব্যবহার শুরু "
+"করতে পারবে।"
 
 #. [unit_type]: id=Master Bowman, race=human, gender=male
 #: data/core/units/humans/Loyalist_Master_Bowman.cfg:4
@@ -4558,6 +4679,16 @@ msgstr "ধনুর্বিশারদ"
 
 #. [unit_type]: id=Master Bowman, race=human, gender=male
 #: data/core/units/humans/Loyalist_Master_Bowman.cfg:19
+#, fuzzy
+#| msgid ""
+#| "Master Bowmen have reached the zenith of their art, inasmuch as any human "
+#| "is capable. Armed with both a sword, and a great yew bow, these warriors "
+#| "crown battalions of archers with their presence, bringing down many a foe "
+#| "with their well-aimed shots. Their skill with the sword is also not to be "
+#| "discounted; they are easily as good with it as any novice swordsman. Of "
+#| "the many races in the world, only the elves surpass humanity in archery, "
+#| "and their human counterparts have speculated, perhaps in envy, that this "
+#| "is only by dint of age."
 msgid ""
 "Master bowmen have reached the zenith of their art, inasmuch as any human is "
 "capable. Armed with both a sword, and a great yew bow, these warriors crown "
@@ -4568,6 +4699,12 @@ msgid ""
 "their human counterparts have speculated, perhaps in envy, that this is only "
 "by dint of age."
 msgstr ""
+"একজন মানুষের সামর্থ্যের মধ্যে, ধনুর্বিশারদেরা তাদের শিল্পের শিখর অর্জন করেছে। তরবারী "
+"এবং বিরাট এক ইউ-কাঠের ধনুকে সজ্জিত এই যোদ্ধারা ধনুর্ধারীদের পল্টনকে গৌরবাণ্বিত করে, "
+"এবং বহু শত্রুকে তাদের নিখুঁত আঘাতে ধরাশায়ী করে ফেলে। তরবারিতে তাদের দক্ষতাও নগণ্য "
+"নয়; তারা যেকোনো নব্য অসিচালকের মতোই এই অস্ত্রে দক্ষ । জগতের বিভিন্ন জাতিদের মধ্যে, "
+"একমাত্র এল্ফদের ধনুর্বিদ্যাই মানুষদের দক্ষতাকে অতিক্রম করতেপারে, এবং মানব ধনুর্বিদদের "
+"অনুমান এবং হিংসা, তা কেবলমাত্র বয়সের কারণেই ।"
 
 #. [unit_type]: id=Master at Arms, race=human
 #: data/core/units/humans/Loyalist_Master_at_Arms.cfg:4
@@ -8137,6 +8274,37 @@ msgid ""
 "hinder their enemies."
 msgstr ""
 
+#~ msgid "Pirate Flagship"
+#~ msgstr "জলদস্যু মুখ্যজাহাজ"
+
+#~ msgid ""
+#~ "Pirate galleons are to transport ships what wolves are to sheep. The "
+#~ "pirates who crew them are more than happy to help relieve other ships of "
+#~ "their weighty cargo, or to fight as privateers in return for coin."
+#~ msgstr ""
+#~ "জলদস্যু জাহাজগুলোর মালবাহী জাহাজগুলোর সঙ্গে নেকড়ে আর ভেড়ার সম্পর্ক। এগুলো "
+#~ "পরিচালনাকারী জলদস্যুরা আনন্দের সঙ্গে অন্য জাহাজের ভারী মালপত্র লুটে করে, অথবা "
+#~ "পারিশ্রমিকের বিনিময়ে প্রাইভেটিয়ার হিসেবে যুদ্ধ করতেও রাজি থাকে।"
+
+#~ msgid "ballistae"
+#~ msgstr "প্রস্তর নিক্ষেপক যন্ত্র"
+
+#~ msgid "grapple"
+#~ msgstr "কুস্তি"
+
+#~ msgid "Pirate Skiff"
+#~ msgstr "জলদস্যু স্কিফ"
+
+#~ msgid ""
+#~ "Propelled by oars or small sails, Skiffs are used to travel short "
+#~ "distances and in shallows where large ships cannot navigate."
+#~ msgstr ""
+#~ "দাঁড়-টানা বা ছোটো পালতোলা, কম দূরত্ব অতিক্রম করতে বা অগভীর জলে যেখানে বড় "
+#~ "জাহাজ যেতে পারে না সেখানে স্কিফ ব্যবহার করতা হয় ।"
+
+#~ msgid "archers"
+#~ msgstr "ধনুর্ধরেরা"
+
 #~ msgid "Wandering Scarab"
 #~ msgstr "ভ্রামমান গুবরেপোকা"
 
@@ -8168,26 +8336,8 @@ msgstr ""
 #~ "যুদ্ধের জন্য তৈরী নয়, তাদের বড় ও স্থিতিশীল ডেক তীরন্দাজির জন্য ভালো এলাকা, এবং "
 #~ "তাদের প্রশস্ত হোল্ডে চিকিৎসা সরঞ্জাম ও মেরামত উপকরণ উভয়ই বহন করা যায়।"
 
-#~ msgid "archers"
-#~ msgstr "ধনুর্ধরেরা"
-
 #~ msgid "Pirate Carrack"
 #~ msgstr "জলদস্যু ক্যারাক"
-
-#~ msgid ""
-#~ "Pirate galleons are to transport ships what wolves are to sheep. The "
-#~ "pirates who crew them are more than happy to help relieve other ships of "
-#~ "their weighty cargo, or to fight as privateers in return for coin."
-#~ msgstr ""
-#~ "জলদস্যু জাহাজগুলোর মালবাহী জাহাজগুলোর সঙ্গে নেকড়ে আর ভেড়ার সম্পর্ক। এগুলো "
-#~ "পরিচালনাকারী জলদস্যুরা আনন্দের সঙ্গে অন্য জাহাজের ভারী মালপত্র লুটে করে, অথবা "
-#~ "পারিশ্রমিকের বিনিময়ে প্রাইভেটিয়ার হিসেবে যুদ্ধ করতেও রাজি থাকে।"
-
-#~ msgid "ballistae"
-#~ msgstr "প্রস্তর নিক্ষেপক যন্ত্র"
-
-#~ msgid "grapple"
-#~ msgstr "কুস্তি"
 
 #~ msgid "Derelict"
 #~ msgstr "পরিত্যক্ত জাহাজ"
@@ -8425,32 +8575,27 @@ msgstr ""
 #~ "manning the oars. This has the disadvantage of requiring a larger crew, "
 #~ "and it does limit the speed and efficiency of transport. But these "
 #~ "seeming weaknesses also make the vessel less vulnerable to the whims of "
-#~ "weather and the predations of pirates.\n"
-#~ "\n"
-#~ "Iron Raiders are veteran Coastal Raiders that have been hardened to "
-#~ "become tougher targets and harder hitters. They are often used as front-"
-#~ "line escorts of slower cargo ships in rivers and coasts, where their "
-#~ "heavy iron ram proves the most effective."
+#~ "weather and the predations of pirates."
 #~ msgstr ""
 #~ "ক্যারাক ও কগ যেখানে শক্তিশালী পাল তুলে বাতাসের শক্তিকে কাজে লাগায়, সেখানে "
 #~ "গ্যালি ও লুণ্ঠক নৌযান চলে দাঁড় টানা নাবিকদের পেশিশক্তিতে। এর ফলে বড় নাবিকদলের "
 #~ "প্রয়োজন হয় এবং গতি ও পরিবহন দক্ষতা কিছুটা সীমিত থাকে। তবে এই আপাত দুর্বলতাই "
 #~ "জাহাজগুলোকে আবহাওয়ার খামখেয়ালিপনা ও জলদস্যুদের আক্রমণের প্রতি তুলনামূলকভাবে কম "
-#~ "ঝুঁকিপূর্ণ করে তোলে।\n"
-#~ "\n"
-#~ "লুন্ঠক লৌহজাহাজ হলো অভিজ্ঞ তীরবর্তী লুণ্ঠকজাহাজ যা আরও কঠিন ও শক্তিশালী । নদী ও "
+#~ "ঝুঁকিপূর্ণ করে তোলে।"
+
+#~ msgid ""
+#~ "Iron Raiders are veteran Coastal Raiders that have been hardened to "
+#~ "become tougher targets and harder hitters. They are often used as front-"
+#~ "line escorts of slower cargo ships in rivers and coasts, where their "
+#~ "heavy iron bow allows them to ram foes without fear of self-inflicted "
+#~ "damage."
+#~ msgstr ""
+#~ "লুন্ঠক লৌহজাহাজ হলো অভিজ্ঞ তীরবর্তী লুণ্ঠকজাহাজ যা আরও কঠিন ও শক্তিশালী। নদী ও "
 #~ "উপকূলপথে ধীরগতির পণ্যবাহী জাহাজের সামনে সাহায্যকারী হিসেবে এদের প্রায়ই "
-#~ "মোতায়েন করা হয়, যেখানে তাদের ভারী লোহার র‍্যাম সবচেয়ে কার্যকর ।"
+#~ "মোতায়েন করা হয়, যেখানে তাদের ভারী লোহার র‍্যাম সবচেয়ে কার্যকর।"
 
 #~ msgid "Skiff"
 #~ msgstr "স্কিফ"
-
-#~ msgid ""
-#~ "Propelled by oars or small sails, Skiffs are used to travel short "
-#~ "distances and in shallows where large ships cannot navigate."
-#~ msgstr ""
-#~ "দাঁড়-টানা বা ছোটো পালতোলা, কম দূরত্ব অতিক্রম করতে বা অগভীর জলে যেখানে বড় "
-#~ "জাহাজ যেতে পারে না সেখানে স্কিফ ব্যবহার করতা হয় ।"
 
 #~ msgid "rope dart"
 #~ msgstr "দড়িবাঁধা তীর"
