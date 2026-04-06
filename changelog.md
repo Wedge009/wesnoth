@@ -13,6 +13,7 @@
 ### User interface
 ### WML Engine
 ### Miscellaneous and Bug Fixes
+   * Fix time of day sounds not playing.
 
 ## Version 1.18.6
 ### Multiplayer
