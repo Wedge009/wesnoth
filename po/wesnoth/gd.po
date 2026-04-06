@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2025-12-21 21:26-0600\n"
+"POT-Creation-Date: 2026-04-05 21:07-0500\n"
 "PO-Revision-Date: 2022-01-13 19:15+0000\n"
 "Last-Translator: GunChleoc, 2021\n"
 "Language-Team: Gaelic, Scottish (https://www.transifex.com/gunchleoc/"
@@ -603,67 +603,67 @@ msgid "Portuguese (Brazil) Translation"
 msgstr "Eadar-theangachadh dhan Phortagailis (Braisil)"
 
 #. [about]
-#: data/core/about_i18n.cfg:1537
+#: data/core/about_i18n.cfg:1540
 msgid "Romanian Translation"
 msgstr "Eadar-theangachadh dhan Romàinis"
 
 #. [about]
-#: data/core/about_i18n.cfg:1545
+#: data/core/about_i18n.cfg:1548
 msgid "Russian Translation"
 msgstr "Eadar-theangachadh dhan Ruisis"
 
 #. [about]
-#: data/core/about_i18n.cfg:1652
+#: data/core/about_i18n.cfg:1655
 msgid "Scottish Gaelic Translation"
 msgstr "Eadar-theangachadh dha Ghàidhlig na h-Alba"
 
 #. [about]
-#: data/core/about_i18n.cfg:1661
+#: data/core/about_i18n.cfg:1664
 msgid "Serbian Translation"
 msgstr "Eadar-theangachadh dhan t-Sèirbis"
 
 #. [about]
-#: data/core/about_i18n.cfg:1680
+#: data/core/about_i18n.cfg:1683
 msgid "Slovak Translation"
 msgstr "Eadar-theangachadh dhan t-Slòbhacais"
 
 #. [about]
-#: data/core/about_i18n.cfg:1715
+#: data/core/about_i18n.cfg:1718
 msgid "Slovenian Translation"
 msgstr "Eadar-theangachadh dhan t-Slòbhainis"
 
 #. [about]
-#: data/core/about_i18n.cfg:1731
+#: data/core/about_i18n.cfg:1734
 msgid "Spanish Translation"
 msgstr "Eadar-theangachadh dhan Spàinntis"
 
 #. [about]
-#: data/core/about_i18n.cfg:1825
+#: data/core/about_i18n.cfg:1828
 msgid "Swedish Translation"
 msgstr "Eadar-theangachadh dhan t-Suainis"
 
 #. [about]
-#: data/core/about_i18n.cfg:1870
+#: data/core/about_i18n.cfg:1873
 msgid "Turkish Translation"
 msgstr "Eadar-theangachadh dhan Turcais"
 
 #. [about]
-#: data/core/about_i18n.cfg:1895
+#: data/core/about_i18n.cfg:1898
 msgid "Ukrainian Translation"
 msgstr "Eadar-theangachadh dhan Ucràinis"
 
 #. [about]
-#: data/core/about_i18n.cfg:1929
+#: data/core/about_i18n.cfg:1932
 msgid "Valencian (southern Catalan) Translation"
 msgstr "Eadar-theangachadh dhan Bhaileinsianais (Catalanais deasach)"
 
 #. [about]
-#: data/core/about_i18n.cfg:1942
+#: data/core/about_i18n.cfg:1945
 msgid "Vietnamese Translation"
 msgstr "Eadar-theangachadh dhan Bhiet-Namais"
 
 #. [about]
-#: data/core/about_i18n.cfg:1961
+#: data/core/about_i18n.cfg:1964
 #, fuzzy
 #| msgid "Polish Translation"
 msgid "Welsh Translation"
@@ -671,7 +671,7 @@ msgstr "Eadar-theangachadh dhan Phòlainnis"
 
 #. [about]
 #. Real Acadèmia de Cultura Valenciana
-#: data/core/about_i18n.cfg:1970
+#: data/core/about_i18n.cfg:1973
 msgid "RACV’s Translation"
 msgstr "Eadar-theangachadh aig RACV"
 
@@ -8531,11 +8531,11 @@ msgstr "àm air fhàgail airson na cuairte làithrich"
 msgid "current local time"
 msgstr "àm ionadail an-dràsta"
 
-#: src/play_controller.cpp:565
+#: src/play_controller.cpp:566
 msgid "Trying to create a corrupt file, please report this bug"
 msgstr ""
 
-#: src/play_controller.cpp:1050
+#: src/play_controller.cpp:1051
 msgid ""
 "The game is out of sync. It might not make much sense to continue. Do you "
 "want to save your game?"
@@ -8543,17 +8543,17 @@ msgstr ""
 "Chan eil an geama sioncronaichte gu ceart. ’S dòcha nach eil mòran cèill dhà "
 "leantainn air. A bheil thu airson an geama agad a shàbhaladh?"
 
-#: src/play_controller.cpp:1051
+#: src/play_controller.cpp:1052
 msgid "Error details:"
 msgstr "Mion-fhiosrachaidh mearachd:"
 
-#: src/play_controller.cpp:1230
+#: src/play_controller.cpp:1231
 msgid "Warning: broken campaign branches"
 msgstr "Rabhadh: meuran iomairt briste"
 
 #. TRANSLATORS: This is an error that will hopefully only be seen by UMC authors and by players who have already
 #. said "okay" to a "loading saves from an old version might not work" dialog.
-#: src/play_controller.cpp:1236
+#: src/play_controller.cpp:1237
 msgid ""
 "The next scenario is missing, you will not be able to finish this campaign."
 msgid_plural ""
@@ -8572,7 +8572,7 @@ msgstr[3] ""
 "Tha cuid dhe na h-ath cnàmh-sgeulan a dhìth ma dh’fhaoidte agus is dòcha "
 "nach urrainn dhut an iomairt seo a chrìochnachadh."
 
-#: src/play_controller.cpp:1243
+#: src/play_controller.cpp:1244
 msgid ""
 "Please report the following missing scenario to the campaign’s author:\n"
 "$unknown_list|"
@@ -8592,13 +8592,13 @@ msgstr[3] ""
 "Cuir fios gu ùghdar na h-iomairte mu na cnàmh-sgeulan seo a tha a dhìth:\n"
 "$unknown_list|"
 
-#: src/play_controller.cpp:1247
+#: src/play_controller.cpp:1248
 msgid "Once this is fixed, you will need to restart this scenario."
 msgstr ""
 "Nuair a bhios seo air a chàradh, feumaidh tu an cnàmh-sgeul seo a "
 "thòiseachadh as ùr."
 
-#: src/play_controller.cpp:1356
+#: src/play_controller.cpp:1357
 msgid "No objectives available"
 msgstr "Chan eil amasan ri fhaighinn"
 
