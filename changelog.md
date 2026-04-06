@@ -1,17 +1,6 @@
-## Version 1.18.6+dev
-### Add-ons client
-### Add-ons server
-### Campaigns
-### Editor
-### Multiplayer
-### Lua API
-### Packaging
-### Terrain
+## Version 1.18.7
 ### Translations
    * Updated translations: Bengali, Chinese (Simplified), Czech, French, Hungarian, Portuguese (Brazil)
-### Units
-### User interface
-### WML Engine
 ### Miscellaneous and Bug Fixes
    * Fix time of day sounds not playing.
 
