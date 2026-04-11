@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: wesnoth-1.18\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2025-12-08 09:30-0600\n"
-"PO-Revision-Date: 2026-01-30 18:03+0800\n"
+"PO-Revision-Date: 2026-03-24 22:10+0800\n"
 "Last-Translator: vimacs <vimacs.hacks@gmail.com>\n"
 "Language-Team: Wesnoth Simplified Chinese Team\n"
 "Language: zh_CN\n"
@@ -3243,7 +3243,7 @@ msgstr "作者："
 msgid ""
 "The author of this add-on. If forum authentication is used, this is your "
 "forum username."
-msgstr ""
+msgstr "此附加组件的作者。如果使用了论坛身份认证，这就是你的论坛用户名。"
 
 #. [grid]
 #: data/gui/window/editor_edit_pbl.cfg:207
@@ -3350,7 +3350,7 @@ msgstr "删除"
 #. [button]: id=validate
 #: data/gui/window/editor_edit_pbl.cfg:451
 msgid "Validate"
-msgstr ""
+msgstr "验证"
 
 #. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=ok
@@ -3381,7 +3381,7 @@ msgstr "* 语言："
 msgid ""
 "The POSIX locale name of the translation, such as sv (Swedish) or zh_CN "
 "(Simplified Chinese)."
-msgstr ""
+msgstr "翻译的 POSIX 区位名称，例如 sv（瑞典语）或者 zh_CN（简体中文）。"
 
 #. [grid]
 #: data/gui/window/editor_edit_pbl_translation.cfg:98
@@ -5459,7 +5459,7 @@ msgstr ""
 #. [toggle_button]: id=vsync
 #: data/gui/window/preferences/03_display.cfg:129
 msgid "VSync"
-msgstr ""
+msgstr "VSync"
 
 #. [toggle_button]: id=vsync
 #: data/gui/window/preferences/03_display.cfg:130
@@ -6898,7 +6898,7 @@ msgstr "模组"
 
 #: src/gui/dialogs/editor/edit_pbl.cpp:183
 msgid "Media"
-msgstr ""
+msgstr "媒体"
 
 #: src/gui/dialogs/editor/edit_pbl.cpp:184
 msgid "Other"
