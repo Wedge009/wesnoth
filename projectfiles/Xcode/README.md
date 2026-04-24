@@ -42,7 +42,7 @@ When compiling Wesnoth for an official release, the following steps should be ta
 4. itch.io: notarize the package and release to itch.io.
 5. Mac AppStore: sandbox `wesnothd`, archive, and upload via App Store Connect.
 
-The release channel is recorded inside the archive in `Contents/Resources/data/dist` (a plain text file). Valid values are `Steam`, `SourceForge`, `itch`, and `macOS App Store`. Any other value is treated as an unknown / default channel by the game.
+The release channel is recorded inside the archive in `Contents/Resources/data/dist` (a plain text file). Valid values are `Steam`, `SourceForge`, `itch`, and `macOS App Store`. Any other value is treated as an unknown / default channel by the game, and by the `Check_xcarchive` validation script.
 
 ### Packaging - Packages preparation
  * Obtain sources from github using `git clone -b BRANCH --depth 10 https://github.com/wesnoth/wesnoth /PATH/TO/PROJECT` or use your favourite git program.
@@ -100,3 +100,12 @@ The release channel is recorded inside the archive in `Contents/Resources/data/d
  * Now you can hit `Product` > `Archive` from the menubar.
  * After archivation is done, you can select correct archive in Xcode Organizer, click on `Distribute App`, select `App Store Connect` and proceed with all steps by clicking `Next`.
  * After successful uploading you must go to the https://appstoreconnect.apple.com/ and continue with releasing there.
+
+### Packaging - Verifying an archive
+
+Before distributing any archive, you can validate it against its intended distribution channel (reads the `dist` file inside the bundled `.app`, then checks `wesnothd`'s code signing entitlements to confirm the sandbox state matches):
+
+ * Double-click `Check_xcarchive` in `/PATH/TO/PROJECT/projectfiles/Xcode` and drag one or more `.xcarchive` bundles (or a folder containing them) from Finder onto the Terminal window.
+ * Or from a shell: `./Check_xcarchive /path/to/archive.xcarchive` (also accepts a directory of archives).
+
+The script reports PASS / FAIL / WARN per archive. A MAS archive must have `wesnothd` sandboxed; Steam, SourceForge, and itch.io archives must not. In every case `wesnothd` must not carry `com.apple.application-identifier` (that entitlement on a nested binary triggers App Store rejection ITMS-90288 / 90286 / 90885).
