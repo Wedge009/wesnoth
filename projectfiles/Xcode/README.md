@@ -35,11 +35,14 @@ Builds for maximum compiling speed, and uses the current OS as the SDK. If you j
 To compile translations you need `gettext-tools` and `scons`. You can obtain these tools using `brew install gettext scons`. You also have to force-link Homebrew's `gettext` tools using `brew link --force gettext` command. In the Terminal, `cd /PATH/TO/PROJECT` and run `scons translations`. This will compile all the translations into a translations directory.
 
 ## Packaging
-When compiling Wesnoth for an official release, the following steps should be taken. Packaging is separated to the 4 subchapters:
-1. In first chapter we will prepare package for all 3 distribution sources.
-2. In second chapter we will notarize Steam package and we will release it to the SteamStore.
-3. In third chapter we will notarize SourceForge package, we will create `.dmg` image and we will release it to SourceForge.
-4. In fourth chapter we will release package to the Mac AppStore.
+When compiling Wesnoth for an official release, the following steps should be taken. Packaging is separated into subchapters, one per distribution channel:
+1. First, we prepare the sources and Xcode project for all distribution channels.
+2. Steam: notarize the package and release to the Steam Store.
+3. SourceForge: notarize the package, build a `.dmg`, and release to SourceForge.
+4. itch.io: notarize the package and release to itch.io.
+5. Mac AppStore: sandbox `wesnothd`, archive, and upload via App Store Connect.
+
+The release channel is recorded inside the archive in `Contents/Resources/data/dist` (a plain text file). Valid values are `Steam`, `SourceForge`, `itch`, and `macOS App Store`. Any other value is treated as an unknown / default channel by the game.
 
 ### Packaging - Packages preparation
  * Obtain sources from github using `git clone -b BRANCH --depth 10 https://github.com/wesnoth/wesnoth /PATH/TO/PROJECT` or use your favourite git program.
@@ -80,6 +83,14 @@ When compiling Wesnoth for an official release, the following steps should be ta
  * You can check notarization status using `xcrun altool --notarization-info REQUEST_UUID -u YOUR_APPLE_ID_EMAIL -p YOUR_APPLE_ID_APP_SPECIFIC_PASSWORD` command. Wait until it returns the `Package Approved` status message.
  * Create SHA-256 checksum using `shasum -a 256 /PATH/TO/NEW/IMAGE.dmg > Wesnoth_x.x.x.dmg.sha256` command.
  * Done! You can release it to SourceForge now.
+
+### Packaging - itch.io
+ * Find and edit `dist` file in path `/PATH/TO/PROJECT/data/dist`. For itch.io it must contain `itch`.
+ * Now you can hit `Product` > `Archive` from the menubar.
+ * After archivation is done, select the archive in Xcode Organizer, click on `Distribute App`, select `Developer ID` and select `Upload` (to notarize).
+ * Wait for successful notarization.
+ * Click `Distribute App` again, select `Developer ID` and select an export location.
+ * Upload the exported `.app` to itch.io using `butler`.
 
 ### Packaging - Mac AppStore
  * First you have to enable app sandbox for `wesnothd`.
