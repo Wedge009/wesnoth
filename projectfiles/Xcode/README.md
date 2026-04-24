@@ -93,13 +93,13 @@ The release channel is recorded inside the archive in `Contents/Resources/data/d
  * Upload the exported `.app` to itch.io using `butler`.
 
 ### Packaging - Mac AppStore
- * First you have to enable app sandbox for `wesnothd`.
+ * First you have to enable app sandbox for `wesnothd` by swapping its entitlements file.
  * In Xcode window click on `The Battle for Wesnoth` project in the left sidebar.
  * Select `wesnothd` target.
- * Select `Signing & Capabilities` from the top bar.
- * Click `+ Capability` while in the `All` tab.
- * Select `App Sandbox`.
- * And in newly created section check both `Incoming` and `Outgoing` connections.
+ * Select `Build Settings` from the top bar and make sure `All` and `Combined` are selected.
+ * Find the `Code Signing Entitlements` setting and change its value from `Resources/wesnothd-nosandbox.entitlements` to `Resources/wesnothd-mas.entitlements`.
+ * Do NOT use the `Signing & Capabilities` tab to toggle App Sandbox — it can leave the build in an inconsistent state. Edit the build setting directly.
+ * Remember to revert this back to `Resources/wesnothd-nosandbox.entitlements` after the MAS archive is uploaded, before building any non-MAS package.
  * Find and edit `dist` file in path `/PATH/TO/PROJECT/data/dist`. For Mac AppStore it must contain `macOS App Store`.
  * Now you can hit `Product` > `Archive` from the menubar.
  * After archivation is done, you can select correct archive in Xcode Organizer, click on `Distribute App`, select `App Store Connect` and proceed with all steps by clicking `Next`.
