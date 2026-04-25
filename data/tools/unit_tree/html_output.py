@@ -1286,7 +1286,13 @@ class HTMLOutput:
         row = 0
         for rid, ricon in RESISTANCES:
             special, resist_str = find_attr("resistance", rid)
-            r = 100 if resist_str == '-' else 100 - int(resist_str)
+            r = 100
+            if resist_str != '-':
+                try:
+                    r = 100 - int(resist_str)
+                except ValueError:
+                    error_message("Warning: Invalid %s resistance string %s for %s.\n" % (rid, resist_str, uid))
+
             resist_classes = ['num']
             resist_rating = resistance_rating_color_class(r)
             if resist_rating:
